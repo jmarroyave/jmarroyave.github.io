@@ -5,28 +5,49 @@
     <description>Jose Miguel Arroyave</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Sep 2017 16:41:50 -0600</pubDate>
-    <lastBuildDate>Thu, 07 Sep 2017 16:41:50 -0600</lastBuildDate>
+    <pubDate>Thu, 07 Sep 2017 17:06:46 -0600</pubDate>
+    <lastBuildDate>Thu, 07 Sep 2017 17:06:46 -0600</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
-        <title>CodeLabs: Build a Progressive Web App with Firebase, Polymerfire and Polymer Component</title>
-        <description>&lt;p&gt;Falta:
-bower install platinum-sw&lt;/p&gt;
+        <title>Project: Stackoverflow trends</title>
+        <description>&lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
 
-&lt;p&gt;Revisar:
-Agregar 127.0.0.1 a dominios en firebase&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com/&quot;&gt;Stackoverflow trends&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Sep 2017 10:49:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/03-project-stackoverflow-angular.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/03-project-stackoverflow-angular.html</guid>
+        
+        <category>projects</category>
+        
+        <category>angular</category>
+        
+        <category>firebase</category>
+        
+        
+        <category>dev</category>
+        
+      </item>
+    
+      <item>
+        <title>CodeLabs: PWA + Polymer + Firebase</title>
+        <description>&lt;h1 id=&quot;lab&quot;&gt;Lab:&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&quot;&gt;Build a Progressive Web App with Firebase, Polymerfire and Polymer Components&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Lab:
-https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&lt;/p&gt;
+&lt;h1 id=&quot;falta&quot;&gt;Falta:&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;bower install platinum-sw&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Demo:
-https://notes-6aee9.firebaseapp.com/&lt;/p&gt;
+&lt;h2 id=&quot;revisar&quot;&gt;Revisar:&lt;/h2&gt;
+&lt;p&gt;Agregar 127.0.0.1 a dominios en firebase&lt;/p&gt;
+
+&lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://notes-6aee9.firebaseapp.com/&quot;&gt;Notes&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 07 Sep 2017 07:13:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/project-stackoverflow-angular.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/project-stackoverflow-angular.html</guid>
+        <pubDate>Thu, 07 Sep 2017 09:34:45 -0600</pubDate>
+        <link>https://jmarroyave.github.io/02-codelabs-polymer-firebase-pwa.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/02-codelabs-polymer-firebase-pwa.html</guid>
         
         <category>codelabs</category>
         
@@ -46,45 +67,13 @@ https://notes-6aee9.firebaseapp.com/&lt;/p&gt;
         <description>&lt;p&gt;Hola, probando Jekyll&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 07:13:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/hola.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/hola.html</guid>
+        <link>https://jmarroyave.github.io/01-hola.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/01-hola.html</guid>
         
         <category>helloworld</category>
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>CodeLabs: Build a Progressive Web App with Firebase, Polymerfire and Polymer Component</title>
-        <description>&lt;p&gt;Falta:
-bower install platinum-sw&lt;/p&gt;
-
-&lt;p&gt;Revisar:
-Agregar 127.0.0.1 a dominios en firebase&lt;/p&gt;
-
-&lt;p&gt;Lab:
-https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&lt;/p&gt;
-
-&lt;p&gt;Demo:
-https://notes-6aee9.firebaseapp.com/&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 07 Sep 2017 07:13:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/codelabs-polymer-firebase-pwa.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/codelabs-polymer-firebase-pwa.html</guid>
-        
-        <category>codelabs</category>
-        
-        <category>pwa</category>
-        
-        <category>firebase</category>
-        
-        <category>polymer</category>
-        
-        
-        <category>dev</category>
         
       </item>
     

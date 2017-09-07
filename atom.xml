@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-09-07T16:41:50-06:00</updated>
+ <updated>2017-09-07T17:06:46-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
@@ -13,51 +13,42 @@
 
  
  <entry>
-   <title>CodeLabs: Build a Progressive Web App with Firebase, Polymerfire and Polymer Component</title>
-   <link href="https://jmarroyave.github.io/project-stackoverflow-angular.html"/>
-   <updated>2017-09-07T07:13:00-06:00</updated>
-   <id>https://jmarroyave.github.io/project-stackoverflow-angular</id>
-   <content type="html">&lt;p&gt;Falta:
-bower install platinum-sw&lt;/p&gt;
+   <title>Project: Stackoverflow trends</title>
+   <link href="https://jmarroyave.github.io/03-project-stackoverflow-angular.html"/>
+   <updated>2017-09-07T10:49:00-06:00</updated>
+   <id>https://jmarroyave.github.io/03-project-stackoverflow-angular</id>
+   <content type="html">&lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
 
-&lt;p&gt;Revisar:
-Agregar 127.0.0.1 a dominios en firebase&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com/&quot;&gt;Stackoverflow trends&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CodeLabs: PWA + Polymer + Firebase</title>
+   <link href="https://jmarroyave.github.io/02-codelabs-polymer-firebase-pwa.html"/>
+   <updated>2017-09-07T09:34:45-06:00</updated>
+   <id>https://jmarroyave.github.io/02-codelabs-polymer-firebase-pwa</id>
+   <content type="html">&lt;h1 id=&quot;lab&quot;&gt;Lab:&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&quot;&gt;Build a Progressive Web App with Firebase, Polymerfire and Polymer Components&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Lab:
-https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&lt;/p&gt;
+&lt;h1 id=&quot;falta&quot;&gt;Falta:&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;bower install platinum-sw&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Demo:
-https://notes-6aee9.firebaseapp.com/&lt;/p&gt;
+&lt;h2 id=&quot;revisar&quot;&gt;Revisar:&lt;/h2&gt;
+&lt;p&gt;Agregar 127.0.0.1 a dominios en firebase&lt;/p&gt;
+
+&lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://notes-6aee9.firebaseapp.com/&quot;&gt;Notes&lt;/a&gt;&lt;/p&gt;
 
 </content>
  </entry>
  
  <entry>
    <title>Hola</title>
-   <link href="https://jmarroyave.github.io/hola.html"/>
+   <link href="https://jmarroyave.github.io/01-hola.html"/>
    <updated>2017-09-07T07:13:00-06:00</updated>
-   <id>https://jmarroyave.github.io/hola</id>
+   <id>https://jmarroyave.github.io/01-hola</id>
    <content type="html">&lt;p&gt;Hola, probando Jekyll&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>CodeLabs: Build a Progressive Web App with Firebase, Polymerfire and Polymer Component</title>
-   <link href="https://jmarroyave.github.io/codelabs-polymer-firebase-pwa.html"/>
-   <updated>2017-09-07T07:13:00-06:00</updated>
-   <id>https://jmarroyave.github.io/codelabs-polymer-firebase-pwa</id>
-   <content type="html">&lt;p&gt;Falta:
-bower install platinum-sw&lt;/p&gt;
-
-&lt;p&gt;Revisar:
-Agregar 127.0.0.1 a dominios en firebase&lt;/p&gt;
-
-&lt;p&gt;Lab:
-https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&lt;/p&gt;
-
-&lt;p&gt;Demo:
-https://notes-6aee9.firebaseapp.com/&lt;/p&gt;
-
 </content>
  </entry>
  
