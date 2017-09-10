@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-09-07T17:06:46-06:00</updated>
+ <updated>2017-09-10T17:26:38-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
@@ -13,10 +13,61 @@
 
  
  <entry>
+   <title>Machine Learning Tutorial</title>
+   <link href="https://jmarroyave.github.io/machine-learning.html"/>
+   <updated>2017-09-09T06:37:00-06:00</updated>
+   <id>https://jmarroyave.github.io/machine-learning</id>
+   <content type="html">&lt;h1 id=&quot;hola-machine-learning&quot;&gt;Hola Machine Learning&lt;/h1&gt;
+
+&lt;h2 id=&quot;tutoriales&quot;&gt;Tutoriales&lt;/h2&gt;
+&lt;p&gt;DataCamp.com 
+————————–&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/courses/intro-to-python-for-data-science&quot;&gt;Introduction to Python for Data Science Tutorial&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Introducción a python en su mayoria a excepción del último módulo donde muestran NumPy&lt;/li&gt;
+      &lt;li&gt;https://askubuntu.com/questions/17627/upgrading-to-python-3-2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/community/open-courses/kaggle-python-tutorial-on-machine-learning#gs.RkAXk7Q&quot;&gt;Kaggle Machine Learning Tutorial&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Decision Trees Learning
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Decision_tree_learning&quot;&gt;https://en.wikipedia.org&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;http://scikit-learn.org/stable/modules/tree.html&quot;&gt;http://scikit-learn.org&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;http://mines.humanoriented.com/classes/2010/fall/csci568/portfolio_exports/lguo/decisionTree.html&quot;&gt;http://mines.humanoriented.com&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;http://dataaspirant.com/2017/01/30/how-decision-tree-algorithm-works/&quot;&gt;http://dataaspirant.com&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;next&quot;&gt;Next&lt;/h2&gt;
+&lt;p&gt;https://www.dataquest.io/blog/kaggle-tutorial/&lt;/p&gt;
+
+&lt;h2 id=&quot;directory&quot;&gt;Directory&lt;/h2&gt;
+&lt;p&gt;https://www.kaggle.com/wiki/Tutorials&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Google Actions</title>
+   <link href="https://jmarroyave.github.io/google-actions.html"/>
+   <updated>2017-09-08T09:10:00-06:00</updated>
+   <id>https://jmarroyave.github.io/google-actions</id>
+   <content type="html">&lt;h1 id=&quot;google-actions&quot;&gt;Google Actions&lt;/h1&gt;
+
+&lt;p&gt;Agentes&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Project: Stackoverflow trends</title>
-   <link href="https://jmarroyave.github.io/03-project-stackoverflow-angular.html"/>
+   <link href="https://jmarroyave.github.io/project-stackoverflow-angular.html"/>
    <updated>2017-09-07T10:49:00-06:00</updated>
-   <id>https://jmarroyave.github.io/03-project-stackoverflow-angular</id>
+   <id>https://jmarroyave.github.io/project-stackoverflow-angular</id>
    <content type="html">&lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com/&quot;&gt;Stackoverflow trends&lt;/a&gt;&lt;/p&gt;
@@ -24,10 +75,10 @@
  </entry>
  
  <entry>
-   <title>CodeLabs: PWA + Polymer + Firebase</title>
-   <link href="https://jmarroyave.github.io/02-codelabs-polymer-firebase-pwa.html"/>
+   <title>CodeLabs: Progressive Web Apps</title>
+   <link href="https://jmarroyave.github.io/codelabs-progressive-web-apps.html"/>
    <updated>2017-09-07T09:34:45-06:00</updated>
-   <id>https://jmarroyave.github.io/02-codelabs-polymer-firebase-pwa</id>
+   <id>https://jmarroyave.github.io/codelabs-progressive-web-apps</id>
    <content type="html">&lt;h1 id=&quot;lab&quot;&gt;Lab:&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&quot;&gt;Build a Progressive Web App with Firebase, Polymerfire and Polymer Components&lt;/a&gt;&lt;/p&gt;
 
@@ -45,10 +96,10 @@
  
  <entry>
    <title>Hola</title>
-   <link href="https://jmarroyave.github.io/01-hola.html"/>
+   <link href="https://jmarroyave.github.io/hola.html"/>
    <updated>2017-09-07T07:13:00-06:00</updated>
-   <id>https://jmarroyave.github.io/01-hola</id>
-   <content type="html">&lt;p&gt;Hola, probando Jekyll&lt;/p&gt;
+   <id>https://jmarroyave.github.io/hola</id>
+   <content type="html">&lt;p&gt;Hola, probando &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

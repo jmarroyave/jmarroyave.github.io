@@ -5,9 +5,82 @@
     <description>Jose Miguel Arroyave</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Sep 2017 17:06:46 -0600</pubDate>
-    <lastBuildDate>Thu, 07 Sep 2017 17:06:46 -0600</lastBuildDate>
+    <pubDate>Sun, 10 Sep 2017 17:26:38 -0600</pubDate>
+    <lastBuildDate>Sun, 10 Sep 2017 17:26:38 -0600</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Machine Learning Tutorial</title>
+        <description>&lt;h1 id=&quot;hola-machine-learning&quot;&gt;Hola Machine Learning&lt;/h1&gt;
+
+&lt;h2 id=&quot;tutoriales&quot;&gt;Tutoriales&lt;/h2&gt;
+&lt;p&gt;DataCamp.com 
+————————–&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/courses/intro-to-python-for-data-science&quot;&gt;Introduction to Python for Data Science Tutorial&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Introducción a python en su mayoria a excepción del último módulo donde muestran NumPy&lt;/li&gt;
+      &lt;li&gt;https://askubuntu.com/questions/17627/upgrading-to-python-3-2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/community/open-courses/kaggle-python-tutorial-on-machine-learning#gs.RkAXk7Q&quot;&gt;Kaggle Machine Learning Tutorial&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Decision Trees Learning
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Decision_tree_learning&quot;&gt;https://en.wikipedia.org&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;http://scikit-learn.org/stable/modules/tree.html&quot;&gt;http://scikit-learn.org&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;http://mines.humanoriented.com/classes/2010/fall/csci568/portfolio_exports/lguo/decisionTree.html&quot;&gt;http://mines.humanoriented.com&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;http://dataaspirant.com/2017/01/30/how-decision-tree-algorithm-works/&quot;&gt;http://dataaspirant.com&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;next&quot;&gt;Next&lt;/h2&gt;
+&lt;p&gt;https://www.dataquest.io/blog/kaggle-tutorial/&lt;/p&gt;
+
+&lt;h2 id=&quot;directory&quot;&gt;Directory&lt;/h2&gt;
+&lt;p&gt;https://www.kaggle.com/wiki/Tutorials&lt;/p&gt;
+</description>
+        <pubDate>Sat, 09 Sep 2017 06:37:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/machine-learning.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/machine-learning.html</guid>
+        
+        <category>helloworld</category>
+        
+        <category>python</category>
+        
+        <category>machine-learning</category>
+        
+        <category>e-learning</category>
+        
+        
+        <category>learn</category>
+        
+      </item>
+    
+      <item>
+        <title>Google Actions</title>
+        <description>&lt;h1 id=&quot;google-actions&quot;&gt;Google Actions&lt;/h1&gt;
+
+&lt;p&gt;Agentes&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Sep 2017 09:10:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/google-actions.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/google-actions.html</guid>
+        
+        <category>helloworld</category>
+        
+        <category>google</category>
+        
+        <category>google-actions</category>
+        
+        
+        <category>learn</category>
+        
+      </item>
     
       <item>
         <title>Project: Stackoverflow trends</title>
@@ -16,22 +89,20 @@
 &lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com/&quot;&gt;Stackoverflow trends&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 10:49:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/03-project-stackoverflow-angular.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/03-project-stackoverflow-angular.html</guid>
-        
-        <category>projects</category>
+        <link>https://jmarroyave.github.io/project-stackoverflow-angular.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/project-stackoverflow-angular.html</guid>
         
         <category>angular</category>
         
         <category>firebase</category>
         
         
-        <category>dev</category>
+        <category>projects</category>
         
       </item>
     
       <item>
-        <title>CodeLabs: PWA + Polymer + Firebase</title>
+        <title>CodeLabs: Progressive Web Apps</title>
         <description>&lt;h1 id=&quot;lab&quot;&gt;Lab:&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&quot;&gt;Build a Progressive Web App with Firebase, Polymerfire and Polymer Components&lt;/a&gt;&lt;/p&gt;
 
@@ -46,34 +117,38 @@
 
 </description>
         <pubDate>Thu, 07 Sep 2017 09:34:45 -0600</pubDate>
-        <link>https://jmarroyave.github.io/02-codelabs-polymer-firebase-pwa.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/02-codelabs-polymer-firebase-pwa.html</guid>
+        <link>https://jmarroyave.github.io/codelabs-progressive-web-apps.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/codelabs-progressive-web-apps.html</guid>
+        
+        <category>helloworld</category>
         
         <category>codelabs</category>
         
-        <category>pwa</category>
+        <category>progressive-web-apps</category>
         
         <category>firebase</category>
         
         <category>polymer</category>
         
         
-        <category>dev</category>
+        <category>learn</category>
         
       </item>
     
       <item>
         <title>Hola</title>
-        <description>&lt;p&gt;Hola, probando Jekyll&lt;/p&gt;
+        <description>&lt;p&gt;Hola, probando &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 07:13:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/01-hola.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/01-hola.html</guid>
+        <link>https://jmarroyave.github.io/hola.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/hola.html</guid>
         
         <category>helloworld</category>
         
+        <category>jekyll</category>
         
-        <category>blog</category>
+        
+        <category>learn</category>
         
       </item>
     
