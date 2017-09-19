@@ -1,5 +1,6 @@
 jekyll b -d ../../pub/jmarroyave.github.io/
 cd ../../pub/jmarroyave.github.io/
+git pull
 git add --all
 git commit -m "$1"
 git push -u origin master
