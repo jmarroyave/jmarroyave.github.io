@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-09-19T13:04:01-06:00</updated>
+ <updated>2017-09-19T13:41:29-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>Probando Kaggle</title>
+   <title>Kaggle</title>
    <link href="https://jmarroyave.github.io/kaggle.html"/>
    <updated>2017-09-19T06:02:00-06:00</updated>
    <id>https://jmarroyave.github.io/kaggle</id>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;Kaggle es un sitio de competencias de data science, ellos ponen la data, el reto y la infraestructura para correr los scripts (kernels), o bien, cargar los resultados y calificarlos.&lt;/p&gt;
 
-&lt;p&gt;Tienen muchos recursos y kernels de los cuales aprender, aquí está el &lt;a href=&quot;https://www.kaggle.com/jmarroyave/intro-to-data-science-learning-from-titanic&quot;&gt;link&lt;/a&gt; al mio o en &lt;a href=&quot;https://github.com/jmarroyave/jmarroyave.github.io/blob/master/files/kaggle/notebook.ipynb&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tienen muchos recursos y kernels de los cuales aprender, aquí está el &lt;a href=&quot;https://www.kaggle.com/jmarroyave/intro-to-data-science-learning-from-titanic&quot;&gt;link&lt;/a&gt; al mio o en &lt;a href=&quot;https://github.com/jmarroyave/jmarroyave.github.io/blob/master/files/kaggle/notebook.ipynb&quot;&gt;github&lt;/a&gt;. file:///home/jm/Lab/www/local/jmarroyave.github.io/_layouts/inner.html&lt;/p&gt;
 </content>
  </entry>
  
