@@ -5,8 +5,8 @@
     <description>Jose Miguel Arroyave</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Sep 2017 15:23:52 -0600</pubDate>
-    <lastBuildDate>Tue, 19 Sep 2017 15:23:52 -0600</lastBuildDate>
+    <pubDate>Wed, 20 Sep 2017 13:55:04 -0600</pubDate>
+    <lastBuildDate>Wed, 20 Sep 2017 13:55:04 -0600</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -18,8 +18,8 @@
 &lt;p&gt;Tienen muchos recursos y kernels de los cuales aprender, aquí está el &lt;a href=&quot;https://www.kaggle.com/jmarroyave/intro-to-data-science-learning-from-titanic&quot;&gt;link&lt;/a&gt; al mio o en &lt;a href=&quot;https://github.com/jmarroyave/jmarroyave.github.io/blob/master/files/kaggle/notebook.ipynb&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Sep 2017 06:02:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/kaggle.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/kaggle.html</guid>
+        <link>https://jmarroyave.github.io/blog/2017/09/19/kaggle.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/19/kaggle.html</guid>
         
         <category>python</category>
         
@@ -70,8 +70,8 @@
 &lt;p&gt;https://www.kaggle.com/wiki/Tutorials&lt;/p&gt;
 </description>
         <pubDate>Sat, 09 Sep 2017 06:37:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/machine-learning.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/machine-learning.html</guid>
+        <link>https://jmarroyave.github.io/blog/2017/09/09/machine-learning.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/09/machine-learning.html</guid>
         
         <category>helloworld</category>
         
@@ -93,8 +93,8 @@
 &lt;p&gt;Agentes&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 Sep 2017 09:10:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/google-actions.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/google-actions.html</guid>
+        <link>https://jmarroyave.github.io/blog/2017/09/08/google-actions.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/08/google-actions.html</guid>
         
         <category>helloworld</category>
         
@@ -114,8 +114,8 @@
 &lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com/&quot;&gt;Stackoverflow trends&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 10:49:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/project-stackoverflow-angular.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/project-stackoverflow-angular.html</guid>
+        <link>https://jmarroyave.github.io/blog/2017/09/07/project-stackoverflow-angular.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/07/project-stackoverflow-angular.html</guid>
         
         <category>angular</category>
         
@@ -142,8 +142,8 @@
 
 </description>
         <pubDate>Thu, 07 Sep 2017 09:34:45 -0600</pubDate>
-        <link>https://jmarroyave.github.io/codelabs-progressive-web-apps.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/codelabs-progressive-web-apps.html</guid>
+        <link>https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps.html</guid>
         
         <category>helloworld</category>
         
@@ -165,8 +165,8 @@
         <description>&lt;p&gt;Hola, probando &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 07:13:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/hola.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/hola.html</guid>
+        <link>https://jmarroyave.github.io/blog/2017/09/07/hola.html</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/07/hola.html</guid>
         
         <category>helloworld</category>
         

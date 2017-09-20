@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-09-19T15:23:52-06:00</updated>
+ <updated>2017-09-20T13:55:04-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Kaggle</title>
-   <link href="https://jmarroyave.github.io/kaggle.html"/>
+   <link href="https://jmarroyave.github.io/blog/2017/09/19/kaggle.html"/>
    <updated>2017-09-19T06:02:00-06:00</updated>
-   <id>https://jmarroyave.github.io/kaggle</id>
+   <id>https://jmarroyave.github.io/blog/2017/09/19/kaggle</id>
    <content type="html">&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
 
 &lt;p&gt;Kaggle es un sitio de competencias de data science, ellos ponen la data, el reto y la infraestructura para correr los scripts (kernels), o bien, cargar los resultados y calificarlos.&lt;/p&gt;
@@ -27,9 +27,9 @@
  
  <entry>
    <title>Machine Learning Tutorial</title>
-   <link href="https://jmarroyave.github.io/machine-learning.html"/>
+   <link href="https://jmarroyave.github.io/blog/2017/09/09/machine-learning.html"/>
    <updated>2017-09-09T06:37:00-06:00</updated>
-   <id>https://jmarroyave.github.io/machine-learning</id>
+   <id>https://jmarroyave.github.io/blog/2017/09/09/machine-learning</id>
    <content type="html">&lt;h1 id=&quot;hola-machine-learning&quot;&gt;Hola Machine Learning&lt;/h1&gt;
 
 &lt;h2 id=&quot;tutoriales&quot;&gt;Tutoriales&lt;/h2&gt;
@@ -67,9 +67,9 @@
  
  <entry>
    <title>Google Actions</title>
-   <link href="https://jmarroyave.github.io/google-actions.html"/>
+   <link href="https://jmarroyave.github.io/blog/2017/09/08/google-actions.html"/>
    <updated>2017-09-08T09:10:00-06:00</updated>
-   <id>https://jmarroyave.github.io/google-actions</id>
+   <id>https://jmarroyave.github.io/blog/2017/09/08/google-actions</id>
    <content type="html">&lt;h1 id=&quot;google-actions&quot;&gt;Google Actions&lt;/h1&gt;
 
 &lt;p&gt;Agentes&lt;/p&gt;
@@ -78,9 +78,9 @@
  
  <entry>
    <title>Project: Stackoverflow trends</title>
-   <link href="https://jmarroyave.github.io/project-stackoverflow-angular.html"/>
+   <link href="https://jmarroyave.github.io/blog/2017/09/07/project-stackoverflow-angular.html"/>
    <updated>2017-09-07T10:49:00-06:00</updated>
-   <id>https://jmarroyave.github.io/project-stackoverflow-angular</id>
+   <id>https://jmarroyave.github.io/blog/2017/09/07/project-stackoverflow-angular</id>
    <content type="html">&lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com/&quot;&gt;Stackoverflow trends&lt;/a&gt;&lt;/p&gt;
@@ -89,9 +89,9 @@
  
  <entry>
    <title>CodeLabs: Progressive Web Apps</title>
-   <link href="https://jmarroyave.github.io/codelabs-progressive-web-apps.html"/>
+   <link href="https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps.html"/>
    <updated>2017-09-07T09:34:45-06:00</updated>
-   <id>https://jmarroyave.github.io/codelabs-progressive-web-apps</id>
+   <id>https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps</id>
    <content type="html">&lt;h1 id=&quot;lab&quot;&gt;Lab:&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&quot;&gt;Build a Progressive Web App with Firebase, Polymerfire and Polymer Components&lt;/a&gt;&lt;/p&gt;
 
@@ -109,9 +109,9 @@
  
  <entry>
    <title>Hola</title>
-   <link href="https://jmarroyave.github.io/hola.html"/>
+   <link href="https://jmarroyave.github.io/blog/2017/09/07/hola.html"/>
    <updated>2017-09-07T07:13:00-06:00</updated>
-   <id>https://jmarroyave.github.io/hola</id>
+   <id>https://jmarroyave.github.io/blog/2017/09/07/hola</id>
    <content type="html">&lt;p&gt;Hola, probando &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
