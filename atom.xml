@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-09-20T18:43:47-06:00</updated>
+ <updated>2017-11-13T16:52:21-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
@@ -66,28 +66,6 @@
  </entry>
  
  <entry>
-   <title>Google Actions</title>
-   <link href="https://jmarroyave.github.io/blog/2017/09/08/google-actions.html"/>
-   <updated>2017-09-08T09:10:00-06:00</updated>
-   <id>https://jmarroyave.github.io/blog/2017/09/08/google-actions</id>
-   <content type="html">&lt;h1 id=&quot;google-actions&quot;&gt;Google Actions&lt;/h1&gt;
-
-&lt;p&gt;Agentes&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Project: Stackoverflow trends</title>
-   <link href="https://jmarroyave.github.io/blog/2017/09/07/project-stackoverflow-angular.html"/>
-   <updated>2017-09-07T10:49:00-06:00</updated>
-   <id>https://jmarroyave.github.io/blog/2017/09/07/project-stackoverflow-angular</id>
-   <content type="html">&lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com/&quot;&gt;Stackoverflow trends&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>CodeLabs: Progressive Web Apps</title>
    <link href="https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps.html"/>
    <updated>2017-09-07T09:34:45-06:00</updated>
@@ -104,15 +82,6 @@
 &lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://notes-6aee9.firebaseapp.com/&quot;&gt;Notes&lt;/a&gt;&lt;/p&gt;
 
-</content>
- </entry>
- 
- <entry>
-   <title>Hola</title>
-   <link href="https://jmarroyave.github.io/blog/2017/09/07/hola.html"/>
-   <updated>2017-09-07T07:13:00-06:00</updated>
-   <id>https://jmarroyave.github.io/blog/2017/09/07/hola</id>
-   <content type="html">&lt;p&gt;Hola, probando &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

@@ -13,20 +13,11 @@
 
 </script>
 
-<script type="text/javascript">
-    window._chatlio = window._chatlio||[];
-    !function(){ var t=document.getElementById("chatlio-widget-embed");if(t&&window.ChatlioReact&&_chatlio.init)return void _chatlio.init(t,ChatlioReact);for(var e=function(t){return function(){_chatlio.push([t].concat(arguments)) }},i=["configure","identify","track","show","hide","isShown","isOnline", "page"],a=0;a<i.length;a++)_chatlio[i[a]]||(_chatlio[i[a]]=e(i[a]));var n=document.createElement("script"),c=document.getElementsByTagName("script")[0];n.id="chatlio-widget-embed",n.src="https://w.chatlio.com/w.chatlio-widget.js",n.async=!0,n.setAttribute("data-embed-version","2.3");
-       n.setAttribute('data-widget-id','de386853-7533-46b8-7986-1d257497ebe2');
-       c.parentNode.insertBefore(n,c);
-    }();
-</script>
-
-
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="JMArroyave Jose Miguel Arroyave" href="https://jmarroyave.github.io/feed.xml">
     <link rel="alternate" type="application/atom+xml" title="JMArroyave Jose Miguel Arroyave" href="https://jmarroyave.github.io/atom.xml">
 
-    <title>Hola - JMArroyave</title>
+    <title>JMArroyave</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -51,12 +42,12 @@
     <meta name="msapplication-TileColor" content="#ffffff">
 
 
-	<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" /> 
+	<link rel="stylesheet" type="text/css" href="/res/css/font-awesome.min.css" /> 
     <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/res/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/css/one-page-wonder.css" rel="stylesheet">
+    <link href="/res/css/one-page-wonder.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -69,14 +60,10 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@jmarroyave" />
 	<meta name="twitter:creator" content="@jmarroyave" />
-	<meta property="og:url"                content="https://jmarroyave.github.io/blog/2017/09/07/hola.html" />
+	<meta property="og:url"                content="https://jmarroyave.github.io/wall/" />
 	<meta property="og:type"               content="article" />
-	<meta property="og:title"              content="Hola" />
-	
-	<meta property="og:description"        content="Aprendiendo un poco de jekyll" />
+	<meta property="og:title"              content="" />
 		
-	
-	<meta property="og:image"              content="https://jmarroyave.github.io/files/thumbs/default.png" />
 		
 </head>
 
@@ -100,11 +87,27 @@
                 <ul class="nav navbar-nav">
                     
                         <li>
-                            <a href="/">Home</a>
+                            <a href="/home">Home</a>
+                        </li>
+                    
+                        <li>
+                            <a href="/wall">Wall</a>
                         </li>
                     
                         <li>
                             <a href="/blog">Blog</a>
+                        </li>
+                    
+                        <li>
+                            <a href="/projects">Proyectos</a>
+                        </li>
+                    
+                        <li>
+                            <a href="/courses">Cursos</a>
+                        </li>
+                    
+                        <li>
+                            <a href="/cv">CV</a>
                         </li>
                     
                </ul>
@@ -115,27 +118,43 @@
     </nav>
 
 
-
-<main>
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 post">
-                    <p>Hola, probando <a href="http://jekyllrb.com">Jekyll</a></p>
-
-                </div>            
-                <div class="col-md-10 col-md-offset-1">
-                    <div id="disqus_thread"></div>
-                </div>
-            </div>
-        </div>
-    </article>
-<main>
-
+	
+	<div class="container">	
+		<main>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Wall</h1>
+						<ul>
+						
+							<li>
+								<div>
+									<h3>Google Actions</h3>
+									<h6>hello world</h6>
+								</div>
+							</li>
+						
+							<li>
+								<div>
+									<h3>Jekyll</h3>
+									<h6>hello world</h6>
+								</div>
+							</li>
+						
+						</ul>
+					</div>
+          <div class="col-md-10 col-md-offset-1">
+              <div id="disqus_thread"></div>
+          </div>
+				</div>
+			</div>
+		</main>
+	</div>
+	
 <script>
 var disqus_config = function () {
-this.page.url = 'https://jmarroyave.github.io/blog/2017/09/07/hola.html';  
-this.page.identifier = '/blog/2017/09/07/hola';
+this.page.url = 'https://jmarroyave.github.io/wall/';  
+this.page.identifier = '';
 };
 (function() { 
 var d = document, s = d.createElement('script');
@@ -146,6 +165,13 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
+<div class="container">
+	<div class="row" style='margin-top: 30px'>
+		<div class="col-md-12">
+			&nbsp;
+		</div>
+	</div>
+</div>
 
 
 <footer class="com-home">
@@ -170,10 +196,10 @@ s.setAttribute('data-timestamp', +new Date());
 </footer>
 
     <!-- jQuery -->
-    <script src="/js/jquery.js"></script>
+    <script src="/res/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/res/js/bootstrap.min.js"></script>
 
 </body>
 

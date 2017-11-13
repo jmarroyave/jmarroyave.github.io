@@ -5,8 +5,8 @@
     <description>Jose Miguel Arroyave</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Sep 2017 18:43:47 -0600</pubDate>
-    <lastBuildDate>Wed, 20 Sep 2017 18:43:47 -0600</lastBuildDate>
+    <pubDate>Mon, 13 Nov 2017 16:52:21 -0600</pubDate>
+    <lastBuildDate>Mon, 13 Nov 2017 16:52:21 -0600</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -87,46 +87,6 @@
       </item>
     
       <item>
-        <title>Google Actions</title>
-        <description>&lt;h1 id=&quot;google-actions&quot;&gt;Google Actions&lt;/h1&gt;
-
-&lt;p&gt;Agentes&lt;/p&gt;
-</description>
-        <pubDate>Fri, 08 Sep 2017 09:10:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/blog/2017/09/08/google-actions.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/08/google-actions.html</guid>
-        
-        <category>helloworld</category>
-        
-        <category>google</category>
-        
-        <category>google-actions</category>
-        
-        
-        <category>learn</category>
-        
-      </item>
-    
-      <item>
-        <title>Project: Stackoverflow trends</title>
-        <description>&lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com/&quot;&gt;Stackoverflow trends&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Sep 2017 10:49:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/blog/2017/09/07/project-stackoverflow-angular.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/07/project-stackoverflow-angular.html</guid>
-        
-        <category>angular</category>
-        
-        <category>firebase</category>
-        
-        
-        <category>projects</category>
-        
-      </item>
-    
-      <item>
         <title>CodeLabs: Progressive Web Apps</title>
         <description>&lt;h1 id=&quot;lab&quot;&gt;Lab:&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&quot;&gt;Build a Progressive Web App with Firebase, Polymerfire and Polymer Components&lt;/a&gt;&lt;/p&gt;
@@ -154,23 +114,6 @@
         <category>firebase</category>
         
         <category>polymer</category>
-        
-        
-        <category>learn</category>
-        
-      </item>
-    
-      <item>
-        <title>Hola</title>
-        <description>&lt;p&gt;Hola, probando &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Sep 2017 07:13:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/blog/2017/09/07/hola.html</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/07/hola.html</guid>
-        
-        <category>helloworld</category>
-        
-        <category>jekyll</category>
         
         
         <category>learn</category>
