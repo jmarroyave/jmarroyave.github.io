@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-11-13T16:52:21-06:00</updated>
+ <updated>2017-11-24T19:05:46-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
@@ -13,28 +13,13 @@
 
  
  <entry>
-   <title>Kaggle</title>
-   <link href="https://jmarroyave.github.io/blog/2017/09/19/kaggle.html"/>
-   <updated>2017-09-19T06:02:00-06:00</updated>
-   <id>https://jmarroyave.github.io/blog/2017/09/19/kaggle</id>
-   <content type="html">&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
+   <title>Machine Learning</title>
+   <link href="https://jmarroyave.github.io/kb/2017/11/machine-learning"/>
+   <updated>2017-11-24T06:37:00-06:00</updated>
+   <id>https://jmarroyave.github.io/kb/2017/11/machine-learning</id>
+   <content type="html">&lt;h1 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h1&gt;
 
-&lt;p&gt;Kaggle es un sitio de competencias de data science, ellos ponen la data, el reto y la infraestructura para correr los scripts (kernels), o bien, cargar los resultados y calificarlos.&lt;/p&gt;
-
-&lt;p&gt;Tienen muchos recursos y kernels de los cuales aprender, aquí está el &lt;a href=&quot;https://www.kaggle.com/jmarroyave/intro-to-data-science-learning-from-titanic&quot;&gt;link&lt;/a&gt; al mio o en &lt;a href=&quot;https://github.com/jmarroyave/jmarroyave.github.io/blob/master/files/kaggle/notebook.ipynb&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Machine Learning Tutorial</title>
-   <link href="https://jmarroyave.github.io/blog/2017/09/09/machine-learning.html"/>
-   <updated>2017-09-09T06:37:00-06:00</updated>
-   <id>https://jmarroyave.github.io/blog/2017/09/09/machine-learning</id>
-   <content type="html">&lt;h1 id=&quot;hola-machine-learning&quot;&gt;Hola Machine Learning&lt;/h1&gt;
-
-&lt;h2 id=&quot;tutoriales&quot;&gt;Tutoriales&lt;/h2&gt;
-&lt;p&gt;DataCamp.com 
-————————–&lt;/p&gt;
+&lt;h2 id=&quot;datacamp&quot;&gt;DataCamp&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/courses/intro-to-python-for-data-science&quot;&gt;Introduction to Python for Data Science Tutorial&lt;/a&gt;
@@ -66,22 +51,220 @@
  </entry>
  
  <entry>
+   <title>Componentes de los buscadores</title>
+   <link href="https://jmarroyave.github.io/blog/2017/11/24/componentes-buscador"/>
+   <updated>2017-11-24T06:02:00-06:00</updated>
+   <id>https://jmarroyave.github.io/blog/2017/11/24/componentes-buscador</id>
+   <content type="html">&lt;h1 id=&quot;componentes-de-los-buscadores&quot;&gt;Componentes de los buscadores&lt;/h1&gt;
+&lt;p&gt;Cuáles son los elementos de interacción básicos de un buscador?&lt;/p&gt;
+
+&lt;h3 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h3&gt;
+
+&lt;h4 id=&quot;google&quot;&gt;google&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/res/files/imgs/thumbs/google-001.jpeg&quot; alt=&quot;google&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;yahoo&quot;&gt;yahoo&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/res/files/imgs/thumbs/yahoo-001.jpeg&quot; alt=&quot;yahoo&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;duckduckgo&quot;&gt;duckduckgo&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/res/files/imgs/thumbs/duckduckgo-001.jpeg&quot; alt=&quot;duckduckgo&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;componentes&quot;&gt;Componentes&lt;/h1&gt;
+&lt;h4 id=&quot;input&quot;&gt;Input&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Query Box
+    &lt;ul&gt;
+      &lt;li&gt;Sugerencias&lt;/li&gt;
+      &lt;li&gt;Comandos, site:&lt;/li&gt;
+      &lt;li&gt;Comunes, significado de, traducir, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Filtros
+    &lt;ul&gt;
+      &lt;li&gt;Contexto (Web/Todo, Videos, Imágenes, Noticias, Mapas, Respuestas, Libros, Aplicaciones)&lt;/li&gt;
+      &lt;li&gt;Fechas&lt;/li&gt;
+      &lt;li&gt;Regiones / Local&lt;/li&gt;
+      &lt;li&gt;Safe Search / Adult Content&lt;/li&gt;
+      &lt;li&gt;Para imágenes
+        &lt;ul&gt;
+          &lt;li&gt;tipo
+            &lt;ul&gt;
+              &lt;li&gt;cara, foto, animación, clip art&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;resolución&lt;/li&gt;
+          &lt;li&gt;layout&lt;/li&gt;
+          &lt;li&gt;colores&lt;/li&gt;
+          &lt;li&gt;licencia&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Para videos
+        &lt;ul&gt;
+          &lt;li&gt;resolución&lt;/li&gt;
+          &lt;li&gt;duración&lt;/li&gt;
+          &lt;li&gt;calidad&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Para noticias
+        &lt;ul&gt;
+          &lt;li&gt;relevancia&lt;/li&gt;
+          &lt;li&gt;reciente&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;output&quot;&gt;Output&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Total de resultados y tiempo&lt;/li&gt;
+  &lt;li&gt;Quizas quiso decir?
+    &lt;ul&gt;
+      &lt;li&gt;Typos / Lenguaje&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Resultados relacionados&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Knowledge&lt;/strong&gt; Panel / Card&lt;/li&gt;
+  &lt;li&gt;Resultados
+    &lt;ul&gt;
+      &lt;li&gt;Título&lt;/li&gt;
+      &lt;li&gt;Fecha&lt;/li&gt;
+      &lt;li&gt;Resultados similares a este&lt;/li&gt;
+      &lt;li&gt;Link&lt;/li&gt;
+      &lt;li&gt;Snippet&lt;/li&gt;
+      &lt;li&gt;Traducir&lt;/li&gt;
+      &lt;li&gt;Cache&lt;/li&gt;
+      &lt;li&gt;Información extra&lt;/li&gt;
+      &lt;li&gt;Imagen&lt;/li&gt;
+      &lt;li&gt;Ícono&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Paginación&lt;/li&gt;
+  &lt;li&gt;Anuncios&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;data&quot;&gt;Data&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Universo de páginas&lt;/li&gt;
+  &lt;li&gt;Orden de aparición&lt;/li&gt;
+  &lt;li&gt;Texto resaltado&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;dinámica&quot;&gt;Dinámica&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Paginación, automática o con click&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;contexto-de-recomendaciones&quot;&gt;Contexto de recomendaciones&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Historial&lt;/li&gt;
+  &lt;li&gt;Estadísticas&lt;/li&gt;
+  &lt;li&gt;MRU, MR searched&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Falta o sobra alguno? Algun comentario o sugerencia?&lt;/p&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;p&gt;https://developers.google.com/search/docs/guides/search-features
+https://developers.google.com/search/docs/guides/enhance-site
+https://support.google.com/websearch/answer/6325583?hl=en
+https://moz.com/blog/googles-future-is-in-the-cards&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: Este post forma parte del proyecto &lt;a href=&quot;/projects/2017/11/search&quot;&gt;Labs: Search UX&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Search UX</title>
+   <link href="https://jmarroyave.github.io/projects/2017/11/search"/>
+   <updated>2017-11-13T09:34:45-06:00</updated>
+   <id>https://jmarroyave.github.io/projects/2017/11/search</id>
+   <content type="html">&lt;h1 id=&quot;search-ux&quot;&gt;Search UX&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://jmarroyave-search.firebaseapp.com&quot;&gt;Prototipo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;El buscador, sus elementos, interacciones y resultados. Cómo obtengo más información de un resultado? hacia a donde dirige la atención los resultados ofrecidos por el buscador?&lt;/p&gt;
+
+&lt;h1 id=&quot;componentes&quot;&gt;Componentes&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Query Box&lt;/li&gt;
+  &lt;li&gt;Sugerencias&lt;/li&gt;
+  &lt;li&gt;Resultados relacionados&lt;/li&gt;
+  &lt;li&gt;Quizo decir?&lt;/li&gt;
+  &lt;li&gt;Total de resultados y tiempo&lt;/li&gt;
+  &lt;li&gt;Resultados y los elementos del resultado&lt;/li&gt;
+  &lt;li&gt;Paginación&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;screenshots-timeline&quot;&gt;Screenshots Timeline:&lt;/h1&gt;
+&lt;h4 id=&quot;004&quot;&gt;004&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/res/files/imgs/projects/search/prj-search-004.jpeg&quot; alt=&quot;004&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;003&quot;&gt;003&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/res/files/imgs/projects/search/prj-search-003.jpeg&quot; alt=&quot;003&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;002&quot;&gt;002&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/res/files/imgs/projects/search/prj-search-002.jpeg&quot; alt=&quot;002&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;001&quot;&gt;001&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/res/files/imgs/projects/search/prj-search-001.jpeg&quot; alt=&quot;001&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kaggle</title>
+   <link href="https://jmarroyave.github.io/blog/2017/09/19/kaggle"/>
+   <updated>2017-09-19T06:02:00-06:00</updated>
+   <id>https://jmarroyave.github.io/blog/2017/09/19/kaggle</id>
+   <content type="html">&lt;h1 id=&quot;kaggle&quot;&gt;Kaggle&lt;/h1&gt;
+
+&lt;p&gt;Kaggle es un sitio de competencias de data science, ellos ponen la data, el reto y la infraestructura para correr los scripts (kernels), o bien, cargar los resultados y calificarlos.&lt;/p&gt;
+
+&lt;p&gt;Tienen muchos recursos y kernels de los cuales aprender, aquí está el &lt;a href=&quot;https://www.kaggle.com/jmarroyave/intro-to-data-science-learning-from-titanic&quot;&gt;link&lt;/a&gt; al mio o en &lt;a href=&quot;https://github.com/jmarroyave/jmarroyave.github.io/blob/master/res/files/kaggle/notebook.ipynb&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Machine Learning Tutorial</title>
+   <link href="https://jmarroyave.github.io/blog/2017/09/09/machine-learning"/>
+   <updated>2017-09-09T06:37:00-06:00</updated>
+   <id>https://jmarroyave.github.io/blog/2017/09/09/machine-learning</id>
+   <content type="html">&lt;h1 id=&quot;machine-learning-tutorial&quot;&gt;Machine Learning Tutorial&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;/kb/2017/11/machine-learning&quot;&gt;Post&lt;/a&gt; completo con tutoriales y otros recursos.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>CodeLabs: Progressive Web Apps</title>
-   <link href="https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps.html"/>
+   <link href="https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps"/>
    <updated>2017-09-07T09:34:45-06:00</updated>
    <id>https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps</id>
-   <content type="html">&lt;h1 id=&quot;lab&quot;&gt;Lab:&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&quot;&gt;Build a Progressive Web App with Firebase, Polymerfire and Polymer Components&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;h1 id=&quot;codelabs-progressive-web-apps&quot;&gt;CodeLabs: Progressive Web Apps&lt;/h1&gt;
 
-&lt;h1 id=&quot;falta&quot;&gt;Falta:&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;bower install platinum-sw&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;revisar&quot;&gt;Revisar:&lt;/h2&gt;
-&lt;p&gt;Agregar 127.0.0.1 a dominios en firebase&lt;/p&gt;
-
-&lt;h1 id=&quot;demo&quot;&gt;Demo:&lt;/h1&gt;
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://notes-6aee9.firebaseapp.com/&quot;&gt;Notes&lt;/a&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;lab&quot;&gt;Lab&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html&quot;&gt;Build a Progressive Web App with Firebase, Polymerfire and Polymer Components&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;falta&quot;&gt;Falta&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;bower install platinum-sw&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;revisar&quot;&gt;Revisar&lt;/h2&gt;
+&lt;p&gt;Agregar 127.0.0.1 a dominios en firebase&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Stackoverflow Trends</title>
+   <link href="https://jmarroyave.github.io/projects/2017/05/stackoverflow"/>
+   <updated>2017-05-15T09:34:45-06:00</updated>
+   <id>https://jmarroyave.github.io/projects/2017/05/stackoverflow</id>
+   <content type="html">&lt;h1 id=&quot;stackoverflow-trends&quot;&gt;Stackoverflow Trends&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com&quot;&gt;Prototipo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Visualización de tendencias de tecnologías, herramientas y servicios de las que se habla en Stackoverflow obtenidos por medio del API de stackexchange y procesados localmente para la extracción de etiquetas características de cada tópico.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota al 24/11/2017&lt;/strong&gt;: El prototipo se encuentra desactualizado, espero en estos días poner la versión actual.&lt;/p&gt;
 </content>
  </entry>
  
