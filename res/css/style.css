@@ -1,5 +1,7 @@
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: Roboto, Verdana, Arial;
+    font-size: 14px;
 }
 
 .site-title{
@@ -7,6 +9,24 @@ body {
     margin-top: -50px;
     width: 100%;
     text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.site-title a{
+    color: white;
+}
+
+.site-title a:hover{
+}
+
+
+.site-title .status{
+    font-size: 8px;
+}
+
+.site-title .last_post{
+    font-size: 10px;
 }
 
 main{
@@ -27,17 +47,45 @@ main{
     padding: 120px 0;
 }
 
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0px;
+    margin-top: 25px;    
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0px;
+    margin-top: 15px;    
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+h4, h5, h6 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+
 .headline h1 {
-    font-size: 130px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    font-size: 45px;
 }
 
 .headline h2 {
-    font-size: 77px;
     background: #fff;
     background: rgba(255,255,255,0.9);
     color: #808080;
+    font-size: 30px;
 }
 
 .featurette {
@@ -46,7 +94,6 @@ main{
 }
 
 .featurette-heading {
-    font-size: 50px;
     margin-bottom: 0px;
 }
 
@@ -54,6 +101,7 @@ footer {
     margin: 0;
     text-align: center;    
     padding: 25px 0px;
+    background-color: #F8F9FA;
 }
 
 .post{
@@ -91,25 +139,20 @@ footer {
 
 @media(max-width:1200px) {
     .headline h1 {
-        font-size: 140px;
     }
 
     .headline h2 {
-        font-size: 63px;
     }
 
     .featurette-heading {
-        font-size: 35px;
     }
 }
 
 @media(max-width:991px) {
     .headline h1 {
-        font-size: 105px;
     }
 
     .headline h2 {
-        font-size: 50px;
     }
 
     .featurette-divider {
@@ -121,7 +164,6 @@ footer {
     }
 
     .featurette-heading {
-        font-size: 30px;
     }
 }
 
@@ -135,17 +177,14 @@ footer {
     }
 
     .featurette-heading {
-        font-size: 25px;
     }
 }
 
 @media(max-width:668px) {
     .headline h1 {
-        font-size: 70px;
     }
 
     .headline h2 {
-        font-size: 32px;
     }
 
     .featurette-divider {
@@ -159,11 +198,9 @@ footer {
     }
 
     .headline h1 {
-        font-size: 60px;
     }
 
     .headline h2 {
-        font-size: 30px;
     }
 }
 
@@ -180,10 +217,10 @@ footer {
 
 
 h1.page-title{
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin: 10px 0px;
     font-weight: bold;
+    color: #606060;
 }
 
 .post.content{
@@ -197,4 +234,27 @@ h1.page-title{
 
 .container.tile{
     margin: 0px -15px;
+}
+
+
+nav {
+	background-color: #F8F9FA;
+}
+
+
+.carousel-control-prev, .carousel-control-next{
+}
+
+.carousel-control-next > span, .carousel-control-prev > span{
+    background-color: #c0c0c0;
+    border-radius: 2px;
+}
+
+
+.carousel-control-indicator{
+    border: 1px solid #f0f0f0;
+}
+
+.carousel-control-indicator.active{
+    background-color: #808080;
 }

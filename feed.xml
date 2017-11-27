@@ -5,8 +5,8 @@
     <description>Jose Miguel Arroyave</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Nov 2017 17:52:00 -0600</pubDate>
-    <lastBuildDate>Sat, 25 Nov 2017 17:52:00 -0600</lastBuildDate>
+    <pubDate>Mon, 27 Nov 2017 04:56:06 -0600</pubDate>
+    <lastBuildDate>Mon, 27 Nov 2017 04:56:06 -0600</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -206,29 +206,164 @@
     
       <item>
         <title>Search UX</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://jmarroyave-search.firebaseapp.com&quot;&gt;Prototipo&lt;/a&gt;&lt;/p&gt;
-
+        <description>&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
 &lt;p&gt;El buscador, sus elementos, interacciones y resultados. Cómo obtengo más información de un resultado? hacia a donde dirige la atención los resultados ofrecidos por el buscador?&lt;/p&gt;
 
-&lt;h1 id=&quot;componentes&quot;&gt;Componentes&lt;/h1&gt;
+&lt;p&gt;Empecé este proyecto porque estaba aprendiendo a utilizar algunas librerias y caí en cuenta que me ayudaria tener
+algunas herramientas extra en el buscador, por ejemplo, un historial contextualizado con tags, fechas y cosas así, 
+así que hice un wrapper de google con el CSE (Custom Search Engine) y lo primero que encontré fue la cantidad de 
+metadatos extra que viene con cada resultado, algunos con información poco útil para mi pero que ciertas applicaciones 
+seguro se benefician, como el lenguaje, el viewport y algunos otros og:* (open graph protocol). Sin embargo, ya viendo
+un poco más a detalle encontré algunos bastante útiles como la cantidad de respuestas que una pregunta de stack overflow
+tiene lo cual es bastante útil para discriminar entre resultados similares y para muestra:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com.gt/search?q=unable+to+install+tensorflow+on+windows&amp;amp;oq=unable+to+install+tensorflow+on+windows&amp;amp;aqs=chrome..69i64j69i60j69i57.1430j0j7&amp;amp;client=ubuntu&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&quot;&gt;En google&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/google-002.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jmarroyave-search.firebaseapp.com/#/?q=unable%20to%20install%20tensorflow%20on%20windows&quot;&gt;En el wrapper que hice&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/wrapper-001.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Y esto por nombrar un caso, además están las imágenes que vienen en los metadatos, otra información para otros dominios, 
+artículos, música, películas…. y hasta ahora voy contabilizando mas de 100 dominios distintos (para verlos solo hay que activar el debug mode)&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/wrapper-002.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Esto me ha hecho reflexionar en como he aprendido a buscar algo en los motores de búsqueda, como estructuro mi pregunta, 
+como la contextualizo y aprovecho la indexación del buscador, los tipos de resultados (videos, imágenes, noticias, etc), 
+la forma de ingresar la pregunta (voz, texto), el momento en que se hace la búsqueda y otras situaciones y características que 
+no me habia dado cuenta.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jmarroyave-search.firebaseapp.com&quot;&gt;Prototipo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;contexto&quot;&gt;Contexto&lt;/h1&gt;
+
+&lt;h2 id=&quot;buscadores&quot;&gt;Buscadores&lt;/h2&gt;
+&lt;div id=&quot;carouselExampleIndicators&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot; style=&quot;max-width:300px; border: 1px solid #808080; margin: 10px 0px&quot;&gt;
+  &lt;ol class=&quot;carousel-indicators&quot;&gt;
+    &lt;li class=&quot;carousel-control-indicator active&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;0&quot;&gt;&lt;/li&gt;
+    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;div class=&quot;carousel-inner&quot;&gt;
+    &lt;div class=&quot;carousel-item active&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/google-001.jpeg&quot; alt=&quot;Google&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;carousel-item&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/yahoo-001.jpeg&quot; alt=&quot;Yahoo&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;carousel-item&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/duckduckgo-001.jpeg&quot; alt=&quot;DuckDuckGo&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;carousel-item&quot;&gt;
+      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/bing-001.jpeg&quot; alt=&quot;Bing&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+    &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+  &lt;/a&gt;
+  &lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+    &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;componentes&quot;&gt;Componentes&lt;/h2&gt;
+&lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Query Box&lt;/li&gt;
-  &lt;li&gt;Sugerencias&lt;/li&gt;
-  &lt;li&gt;Resultados relacionados&lt;/li&gt;
-  &lt;li&gt;Quizo decir?&lt;/li&gt;
+  &lt;li&gt;Query Box
+    &lt;ul&gt;
+      &lt;li&gt;Sugerencias&lt;/li&gt;
+      &lt;li&gt;Comandos: site:&lt;/li&gt;
+      &lt;li&gt;Comunes: significado de, traducir, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Filtros
+    &lt;ul&gt;
+      &lt;li&gt;Contexto (Web/Todo, Videos, Imágenes, Noticias, Mapas, Respuestas, Libros, Aplicaciones)&lt;/li&gt;
+      &lt;li&gt;Fechas&lt;/li&gt;
+      &lt;li&gt;Regiones / Local&lt;/li&gt;
+      &lt;li&gt;Safe Search / Adult Content&lt;/li&gt;
+      &lt;li&gt;Para imágenes: tipo (cara, foto, animación, clip art), resolución, layout, colores, licencia.&lt;/li&gt;
+      &lt;li&gt;Para videos: resolución, duración, calidad.&lt;/li&gt;
+      &lt;li&gt;Para noticias: relevancia, reciente.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;output&quot;&gt;Output&lt;/h3&gt;
+&lt;ul&gt;
   &lt;li&gt;Total de resultados y tiempo&lt;/li&gt;
-  &lt;li&gt;Resultados y los elementos del resultado&lt;/li&gt;
+  &lt;li&gt;Quizas quiso decir?
+    &lt;ul&gt;
+      &lt;li&gt;Typos&lt;/li&gt;
+      &lt;li&gt;Lenguaje&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Resultados relacionados
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Knowledge&lt;/strong&gt; Panel / Card&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Resultados, dependiendo del medio de búsqueda
+    &lt;ul&gt;
+      &lt;li&gt;Voz
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;Respuesta&lt;/strong&gt;, generalmente 1 respuesta&lt;/li&gt;
+          &lt;li&gt;Acciones para esa respuesta&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Texto
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;Resultados&lt;/strong&gt;, 10 en adelante&lt;/li&gt;
+          &lt;li&gt;Información: Título, fecha, link, snippet, imagen, ícono&lt;/li&gt;
+          &lt;li&gt;Acciones: Similares, traducir, cache&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;Paginación&lt;/li&gt;
+  &lt;li&gt;Anuncios&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;datos&quot;&gt;Datos&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Universo de páginas
+    &lt;ul&gt;
+      &lt;li&gt;Interconexión con otros servicios&lt;/li&gt;
+      &lt;li&gt;Resultados en tiempo real&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Contexto
+    &lt;ul&gt;
+      &lt;li&gt;Textual / Literal&lt;/li&gt;
+      &lt;li&gt;Historial&lt;/li&gt;
+      &lt;li&gt;Estadísticas&lt;/li&gt;
+      &lt;li&gt;MRU, MR searched&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Orden de aparición
+    &lt;ul&gt;
+      &lt;li&gt;Importancia&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;otros&quot;&gt;Otros&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Paginación, automática o con click&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;screenshots-timeline&quot;&gt;Screenshots Timeline:&lt;/h1&gt;
-
-&lt;div id=&quot;carouselExampleIndicators&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+&lt;div id=&quot;carouselExampleIndicators&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot; style=&quot;max-width:300px; border: 1px solid #808080; margin: 10px 0px&quot;&gt;
   &lt;ol class=&quot;carousel-indicators&quot;&gt;
-    &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
-    &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
-    &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
-    &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;    
+    &lt;li class=&quot;carousel-control-indicator active&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;0&quot;&gt;&lt;/li&gt;
+    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;    
   &lt;/ol&gt;
   &lt;div class=&quot;carousel-inner&quot;&gt;
     &lt;div class=&quot;carousel-item active&quot;&gt;
@@ -253,6 +388,21 @@
     &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
   &lt;/a&gt;
 &lt;/div&gt;
+
+&lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/labs/2017/05/stackoverflow&quot;&gt;Labs &amp;gt; Stackoverflow Trends&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;links&quot;&gt;Links&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ogp.me/&quot;&gt;Open Graph Protocol&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/search/docs/guides/search-features&quot;&gt;Google Search Features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/search/docs/guides/enhance-site&quot;&gt;Google Search: Enhance Site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.google.com/websearch/answer/6325583?hl=en&quot;&gt;Web search help&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://moz.com/blog/googles-future-is-in-the-cards&quot;&gt;Google’s futures is in the cards&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Mon, 13 Nov 2017 09:34:45 -0600</pubDate>
         <link>https://jmarroyave.github.io/labs/2017/11/search</link>
