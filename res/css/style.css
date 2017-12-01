@@ -4,7 +4,7 @@
 }
 
 nav {
-    background-color: #F8F9FA;
+    background-color: #F8F9FA!important;
 }
 
 body {
@@ -148,7 +148,7 @@ footer {
     margin: 0;
     text-align: center;    
     padding: 25px 0px;
-    background-color: #F8F9FA;
+    background-color: #F8F9FA!important;
 }
 
 footer .footer-div{
@@ -240,6 +240,10 @@ footer .copyright{
 /************************* Other ******************************/
 
 @media  (max-width:1200px) {
+    .site-title{
+        padding-top: 5px;
+    }
+
     .home > .headline > h1{
         font-size: 50px;
     }   
@@ -293,6 +297,10 @@ footer .copyright{
 }
 
 @media(max-width:991px) {
+    .site-title{
+        padding-top: 5px;
+    }
+
     .home > .headline > h1{
         font-size: 40px;
     }   
@@ -346,6 +354,10 @@ footer .copyright{
 }
 
 @media(max-width:768px) {
+    .site-title{
+        padding-top: 10px;
+    }
+
     .home > .headline > h1{
         font-size: 35px;
     }   
@@ -399,6 +411,10 @@ footer .copyright{
 }
 
 @media(max-width:640px) {
+    .site-title{
+        padding-top: 10px;
+    }
+
     .home > .headline > h1{
         font-size: 30px;
     }   
@@ -452,6 +468,10 @@ footer .copyright{
 }
 
 @media(max-width:375px) {
+    .site-title{
+        padding-top: 10px;
+    }
+
     .home > .headline > h1{
         font-size: 25px;
     }   
