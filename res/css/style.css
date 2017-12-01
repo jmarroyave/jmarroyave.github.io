@@ -1,16 +1,103 @@
-body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: Roboto, Verdana, Arial;
-    font-size: 14px;
+@font-face {
+    font-family: Roboto;
+    src: url(../Roboto-Light.ttf);
 }
 
-.site-title{
+nav {
+    background-color: #F8F9FA;
+}
+
+body {
+    margin-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: Verdana, Arial!important;
+    font-weight: 100;
+}
+
+main{
+    padding-top: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, div, li, a {
+    font-size: 14px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px 0px;
+    margin-top: 25px;    
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px 0px;
+    margin-top: 15px;    
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 5px 0px;
+}
+
+h4, h5, h6 {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0px;
+}
+
+.frame {
     padding: 10px;
-    margin-top: -50px;
+    min-height: 60vh;
+}
+
+.list {
+    padding: 10px;
+    min-height: 60vh;
+}
+
+
+/************************* Home ******************************/
+.home {
+    width: 100%;
+    height: 70vh;
+    display: table;
+}
+
+.home .headline{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px!important;
+}
+
+.home .headline > h1{
+    font-size: 45px;
+    font-weight: 500;
+}   
+
+.home .headline > h2{
+    font-size: 35px;
+    font-weight: 200;
+    color: #808080;    
+}
+
+/************************* Site ******************************/
+
+.site-title{
+    padding-top: 10px;
+    margin-top: -40px;
+    height: 40px;
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 10px;
+    box-sizing: border-box;
 }
 
 .site-title a{
@@ -20,19 +107,59 @@ body {
 .site-title a:hover{
 }
 
-
-.site-title .status{
-    font-size: 8px;
+.site-title .last_post{
+    font-size: 8pt;
+    font-weight: 500;
 }
 
-.site-title .last_post{
+.page-title{
+    font-weight: 500;
+    margin: 10px 0px;
+    color: #606060;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+/************************* Footer ******************************/
+.social-icons{
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.social-icons a{
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.social-icons a i{  
+    background-color: white; 
+    background-position: center center;
+    line-height: 32px; 
+    border-radius: 8px;
+    border: 1px solid #a0a0a0;
+    height: 38px;
+    width: 38px;    
+    padding-top: 2px;
+}
+
+footer {
+    margin: 0;
+    text-align: center;    
+    padding: 25px 0px;
+    background-color: #F8F9FA;
+}
+
+footer .footer-div{
+    display: inline-block;
+}
+
+footer .copyright{
     font-size: 10px;
 }
 
-main{
-	padding-top: 50px;
-}
-
+/************************* List ******************************/
 .header-image {
     display: block;
     width: 100%;
@@ -43,218 +170,341 @@ main{
     -o-background-size: cover;
 }
 
-.headline {
-    padding: 120px 0;
-}
-
-
-h1 {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 5px 0px;
-    margin-top: 25px;    
-}
-
-h2 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 5px 0px;
-    margin-top: 15px;    
-}
-
-h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 5px 0px;
-}
-
-h4, h5, h6 {
-    font-size: 14px;
-    font-weight: bold;
-    margin: 5px 0px;
-}
-
-
-.headline h1 {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
-    font-size: 45px;
-}
-
-.headline h2 {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
-    color: #808080;
-    font-size: 30px;
-}
-
-.featurette {
-    overflow: hidden;
-    margin-bottom: 40px;
-}
-
-.featurette-heading {
-    margin-bottom: 0px;
-}
-
-footer {
-    margin: 0;
-    text-align: center;    
-    padding: 25px 0px;
-    background-color: #F8F9FA;
-}
-
 .post{
-	padding-bottom: 50px; 
+    padding-bottom: 50px; 
 }
 
 .tags{
-	font-size: 8pt;
+    font-size: 8pt;
 }
 
 .lead{
-	padding: 5px 0px;
+    padding: 5px 0px;
 }
 
-.social-icons{
-	display: inline-block;
-	text-align: center;
-	margin: 20px 0px;
-}
-
-.social-icons a{
-	margin-right: 2px;
-}
-
-.social-icons a i{	
-	background-color: white; 
-	background-position: center center;
-	line-height: 32px; 
-	border-radius: 8px;
-	border: 1px solid #a0a0a0;
-	height: 38px;
-	width: 38px;	
-	padding-top: 2px;
-}
-
-@media(max-width:1200px) {
-    .headline h1 {
-    }
-
-    .headline h2 {
-    }
-
-    .featurette-heading {
-    }
-}
-
-@media(max-width:991px) {
-    .headline h1 {
-    }
-
-    .headline h2 {
-    }
-
-    .featurette-divider {
-        margin: 40px 0;
-    }
-
-    .featurette-image {
-        max-width: 50%;
-    }
-
-    .featurette-heading {
-    }
-}
-
-@media(max-width:768px) {
-    .container {
-        margin: 0 15px;
-    }
-
-    .featurette-divider {
-        margin: 40px 0;
-    }
-
-    .featurette-heading {
-    }
-}
-
-@media(max-width:668px) {
-    .headline h1 {
-    }
-
-    .headline h2 {
-    }
-
-    .featurette-divider {
-        margin: 30px 0;
-    }
-}
-
-@media(max-width:640px) {
-    .headline {
-        padding: 75px 0 25px 0;
-    }
-
-    .headline h1 {
-    }
-
-    .headline h2 {
-    }
-}
-
-@media(max-width:375px) {
-    .featurette-divider {
-        margin: 10px 0;
-    }
-
-    .featurette-image {
-        max-width: 100%;
-    }
-
-}
-
-
-h1.page-title{
-    font-size: 20px;
-    margin: 10px 0px;
-    font-weight: bold;
-    color: #606060;
-}
-
-.post.content{
+/************************* Post ******************************/
+.post .content {
     display: block;
     overflow-x: hidden;
+    font-size: 20px;
 }
 
-.post.content > img {
+.post .content .excerpt {
+    overflow-x: hidden;
+    font-size: 12px;
+    color: #606060;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+
+.post .content img {
     max-width: 100%;
 }
 
-.container.tile{
+.post .content .container.tile{
     margin: 0px -15px;
 }
 
-
-nav {
-	background-color: #F8F9FA;
+.post .carousel-control-prev, .carousel-control-next{
 }
 
-
-.carousel-control-prev, .carousel-control-next{
-}
-
-.carousel-control-next > span, .carousel-control-prev > span{
+.post .carousel-control-next > span, .carousel-control-prev > span{
     background-color: #c0c0c0;
     border-radius: 2px;
 }
 
-
-.carousel-control-indicator{
+.post .carousel-control-indicator{
     border: 1px solid #f0f0f0;
 }
 
-.carousel-control-indicator.active{
+.post .carousel-control-indicator.active{
     background-color: #808080;
+}
+
+.post #disqus_thread{
+    margin: 0px 10px;
+}
+
+.post p,.post div,.post li {
+    text-align: justify;
+}
+
+/************************* List ******************************/
+
+.tile{
+    margin-bottom: 25px;
+}
+
+/************************* Other ******************************/
+
+@media  (max-width:1200px) {
+    .home > .headline > h1{
+        font-size: 50px;
+    }   
+    .home > .headline > h2{
+        font-size: 35px;
+    }    
+    
+    .list {
+        padding: 20px;
+    }
+
+    .frame {
+        padding: 20px;
+    }
+
+    .page-title{
+        font-size: 35px;
+    }
+
+    .tile{
+        margin-bottom: 45px;
+    }
+
+    .post .content .excerpt {
+        font-size: 14px;
+    }
+
+    .post p,.post div,.post li, .post a {
+        font-size: 18px;
+    }
+
+    p, div, li {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4, h5, h6 {
+        font-size: 18px;
+    }    
+}
+
+@media(max-width:991px) {
+    .home > .headline > h1{
+        font-size: 40px;
+    }   
+    .home > .headline > h2{
+        font-size: 25px;
+    }    
+    
+    .list {
+        padding: 20px;
+    }
+
+    .frame {
+        padding: 20px;
+    }
+
+    .page-title{
+        font-size: 35px;
+    }
+
+    .tile{
+        margin-bottom: 35px;
+    }
+
+    .post .content .excerpt {
+        font-size: 14px;
+    }
+
+    .post p,.post div,.post li, .post a {
+        font-size: 18px;
+    }
+
+    p, div, li {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4, h5, h6 {
+        font-size: 18px;
+    }    
+}
+
+@media(max-width:768px) {
+    .home > .headline > h1{
+        font-size: 35px;
+    }   
+    .home > .headline > h2{
+        font-size: 25px;
+    }    
+    
+    .list {
+        padding: 15px;
+    }
+
+    .frame {
+        padding: 15px;
+    }
+
+    .page-title{
+        font-size: 25px;
+    }
+
+    .tile{
+        margin-bottom: 35px;
+    }
+
+    .post .content .excerpt {
+        font-size: 10px;
+    }
+
+    .post p,.post div,.post li, .post a {
+        font-size: 14px;
+    }
+
+    p, div, li {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4, h5, h6 {
+        font-size: 14px;
+    }    
+}
+
+@media(max-width:640px) {
+    .home > .headline > h1{
+        font-size: 30px;
+    }   
+    .home > .headline > h2{
+        font-size: 20px;
+    }    
+
+    .list {
+        padding: 10px;
+    }
+
+    .frame {
+        padding: 10px;
+    }
+
+    .page-title{
+        font-size: 25px;
+    }
+
+    .tile{
+        margin-bottom: 25px;
+    }
+
+    .post .content .excerpt {
+        font-size: 10px;
+    }
+
+    .post p,.post div,.post li, .post a {
+        font-size: 14px;
+    }
+
+    p, div, li {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4, h5, h6 {
+        font-size: 14px;
+    }    
+}
+
+@media(max-width:375px) {
+    .home > .headline > h1{
+        font-size: 25px;
+    }   
+    .home > .headline > h2{
+        font-size: 15px;
+    }    
+
+    .list {
+        padding: 10px 20px;
+    }
+
+    .frame {
+        padding: 10px 20px;
+    }
+
+    .page-title{
+        font-size: 25px;
+    }
+
+    .tile{
+        margin-bottom: 25px;
+    }
+
+    .post .content .excerpt {
+        font-size: 8px;
+    }
+
+    .post p,.post div,.post li, .post a {
+        font-size: 12px;
+    }
+
+    p, div, li, a {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4, h5, h6 {
+        font-size: 14px;
+    }    
+
+}
+
+.not-released{
+    display: none;
 }

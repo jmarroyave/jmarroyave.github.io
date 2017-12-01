@@ -7,7 +7,7 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-106760837-1', 'auto');
+  ga('create', 'UA-110522821-1', 'auto');
   ga('send', 'pageview');
 </script>
 
@@ -66,10 +66,8 @@
 
 <body>
 
-<div class="site-title" style='background-color: #808080'>
-    <a class='last_post' href='/labs/2017/11/search'>Actualizaci&oacute;n > Labs: Search UX</a>
-    <br/>
-    <a class='status' href='/'><b>JMArroyave</b>: Hello, my name is Jos&eacute; Miguel</a>
+<div class="site-title" style='background-color: #fbc02d'>
+    <a class='last_post' href='/blog/2017/12/01/me-siento-con-suerte?ref=head'>Post > Me siento con suerte</a>
 </div>
 <nav class="navbar nav-pills navbar-expand navbar-light sticky-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,6 +75,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbar">
     <ul class="navbar-nav mr-auto mt-2 mt-sm-0">
+      
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
       
         <li class="nav-item active">
           <a class="nav-link" href="/blog">Blog</a>
@@ -102,15 +104,19 @@
   </div>
 </nav>
 
-<div class="container-fluid">
+<div class="container-fluid post frame">
   <div class="row">
     <div class="col">
       <h1 class='page-title'>CodeLabs: Progressive Web Apps</h1>
     </div>
   </div>
   <div class="row">
-    <div class="col post content">
-      <h2 id="demo">Demo</h2>
+    <div class="col content">
+      <div class="excerpt">
+Aprendiendo un poco de las progressive web apps con code labs
+</div>
+
+<h2 id="demo">Demo</h2>
 <p><a href="https://notes-6aee9.firebaseapp.com/">Notes</a></p>
 
 <h2 id="lab">Lab</h2>
@@ -146,25 +152,62 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 <footer class="com-home">
-	<div layout="row" flexlayout-margin="" class="layout-row">
+	<div class="footer-div">
 	  <div layout="column" class="social-icons layout-align-center-center layout-column flex" layout-align="center center" flex="">
-	    <a href="http://twitter.com/jmarroyave"><i class="fa fa-twitter-square fa-3x" style="color: #00aced;"></i></a>
+	    <a href="http://twitter.com/jmarroyave">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-twitter fa-stack-1x" style="color: #00aced;"></i>
+				</span>
+			</a>
 	    &nbsp;
-	    <a href="http://facebook.com/jmarroyave"><i class="fa fa-facebook-square fa-3x" style="color: #3b5998;"></i></a>
+	    <a href="http://facebook.com/jmarroyave">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-facebook fa-stack-1x" style="color: #3b5998;"></i>
+				</span>	    
+			</a>
 	    &nbsp;
-	    <a href="http://gt.linkedin.com/jmarroyave"><i class="fa fa-linkedin-square fa-3x" style="color: #0077B5;"></i></a>
+	    <a href="http://gt.linkedin.com/jmarroyave">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-linkedin fa-stack-1x" style="color: #0077B5;"></i>
+				</span>	    
+			</a>
 	    &nbsp;
-	    <a href="http://plus.google.com/112618720945759819017"><i class="fa fa-google-plus-square fa-3x" style="color: #d34836;"></i></a>
+	    <a href="http://plus.google.com/112618720945759819017">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-google-plus fa-stack-1x" style="color: #d34836;"></i>
+				</span>	    
+			</a>
 	    &nbsp;
-	    <a href="http://github.com/jmarroyave"><i class="fa fa-github-square fa-3x" style="color: black;"></i></a>
+	    <a href="http://github.com/jmarroyave">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-github fa-stack-1x" style="color: black;"></i>
+				</span>	    
+			</a>
+	    <a href="mailto:jmarroyave@gmail.com" class='not-released'>
+		    &nbsp;
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-envelope-o fa-stack-1x" style="color: black;"></i>
+				</span>
+	    </a>    
+
 	  </div>
-	</div>
-	<div layout="row" layout-margin="" class="layout-margin layout-row">
+
+  </div>
+  <br/>
+  <div class="footer-div">
 	  <div layout="column" flex="" layout-align="center center" class="layout-align-center-center layout-column flex">
-	    <div>Guatemala, Centro América, 2,017</div>
-	  </div>
+	    <div class='copyright'>Guatemala, Centro América, 2,017</div>
+	  </div>  
 	</div>
 </footer>
+
+		<script src="http://localhost:3000/src/survey/lib.js"></script>
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
