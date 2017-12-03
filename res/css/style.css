@@ -1,16 +1,20 @@
 @font-face {
     font-family: Roboto;
-    src: url(../Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+html{
+  font-size: 14px;
+}
+
+body {
+  margin-top: 40px;
+	font-family: Verdana!important;
+  font-weight: 100;
 }
 
 nav {
     background-color: #FFF!important;
-}
-
-body {
-    margin-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: Verdana, Arial!important;
-    font-weight: 100;
 }
 
 main{
@@ -22,44 +26,61 @@ a {
 }
 
 p, div, li, a {
-    font-size: 14px;
+    font-size: 1rem;
     text-align: left;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 1.8rem;
     font-weight: 300;
-    margin: 5px 0px;
-    margin-top: 25px;    
+    margin: 0.25rem 0;
+    margin-top: 0.75rem;    
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 1.7rem;
     font-weight: 300;
-    margin: 5px 0px;
-    margin-top: 15px;    
+    margin: 0.25rem 0;
+    margin-top: 0.75rem;    
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 300;
-    margin: 5px 0px;
+    margin: 0.25rem 0;
 }
 
-h4, h5, h6 {
-    font-size: 14px;
+h4 {
+    font-size: 1.5rem;
     font-weight: 300;
-    margin: 5px 0px;
+    margin: 0.25rem 0;
+}
+
+h5, h6 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 0.25rem 0;
+}
+
+.container-fluid{
+	padding: 0;
+	display: block;
 }
 
 .frame {
-    padding: 10px;
-    min-height: 60vh;
+  padding: 0 1rem;
+  min-height: 60vh;
+	display: block;
+	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 .list {
-    padding: 10px;
-    min-height: 60vh;
+  padding: 0 1rem;
+  min-height: 60vh;
+	display: block;
+	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 
@@ -78,12 +99,12 @@ h4, h5, h6 {
 }
 
 .home .headline > h1{
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 500;
 }   
 
 .home .headline > h2{
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 200;
     color: #808080;    
 }
@@ -108,32 +129,32 @@ h4, h5, h6 {
 }
 
 .site-title .last_post{
-    font-size: 8pt;
+    font-size: 0.90rem;
     font-weight: 500;
 }
 
 .page-title{
     font-weight: 500;
-    margin: 10px 0px;
     color: #606060;
-    font-size: 25px;
     text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0.5rem 0;
 }
-
 
 /************************* Footer ******************************/
 .social-icons{
     display: inline-block;
     text-align: center;
-    margin: 20px 0px;
+    margin: 10px 0;
 }
 
 .social-icons a{
-    margin-right: 2px;
+    margin-right: 0.01rem;
     text-decoration: none;
 }
 
-.social-icons a i{  
+.social-icons a i{ 
+		font-size: 20px; 
     background-color: white; 
     background-position: center center;
     line-height: 32px; 
@@ -147,7 +168,7 @@ h4, h5, h6 {
 footer {
     margin: 0;
     text-align: center;    
-    padding: 25px 0px;
+    padding: 1.5rem 0px;
     background-color: #FFF!important;
 }
 
@@ -156,7 +177,7 @@ footer .footer-div{
 }
 
 footer .copyright{
-    font-size: 10px;
+    font-size: 0.75rem;
 }
 
 /************************* List ******************************/
@@ -171,33 +192,37 @@ footer .copyright{
 }
 
 .post{
-    padding-bottom: 50px; 
 }
 
 .tags{
-    font-size: 8pt;
+    font-size: 0.75rem;
 }
 
 .lead{
-    padding: 5px 0px;
+    padding: 0.5rem 0px;
 }
 
 /************************* Post ******************************/
 .post .content {
     display: block;
     overflow-x: hidden;
-    font-size: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.post .date{
+    font-size: 0.65rem;
 }
 
 .post .content .excerpt {
     overflow-x: hidden;
-    font-size: 12px;
+    font-size: 0.90rem;
+    line-height: 1.4rem;
     color: #606060;
     font-weight: 500;
     font-style: italic;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
-
 
 .post .content img {
     max-width: 100%;
@@ -227,302 +252,70 @@ footer .copyright{
     margin: 0px 10px;
 }
 
-.post p,.post div,.post li {
+.post p,.post div {
     text-align: justify;
+}
+
+.post li {
+    text-align: left;
 }
 
 /************************* List ******************************/
 
 .tile{
-    margin-bottom: 25px;
+    margin-bottom: 2rem;
 }
 
 /************************* Other ******************************/
 
 @media  (max-width:1200px) {
-    .site-title{
-        padding-top: 5px;
-    }
+	html{
+	  font-size: 18px;
+	}
 
-    .home > .headline > h1{
-        font-size: 50px;
-    }   
-    .home > .headline > h2{
-        font-size: 35px;
-    }    
-    
-    .list {
-        padding: 20px;
-    }
-
-    .frame {
-        padding: 20px;
-    }
-
-    .page-title{
-        font-size: 35px;
-    }
-
-    .tile{
-        margin-bottom: 45px;
-    }
-
-    .post .content .excerpt {
-        font-size: 14px;
-    }
-
-    .post p,.post div,.post li, .post a {
-        font-size: 18px;
-    }
-
-    p, div, li {
-        font-size: 18px;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    h4, h5, h6 {
-        font-size: 18px;
-    }    
+  .site-title{
+      padding-top: 5px;
+  }  
 }
 
 @media(max-width:991px) {
-    .site-title{
-        padding-top: 5px;
-    }
+	html{
+	  font-size: 16px;
+	}
 
-    .home > .headline > h1{
-        font-size: 40px;
-    }   
-    .home > .headline > h2{
-        font-size: 25px;
-    }    
-    
-    .list {
-        padding: 20px;
-    }
-
-    .frame {
-        padding: 20px;
-    }
-
-    .page-title{
-        font-size: 35px;
-    }
-
-    .tile{
-        margin-bottom: 35px;
-    }
-
-    .post .content .excerpt {
-        font-size: 14px;
-    }
-
-    .post p,.post div,.post li, .post a {
-        font-size: 18px;
-    }
-
-    p, div, li {
-        font-size: 18px;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    h4, h5, h6 {
-        font-size: 18px;
-    }    
+  .site-title{
+      padding-top: 5px;
+  }
 }
 
 @media(max-width:768px) {
-    .site-title{
-        padding-top: 10px;
-    }
+	html{
+	  font-size: 16px;
+	}
 
-    .home > .headline > h1{
-        font-size: 35px;
-    }   
-    .home > .headline > h2{
-        font-size: 25px;
-    }    
-    
-    .list {
-        padding: 15px;
-    }
-
-    .frame {
-        padding: 15px;
-    }
-
-    .page-title{
-        font-size: 25px;
-    }
-
-    .tile{
-        margin-bottom: 35px;
-    }
-
-    .post .content .excerpt {
-        font-size: 10px;
-    }
-
-    .post p,.post div,.post li, .post a {
-        font-size: 14px;
-    }
-
-    p, div, li {
-        font-size: 14px;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    h4, h5, h6 {
-        font-size: 14px;
-    }    
+  .site-title{
+      padding-top: 10px;
+  }
 }
 
 @media(max-width:640px) {
-    .site-title{
-        padding-top: 10px;
-    }
+	html{
+	  font-size: 14px;
+	}
 
-    .home > .headline > h1{
-        font-size: 30px;
-    }   
-    .home > .headline > h2{
-        font-size: 20px;
-    }    
-
-    .list {
-        padding: 10px;
-    }
-
-    .frame {
-        padding: 10px;
-    }
-
-    .page-title{
-        font-size: 25px;
-    }
-
-    .tile{
-        margin-bottom: 25px;
-    }
-
-    .post .content .excerpt {
-        font-size: 10px;
-    }
-
-    .post p,.post div,.post li, .post a {
-        font-size: 14px;
-    }
-
-    p, div, li {
-        font-size: 14px;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    h4, h5, h6 {
-        font-size: 14px;
-    }    
+  .site-title{
+      padding-top: 10px;
+  }
 }
 
 @media(max-width:375px) {
-    .site-title{
-        padding-top: 10px;
-    }
+	html{
+	  font-size: 12px;
+	}
 
-    .home > .headline > h1{
-        font-size: 25px;
-    }   
-    .home > .headline > h2{
-        font-size: 15px;
-    }    
-
-    .list {
-        padding: 10px 20px;
-    }
-
-    .frame {
-        padding: 10px 20px;
-    }
-
-    .page-title{
-        font-size: 25px;
-    }
-
-    .tile{
-        margin-bottom: 25px;
-    }
-
-    .post .content .excerpt {
-        font-size: 8px;
-    }
-
-    .post p,.post div,.post li, .post a {
-        font-size: 12px;
-    }
-
-    p, div, li, a {
-        font-size: 12px;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    h4, h5, h6 {
-        font-size: 14px;
-    }    
-
+  .site-title{
+      padding-top: 10px;
+  }
 }
 
 .not-released{
