@@ -5,9 +5,23 @@
     <description>Jose Miguel Arroyave</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Dec 2017 15:17:43 -0600</pubDate>
-    <lastBuildDate>Sun, 03 Dec 2017 15:17:43 -0600</lastBuildDate>
+    <pubDate>Mon, 04 Dec 2017 13:18:32 -0600</pubDate>
+    <lastBuildDate>Mon, 04 Dec 2017 13:18:32 -0600</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>KB: SEO</title>
+        <description>Recopilaci&amp;oacute;n de artículos y guías de SEO</description>
+        <pubDate>Mon, 04 Dec 2017 06:37:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/kb/2017/12/kb-seo</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/kb/2017/12/kb-seo</guid>
+        
+        <category>google</category>
+        
+        
+        <category>learn</category>
+        
+      </item>
     
       <item>
         <title>KB: Web Front End</title>

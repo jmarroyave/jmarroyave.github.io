@@ -8,9 +8,9 @@ html{
 }
 
 body {
-  margin-top: 40px;
-	font-family: Verdana!important;
-  font-weight: 100;
+  margin-top: 40px!important;
+  font-family: Verdana!important;
+  font-weight: 100; 
 }
 
 nav {
@@ -18,7 +18,7 @@ nav {
 }
 
 main{
-    padding-top: 40px;
+    padding-top: 40px!important;
 }
 
 a {
@@ -68,7 +68,7 @@ h5, h6 {
 }
 
 .frame {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   min-height: 60vh;
 	display: block;
 	box-sizing: border-box;
@@ -76,7 +76,7 @@ h5, h6 {
 }
 
 .list {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   min-height: 60vh;
 	display: block;
 	box-sizing: border-box;
@@ -149,7 +149,7 @@ h5, h6 {
 }
 
 .social-icons a{
-    margin-right: 0.01rem;
+    margin-right: 5px;
     text-decoration: none;
 }
 
@@ -252,6 +252,11 @@ footer .copyright{
     margin: 0px 10px;
 }
 
+.post p,.post div, .post li{
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+
 .post p,.post div {
     text-align: justify;
 }
@@ -274,7 +279,7 @@ footer .copyright{
 	}
 
   .site-title{
-      padding-top: 5px;
+      padding-top: 3px;
   }  
 }
 
@@ -284,7 +289,7 @@ footer .copyright{
 	}
 
   .site-title{
-      padding-top: 5px;
+      padding-top: 3px;
   }
 }
 
@@ -294,7 +299,7 @@ footer .copyright{
 	}
 
   .site-title{
-      padding-top: 10px;
+      padding-top: 6px;
   }
 }
 
@@ -304,7 +309,7 @@ footer .copyright{
 	}
 
   .site-title{
-      padding-top: 10px;
+      padding-top: 8px;
   }
 }
 

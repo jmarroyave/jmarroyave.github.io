@@ -4,13 +4,61 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-12-03T15:17:43-06:00</updated>
+ <updated>2017-12-04T13:18:32-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
    <email>jmarroyave@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>SEO</title>
+   <link href="https://jmarroyave.github.io/kb/2017/12/kb-seo"/>
+   <updated>2017-12-04T06:37:00-06:00</updated>
+   <id>https://jmarroyave.github.io/kb/2017/12/kb-seo</id>
+   <content type="html">&lt;h2 id=&quot;checklist&quot;&gt;Checklist&lt;/h2&gt;
+&lt;h3 id=&quot;guías-generales&quot;&gt;Guías Generales&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/35769&quot;&gt;Webmaster Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf&quot;&gt;Search Engine Optimization Starter Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;amp&quot;&gt;AMP&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ampproject.org/&quot;&gt;AMP Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lenguaje&quot;&gt;Lenguaje&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/6059209&quot;&gt;Google Support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sitemaps&quot;&gt;Sitemaps&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/156184?hl=en&amp;amp;ref_topic=4581190&quot;&gt;Google Support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;robots&quot;&gt;Robots&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/6062608?hl=en&amp;amp;ref_topic=6061961&amp;amp;visit_id=1-636480051845714046-1148487582&amp;amp;rd=1&quot;&gt;Learn about robots.txt files&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://varvy.com/robottxt.html&quot;&gt;The robots.txt file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;faq&quot;&gt;FAQ&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/139066&quot;&gt;Canonical URL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tests&quot;&gt;Tests&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.webpagetest.org&quot;&gt;Performance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/&quot;&gt;HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;PageSpeed Insights&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://search.google.com/test/mobile-friendly&quot;&gt;Mobile Friendly&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Web Front End</title>
