@@ -126,6 +126,7 @@ h5, h6 {
 }
 
 .site-title a:hover{
+    color: white;
 }
 
 .site-title .last_post{
