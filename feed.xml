@@ -5,9 +5,25 @@
     <description>Jose Miguel Arroyave</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Dec 2017 01:05:26 -0600</pubDate>
-    <lastBuildDate>Tue, 05 Dec 2017 01:05:26 -0600</lastBuildDate>
+    <pubDate>Wed, 06 Dec 2017 11:45:32 -0600</pubDate>
+    <lastBuildDate>Wed, 06 Dec 2017 11:45:32 -0600</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>BLOG: ok Google, busca...</title>
+        <description>Cómo usas el buscador? lo usas de la misma forma en todos los casos?</description>
+        <pubDate>Wed, 06 Dec 2017 06:02:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/blog/2017/12/06/ok-google-busca</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/12/06/ok-google-busca</guid>
+        
+        <category>ui/ux,</category>
+        
+        <category>labs-search-ux</category>
+        
+        
+        <category>UX</category>
+        
+      </item>
     
       <item>
         <title>KB: SEO</title>
@@ -45,7 +61,7 @@
     
       <item>
         <title>BLOG: Me siento con suerte</title>
-        <description>Qué, dónde y cúando buscar? videos, fotos, un término, un resultado general o varios, una respuesta, opiniones?</description>
+        <description>Qué, dónde y cuándo buscar? videos, fotos, un término, un resultado general o varios, una respuesta, opiniones?</description>
         <pubDate>Fri, 01 Dec 2017 06:02:00 -0600</pubDate>
         <link>https://jmarroyave.github.io/blog/2017/12/01/me-siento-con-suerte</link>
         <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/12/01/me-siento-con-suerte</guid>
@@ -92,8 +108,24 @@
       </item>
     
       <item>
+        <title>BLOG: Revisando el buscador</title>
+        <description>El buscador es hasta hoy la herramienta que más uso en internet pero a veces no me es suficiente</description>
+        <pubDate>Wed, 15 Nov 2017 18:00:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador</guid>
+        
+        <category>ui/ux,</category>
+        
+        <category>labs-search-ux</category>
+        
+        
+        <category>UX</category>
+        
+      </item>
+    
+      <item>
         <title>LABS: Search UX</title>
-        <description>El buscador, sus elementos, interacciones y resultados. Cómo obtengo más información?</description>
+        <description>Prototipo de un buscador con features orientadas a mejorar la UX</description>
         <pubDate>Mon, 13 Nov 2017 09:34:45 -0600</pubDate>
         <link>https://jmarroyave.github.io/labs/2017/11/search</link>
         <guid isPermaLink="true">https://jmarroyave.github.io/labs/2017/11/search</guid>
@@ -142,44 +174,6 @@
         
         
         <category>learn</category>
-        
-      </item>
-    
-      <item>
-        <title>BLOG: CodeLabs: Progressive Web Apps</title>
-        <description>Aprendiendo un poco de las progressive web apps con code labs</description>
-        <pubDate>Thu, 07 Sep 2017 09:34:45 -0600</pubDate>
-        <link>https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/07/codelabs-progressive-web-apps</guid>
-        
-        <category>helloworld</category>
-        
-        <category>codelabs</category>
-        
-        <category>progressive-web-apps</category>
-        
-        <category>firebase</category>
-        
-        <category>polymer</category>
-        
-        
-        <category>learn</category>
-        
-      </item>
-    
-      <item>
-        <title>LABS: Stackoverflow Trends</title>
-        <description>Visualización de tendencias de tecnologías, herramientas y servicios de las que se habla en Stackoverflow</description>
-        <pubDate>Mon, 15 May 2017 09:34:45 -0600</pubDate>
-        <link>https://jmarroyave.github.io/labs/2017/05/stackoverflow</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/labs/2017/05/stackoverflow</guid>
-        
-        <category>v.0.8</category>
-        
-        
-        <category>data-science</category>
-        
-        <category>nlp</category>
         
       </item>
     

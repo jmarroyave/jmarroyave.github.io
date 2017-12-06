@@ -4,13 +4,52 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-12-05T01:05:26-06:00</updated>
+ <updated>2017-12-06T11:45:32-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
    <email>jmarroyave@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>ok Google, busca...</title>
+   <link href="https://jmarroyave.github.io/blog/2017/12/06/ok-google-busca"/>
+   <updated>2017-12-06T06:02:00-06:00</updated>
+   <id>https://jmarroyave.github.io/blog/2017/12/06/ok-google-busca</id>
+   <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
+Cómo usas el buscador? lo usas de la misma forma en todos los casos?
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
+  Este post forma parte del proyecto &lt;a href=&quot;/labs/2017/11/search&quot;&gt;Labs: Search UX&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Yo tengo mi forma de usar el buscador y seguramente es distinta a la de muchos, no es innovadora ni especial pero pensándolo bien creo que
+es peculiar y esto se debe a que cuando busco algo ya vengo con la idea de que estoy utilizando un sistema de indexación y que gracias a la gran cantidad de información que tiene indexada(además de ordenada) la probabilidad de que mi consulta me devuelva un resultado útil es bastante alta.&lt;/p&gt;
+
+&lt;p&gt;Lo que quiero decir con esto es que al buscador lo consulto como a un indexador(no como a un HAL, como se habían imaginado Brin y Page [sin cita]), con un fragmento del texto que quiero que me encuentre, con palabras clave, restringiendo los tipos de resultados (usando google images, google news, youtube…) o restringiendo el contexto de la información para reducir las ambigüedades(sobre todo al buscar títulos de peliculas o canciones…) y talvez más cosas pero estas son las que tengo presentes ahora.&lt;/p&gt;
+
+&lt;p&gt;La forma de utilizar el buscador está ligada a la conceptualización que se tenga de su funcionamiento, pero quién tomó un curso para buscar en google? alguien ha leido la página de ayuda respecto a como buscar? bueno, yo lo hice! ayer. Si bien en algún otro momento había ojeado los comandos que se pueden agregar a la consulta yo aprendí a usarlo por puro feedback, utilizando métricas como el mejor resultado en la primera página, si bien en otros casos he llegado a la página treinta y pico, la gran mayoría de veces reformulo la consulta si el resultado no es inmediato. Por otro lado también depende de qué esté buscando, si lo que quiero es la letra de una canción escribo un fragmento, si es un concepto le agrego wikipedia y así habrán muchos más ejemplos.&lt;/p&gt;
+
+&lt;p&gt;Cómo utilizan el buscador? qué es lo que más buscan? cuántas formas distintas de buscar tienen?&lt;/p&gt;
+
+&lt;h2 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.hubspot.com/blog/tabid/6307/bid/1264/12-quick-tips-to-search-google-like-an-expert.aspx&quot;&gt;How to Search on Google: 31 Advanced Google Search Tips&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.google.com/websearch/answer/134479?hl=en&quot;&gt;How to search on Google&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>SEO</title>
@@ -85,11 +124,11 @@
    <updated>2017-12-01T06:02:00-06:00</updated>
    <id>https://jmarroyave.github.io/blog/2017/12/01/me-siento-con-suerte</id>
    <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
-Qué, dónde y cúando buscar? videos, fotos, un término, un resultado general o varios, una respuesta, opiniones?  
+Qué, dónde y cuándo buscar? videos, fotos, un término, un resultado general o varios, una respuesta, opiniones?  
 &lt;/div&gt;
 
 &lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
-  Este post forma parte del proyecto &lt;a href=&quot;https://jmarroyave.github.io/labs/2017/11/search&quot;&gt;Labs: Search UX&lt;/a&gt;
+  Este post forma parte del proyecto &lt;a href=&quot;/labs/2017/11/search&quot;&gt;Labs: Search UX&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Me siento con suerte&lt;/strong&gt;, es el otro botón que se encuentra (dependiendo de la configuración) al lado del botón de buscar en la portada de google y que si se toma en cuenta que lo pusieron desde las primeras versiones del buscador cuenta un poco la visión y el contexto del buscador en aquel tiempo, a lo que me refiero es que poder dar &lt;strong&gt;una&lt;/strong&gt; respuesta &lt;strong&gt;relevante&lt;/strong&gt; a una pregunta, &lt;strong&gt;rapidamente&lt;/strong&gt; en un universo de opciones &lt;strong&gt;sumamente grande&lt;/strong&gt; era una tarea (en cierta medida aún lo es) bastante compleja y que con los recursos que se contaba necesitaría de una gran cantidad de suerte; y no puede ser para menos ya que la relevancia de una respuesta está en función de la satisfacción de la expectativa de quien busca y que transmite por medio de una pregunta, bien o mal expresada, sin preámbulo* ni retroalimentación*.&lt;/p&gt;
@@ -122,10 +161,12 @@ Qué, dónde y cúando buscar? videos, fotos, un término, un resultado general 
 
 &lt;p&gt;Algún comentario o sugerencia?&lt;/p&gt;
 
-&lt;h2 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h2&gt;
+&lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador?ref=rel&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
@@ -183,7 +224,7 @@ Cuáles son los elementos de interacción básicos de un buscador?
 &lt;/div&gt;
 
 &lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
-  Este post forma parte del proyecto &lt;a href=&quot;https://jmarroyave.github.io/labs/2017/11/search&quot;&gt;Labs: Search UX&lt;/a&gt;
+  Este post forma parte del proyecto &lt;a href=&quot;/labs/2017/11/search&quot;&gt;Labs: Search UX&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h3&gt;
@@ -310,8 +351,66 @@ Cuáles son los elementos de interacción básicos de un buscador?
 
 &lt;p&gt;Falta o sobra alguno? Algun comentario o sugerencia?&lt;/p&gt;
 
+&lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/search/docs/guides/search-features&quot;&gt;Google Search Features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/search/docs/guides/enhance-site&quot;&gt;Google Search: Enhance Site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.google.com/websearch/answer/6325583?hl=en&quot;&gt;Web search help&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://moz.com/blog/googles-future-is-in-the-cards&quot;&gt;Google’s futures is in the cards&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Revisando el buscador</title>
+   <link href="https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador"/>
+   <updated>2017-11-15T18:00:00-06:00</updated>
+   <id>https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador</id>
+   <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
+El buscador es hasta hoy la herramienta que más uso en internet pero a veces no me es suficiente
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
+  Este post forma parte del proyecto &lt;a href=&quot;/labs/2017/11/search&quot;&gt;Labs: Search UX&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Empecé este proyecto porque estaba aprendiendo a utilizar algunas librerias y caí en cuenta que me ayudaria tener
+algunas herramientas extra en el buscador, por ejemplo: un historial contextualizado con tags, fechas e información que me 
+permitiera hacer de cada búsqueda un aporte duradero a mi conocimiento, así que empezé a probar algunas cosas haciendo un wrapper de google con el CSE (Custom Search Engine) y lo primero que encontré fue la gran cantidad de  metadatos extra que viene con cada resultado, algunos con información poco útil para esta causa pero que ciertas applicaciones seguro se benefician, como el lenguaje, el viewport y algunos otros og:* (open graph protocol). Sin embargo, ya viendo un poco más a detalle encontré algunos datos bastante útiles p.e. la cantidad de respuestas que una pregunta de stack overflow tiene lo cual es útil para discriminar entre resultados similares y para muestra:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com.gt/search?q=unable+to+install+tensorflow+on+windows&amp;amp;oq=unable+to+install+tensorflow+on+windows&amp;amp;aqs=chrome..69i64j69i60j69i57.1430j0j7&amp;amp;client=ubuntu&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&quot;&gt;En google&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;border border-light rounded&quot; src=&quot;/res/files/imgs/thumbs/google-002.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jmarroyave-search.firebaseapp.com/#/?q=unable%20to%20install%20tensorflow%20on%20windows&quot;&gt;En el wrapper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;border border-light rounded&quot; src=&quot;/res/files/imgs/thumbs/wrapper-001.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Y esto por nombrar un caso, además están las imágenes que vienen en los metadatos y si bien hay algunas que no valen 1000 palabras hay otras
+que describen o le dan otra perspectiva a un resultado. También viene mucha información para otros dominios p.e. los 
+artículos, música, películas… hasta ahora voy contabilizando mas de 100 dominios distintos (se pueden los dominios de cada resultado en el &lt;a href=&quot;https://jmarroyave-search.firebaseapp.com&quot;&gt;prototipo&lt;/a&gt;, solo hay que activar el debug mode)&lt;/p&gt;
+
+&lt;p&gt;Esto me ha hecho reflexionar en como he aprendido a buscar algo en los motores de búsqueda, como estructuro mi pregunta y la contextualizo según el buscador en el que me encuentro, como aprovecho la noción de que el buscador actua como un indexador, los tipos de resultados que espero (videos, imágenes, noticias, etc), el medio por el que hago la pregunta (voz, texto), el momento en que decido hacer la búsqueda así como otras situaciones y características de las que no me había dado cuenta y que tienen ocultas a simple vista otras posibilidades.&lt;/p&gt;
+
+&lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador?ref=rel&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;links&quot;&gt;Links&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ogp.me/&quot;&gt;Open Graph Protocol&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://developers.google.com/search/docs/guides/search-features&quot;&gt;Google Search Features&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://developers.google.com/search/docs/guides/enhance-site&quot;&gt;Google Search: Enhance Site&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://support.google.com/websearch/answer/6325583?hl=en&quot;&gt;Web search help&lt;/a&gt;&lt;/li&gt;
@@ -326,207 +425,50 @@ Cuáles son los elementos de interacción básicos de un buscador?
    <updated>2017-11-13T09:34:45-06:00</updated>
    <id>https://jmarroyave.github.io/labs/2017/11/search</id>
    <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
-El buscador, sus elementos, interacciones y resultados. Cómo obtengo más información de un resultado? hacia a donde dirige la atención los resultados ofrecidos por el buscador?
+Prototipo de un buscador con features orientadas a mejorar la UX
 &lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://jmarroyave-search.firebaseapp.com&quot;&gt;Prototipo&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
-&lt;p&gt;Empecé este proyecto porque estaba aprendiendo a utilizar algunas librerias y caí en cuenta que me ayudaria tener
-algunas herramientas extra en el buscador, por ejemplo, un historial contextualizado con tags, fechas y cosas así, 
-así que hice un wrapper de google con el CSE (Custom Search Engine) y lo primero que encontré fue la cantidad de 
-metadatos extra que viene con cada resultado, algunos con información poco útil para mi pero que ciertas applicaciones 
-seguro se benefician, como el lenguaje, el viewport y algunos otros og:* (open graph protocol). Sin embargo, ya viendo
-un poco más a detalle encontré algunos bastante útiles como la cantidad de respuestas que una pregunta de stack overflow
-tiene lo cual es bastante útil para discriminar entre resultados similares y para muestra:&lt;/p&gt;
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;h4 id=&quot;pieces&quot;&gt;Pieces&lt;/h4&gt;
+&lt;p&gt;Son visualizaciones de los metadatos para cada resultado. Hay 2 tipos: las cards y los resultados.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.google.com.gt/search?q=unable+to+install+tensorflow+on+windows&amp;amp;oq=unable+to+install+tensorflow+on+windows&amp;amp;aqs=chrome..69i64j69i60j69i57.1430j0j7&amp;amp;client=ubuntu&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&quot;&gt;En google&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;border border-light rounded&quot; src=&quot;/res/files/imgs/thumbs/wrapper-003.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;border border-light rounded&quot; src=&quot;/res/files/imgs/thumbs/google-002.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;debug-mode&quot;&gt;Debug mode&lt;/h4&gt;
+&lt;p&gt;Permite ver los metadatos asociados a cada resultado.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://jmarroyave-search.firebaseapp.com/#/?q=unable%20to%20install%20tensorflow%20on%20windows&quot;&gt;En el wrapper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;border border-light rounded&quot; src=&quot;/res/files/imgs/thumbs/wrapper-005.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;border border-light rounded&quot; src=&quot;/res/files/imgs/thumbs/wrapper-001.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Y esto por nombrar un caso, además están las imágenes que vienen en los metadatos, otra información para otros dominios, 
-artículos, música, películas…. y hasta ahora voy contabilizando mas de 100 dominios distintos (para verlos solo hay que activar el debug mode)&lt;/p&gt;
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  menú &amp;gt; options &amp;gt; Debug Mode
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img class=&quot;border border-light rounded&quot; src=&quot;/res/files/imgs/thumbs/wrapper-002.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Esto me ha hecho reflexionar en como he aprendido a buscar algo en los motores de búsqueda, como estructuro mi pregunta, 
-como la contextualizo y aprovecho la indexación del buscador, los tipos de resultados (videos, imágenes, noticias, etc), 
-la forma de ingresar la pregunta (voz, texto), el momento en que se hace la búsqueda y otras situaciones y características que 
-no me habia dado cuenta.&lt;/p&gt;
+&lt;h4 id=&quot;layout---cards&quot;&gt;Layout - Cards&lt;/h4&gt;
+&lt;p&gt;Ver las cards antes o después de los resultados?&lt;/p&gt;
 
-&lt;h1 id=&quot;contexto&quot;&gt;Contexto&lt;/h1&gt;
-
-&lt;h2 id=&quot;buscadores&quot;&gt;Buscadores&lt;/h2&gt;
-&lt;div id=&quot;carouselExampleIndicators&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot; style=&quot;max-width:300px; border: 1px solid #808080; margin: 10px 0px&quot;&gt;
-  &lt;ol class=&quot;carousel-indicators&quot;&gt;
-    &lt;li class=&quot;carousel-control-indicator active&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;0&quot;&gt;&lt;/li&gt;
-    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
-    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
-    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
-  &lt;/ol&gt;
-  &lt;div class=&quot;carousel-inner&quot;&gt;
-    &lt;div class=&quot;carousel-item active&quot;&gt;
-      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/google-001.jpeg&quot; alt=&quot;Google&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;carousel-item&quot;&gt;
-      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/yahoo-001.jpeg&quot; alt=&quot;Yahoo&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;carousel-item&quot;&gt;
-      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/duckduckgo-001.jpeg&quot; alt=&quot;DuckDuckGo&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;carousel-item&quot;&gt;
-      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/thumbs/bing-001.jpeg&quot; alt=&quot;Bing&quot; /&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
-    &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
-    &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
-  &lt;/a&gt;
-  &lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
-    &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
-    &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
-  &lt;/a&gt;
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  menú &amp;gt; options &amp;gt; Pieces after / before results
 &lt;/div&gt;
 
-&lt;h2 id=&quot;componentes&quot;&gt;Componentes&lt;/h2&gt;
-&lt;h3 id=&quot;input&quot;&gt;Input&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Query Box
-    &lt;ul&gt;
-      &lt;li&gt;Sugerencias&lt;/li&gt;
-      &lt;li&gt;Comandos: site:&lt;/li&gt;
-      &lt;li&gt;Comunes: significado de, traducir, etc.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Filtros
-    &lt;ul&gt;
-      &lt;li&gt;Contexto (Web/Todo, Videos, Imágenes, Noticias, Mapas, Respuestas, Libros, Aplicaciones)&lt;/li&gt;
-      &lt;li&gt;Fechas&lt;/li&gt;
-      &lt;li&gt;Regiones / Local&lt;/li&gt;
-      &lt;li&gt;Safe Search / Adult Content&lt;/li&gt;
-      &lt;li&gt;Para imágenes: tipo (cara, foto, animación, clip art), resolución, layout, colores, licencia.&lt;/li&gt;
-      &lt;li&gt;Para videos: resolución, duración, calidad.&lt;/li&gt;
-      &lt;li&gt;Para noticias: relevancia, reciente.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img class=&quot;border border-light rounded&quot; src=&quot;/res/files/imgs/thumbs/wrapper-004a.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;
+&lt;img class=&quot;border border-light rounded&quot; src=&quot;/res/files/imgs/thumbs/wrapper-004b.jpeg&quot; style=&quot;max-width: 300px&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;output&quot;&gt;Output&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Total de resultados y tiempo&lt;/li&gt;
-  &lt;li&gt;Quizas quiso decir?
-    &lt;ul&gt;
-      &lt;li&gt;Typos&lt;/li&gt;
-      &lt;li&gt;Lenguaje&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Resultados relacionados
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Knowledge&lt;/strong&gt; Panel / Card&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Resultados, dependiendo del medio de búsqueda
-    &lt;ul&gt;
-      &lt;li&gt;Voz
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;Respuesta&lt;/strong&gt;, generalmente 1 respuesta&lt;/li&gt;
-          &lt;li&gt;Acciones para esa respuesta&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Texto
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;Resultados&lt;/strong&gt;, 10 en adelante&lt;/li&gt;
-          &lt;li&gt;Información: Título, fecha, link, snippet, imagen, ícono&lt;/li&gt;
-          &lt;li&gt;Acciones: Similares, traducir, cache&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Paginación&lt;/li&gt;
-  &lt;li&gt;Anuncios&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id=&quot;sources---twitter&quot;&gt;Sources - Twitter&lt;/h4&gt;
+&lt;p&gt;Por cada búsqueda se presentan los resultados* de esa misma búsqueda en twitter.&lt;/p&gt;
 
-&lt;h3 id=&quot;datos&quot;&gt;Datos&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Universo de páginas
-    &lt;ul&gt;
-      &lt;li&gt;Interconexión con otros servicios&lt;/li&gt;
-      &lt;li&gt;Resultados en tiempo real&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Contexto
-    &lt;ul&gt;
-      &lt;li&gt;Textual / Literal&lt;/li&gt;
-      &lt;li&gt;Historial&lt;/li&gt;
-      &lt;li&gt;Estadísticas&lt;/li&gt;
-      &lt;li&gt;MRU, MR searched&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Orden de aparición
-    &lt;ul&gt;
-      &lt;li&gt;Importancia&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;otros&quot;&gt;Otros&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Paginación, automática o con click&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;screenshots-timeline&quot;&gt;Screenshots Timeline:&lt;/h1&gt;
-&lt;div id=&quot;carouselExampleIndicators&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot; style=&quot;max-width:300px; border: 1px solid #808080; margin: 10px 0px&quot;&gt;
-  &lt;ol class=&quot;carousel-indicators&quot;&gt;
-    &lt;li class=&quot;carousel-control-indicator active&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;0&quot;&gt;&lt;/li&gt;
-    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
-    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
-    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;    
-    &lt;li class=&quot;carousel-control-indicator&quot; data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;4&quot;&gt;&lt;/li&gt;    
-  &lt;/ol&gt;
-  &lt;div class=&quot;carousel-inner&quot;&gt;
-    &lt;div class=&quot;carousel-item active&quot;&gt;
-      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/projects/search/prj-search-005.jpeg&quot; alt=&quot;005&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;carousel-item&quot;&gt;
-      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/projects/search/prj-search-004.jpeg&quot; alt=&quot;004&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;carousel-item&quot;&gt;
-      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/projects/search/prj-search-003.jpeg&quot; alt=&quot;003&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;carousel-item&quot;&gt;
-      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/projects/search/prj-search-002.jpeg&quot; alt=&quot;002&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;carousel-item&quot;&gt;
-      &lt;img class=&quot;d-block w-100&quot; src=&quot;/res/files/imgs/projects/search/prj-search-001.jpeg&quot; alt=&quot;001&quot; /&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
-    &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
-    &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
-  &lt;/a&gt;
-  &lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
-    &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
-    &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
+&lt;h4 id=&quot;did-you-mean---contextos&quot;&gt;Did you mean - Contextos&lt;/h4&gt;
+&lt;p&gt;Por cada búsqueda se presentan los diferentes contextos* a los que el query se podría referir.&lt;/p&gt;
 
 &lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/labs/2017/05/stackoverflow&quot;&gt;Labs &amp;gt; Stackoverflow Trends&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;links&quot;&gt;Links&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ogp.me/&quot;&gt;Open Graph Protocol&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/search/docs/guides/search-features&quot;&gt;Google Search Features&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/search/docs/guides/enhance-site&quot;&gt;Google Search: Enhance Site&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://support.google.com/websearch/answer/6325583?hl=en&quot;&gt;Web search help&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://moz.com/blog/googles-future-is-in-the-cards&quot;&gt;Google’s futures is in the cards&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -588,8 +530,10 @@ Aprendiendo un poco de las progressive web apps con code labs
    <updated>2017-05-15T09:34:45-06:00</updated>
    <id>https://jmarroyave.github.io/labs/2017/05/stackoverflow</id>
    <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
-Visualización de tendencias de tecnologías, herramientas y servicios de las que se habla en Stackoverflow obtenidos por medio del API de stackexchange y procesados localmente para la extracción de etiquetas características de cada tópico.
+Visualización de tendencias de tecnologías, herramientas y servicios de las que se habla en Stackoverflow.com
 &lt;/div&gt;
+
+&lt;p&gt;Visualización de tendencias de tecnologías, herramientas y servicios de las que se habla en Stackoverflow obtenidos por medio del API de stackexchange y procesados localmente para la extracción de etiquetas características de cada tópico.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com&quot;&gt;Prototipo&lt;/a&gt;&lt;/p&gt;
 

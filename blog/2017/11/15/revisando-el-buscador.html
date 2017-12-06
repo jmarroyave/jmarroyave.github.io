@@ -4,7 +4,7 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="JMArroyave Jose Miguel Arroyave" href="https://jmarroyave.github.io/feed.xml">
     <link rel="alternate" type="application/atom+xml" title="JMArroyave Jose Miguel Arroyave" href="https://jmarroyave.github.io/atom.xml">
-    <link rel="canonical" href="https://jmarroyave.github.io/kb/2017/12/kb-web-front-end">
+    <link rel="canonical" href="https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador">
     <meta charset="utf-8">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -15,7 +15,7 @@
     <meta name="msapplication-TileImage" content="https://jmarroyave.github.io/img/favicons/favicon-144.png">
     <meta name="msapplication-TileColor" content="#ffffff">
 
-    <title>Web Front End - JMArroyave</title>
+    <title>Revisando el buscador - JMArroyave</title>
 
     <!-- Favicons -->
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64 96x96" href="https://jmarroyave.github.io/favicon.ico">
@@ -42,14 +42,14 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@jmarroyave" />
 	<meta name="twitter:creator" content="@jmarroyave" />
-	<meta property="og:url" content="https://jmarroyave.github.io/kb/2017/12/kb-web-front-end" />
+	<meta property="og:url" content="https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Web Front End" />
+	<meta property="og:title" content="Revisando el buscador" />
 	
-	<meta property="og:description" content="Recopilaci&oacute;n de artículos y guías de web front end" />
+	<meta property="og:description" content="El buscador es hasta hoy la herramienta que más uso en internet pero a veces no me es suficiente" />
 		
 	
-	<meta property="og:image" content="https://jmarroyave.github.io/res/files/imgs/posts/kb-web-front-end.jpg" />
+	<meta property="og:image" content="https://jmarroyave.github.io/res/files/imgs/posts/labs-search.png" />
 		
 
     
@@ -119,22 +119,53 @@
 <div class="container-fluid post frame">
   <div class="row">
     <div class="col">
-      <h1 class='page-title'>Web Front End</h1>
-      <div class="date">03/12/2017</div>
+      <h1 class='page-title'>Revisando el buscador</h1>
+      <div class="date">15/11/2017</div>
     </div>
   </div>
   <div class="row">
     <div class="col content">
-      <h2 id="artículos">Artículos</h2>
+      <div class="excerpt">
+El buscador es hasta hoy la herramienta que más uso en internet pero a veces no me es suficiente
+</div>
+
+<div class="alert alert-primary" role="alert">
+  Este post forma parte del proyecto <a href="/labs/2017/11/search">Labs: Search UX</a>
+</div>
+
+<p>Empecé este proyecto porque estaba aprendiendo a utilizar algunas librerias y caí en cuenta que me ayudaria tener
+algunas herramientas extra en el buscador, por ejemplo: un historial contextualizado con tags, fechas e información que me 
+permitiera hacer de cada búsqueda un aporte duradero a mi conocimiento, así que empezé a probar algunas cosas haciendo un wrapper de google con el CSE (Custom Search Engine) y lo primero que encontré fue la gran cantidad de  metadatos extra que viene con cada resultado, algunos con información poco útil para esta causa pero que ciertas applicaciones seguro se benefician, como el lenguaje, el viewport y algunos otros og:* (open graph protocol). Sin embargo, ya viendo un poco más a detalle encontré algunos datos bastante útiles p.e. la cantidad de respuestas que una pregunta de stack overflow tiene lo cual es útil para discriminar entre resultados similares y para muestra:</p>
+
+<p><a href="https://www.google.com.gt/search?q=unable+to+install+tensorflow+on+windows&amp;oq=unable+to+install+tensorflow+on+windows&amp;aqs=chrome..69i64j69i60j69i57.1430j0j7&amp;client=ubuntu&amp;sourceid=chrome&amp;ie=UTF-8">En google</a></p>
+
+<p><img class="border border-light rounded" src="/res/files/imgs/thumbs/google-002.jpeg" style="max-width: 300px" /></p>
+
+<p><a href="https://jmarroyave-search.firebaseapp.com/#/?q=unable%20to%20install%20tensorflow%20on%20windows">En el wrapper</a></p>
+
+<p><img class="border border-light rounded" src="/res/files/imgs/thumbs/wrapper-001.jpeg" style="max-width: 300px" /></p>
+
+<p>Y esto por nombrar un caso, además están las imágenes que vienen en los metadatos y si bien hay algunas que no valen 1000 palabras hay otras
+que describen o le dan otra perspectiva a un resultado. También viene mucha información para otros dominios p.e. los 
+artículos, música, películas… hasta ahora voy contabilizando mas de 100 dominios distintos (se pueden los dominios de cada resultado en el <a href="https://jmarroyave-search.firebaseapp.com">prototipo</a>, solo hay que activar el debug mode)</p>
+
+<p>Esto me ha hecho reflexionar en como he aprendido a buscar algo en los motores de búsqueda, como estructuro mi pregunta y la contextualizo según el buscador en el que me encuentro, como aprovecho la noción de que el buscador actua como un indexador, los tipos de resultados que espero (videos, imágenes, noticias, etc), el medio por el que hago la pregunta (voz, texto), el momento en que decido hacer la búsqueda así como otras situaciones y características de las que no me había dado cuenta y que tienen ocultas a simple vista otras posibilidades.</p>
+
+<h1 id="relacionados">Relacionados</h1>
 <ul>
-  <li><a href="https://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/">CSS Font-Size: em vs. px vs. pt vs. percent</a></li>
-  <li><a href="https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984">Comprehensive Guide: When to Use Em vs. Rem</a></li>
-  <li><a href="https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/">How to Build Responsive Images with srcset</a></li>
+  <li><a href="/blog/2017/12/06/ok-google-busca?ref=rel">Post &gt; Ok Google, busca…</a></li>
+  <li><a href="/blog/2017/12/01/me-siento-con-suerte?ref=rel">Post &gt; Me siento con suerte</a></li>
+  <li><a href="/blog/2017/11/24/componentes-buscador?ref=rel">Post &gt; Componentes de los buscadores</a></li>
+  <li><a href="/labs/2017/11/search?ref=rel">Labs &gt; Search UX</a></li>
 </ul>
 
-<h2 id="guías">Guías</h2>
+<h1 id="links">Links</h1>
 <ul>
-  <li><a href="https://github.com/thedaviddias/Front-End-Checklist">Front-End-Checklist</a></li>
+  <li><a href="http://ogp.me/">Open Graph Protocol</a></li>
+  <li><a href="https://developers.google.com/search/docs/guides/search-features">Google Search Features</a></li>
+  <li><a href="https://developers.google.com/search/docs/guides/enhance-site">Google Search: Enhance Site</a></li>
+  <li><a href="https://support.google.com/websearch/answer/6325583?hl=en">Web search help</a></li>
+  <li><a href="https://moz.com/blog/googles-future-is-in-the-cards">Google’s futures is in the cards</a></li>
 </ul>
 
     </div>
@@ -148,8 +179,8 @@
 
 <script>
 var disqus_config = function () {
-this.page.url = 'https://jmarroyave.github.io/kb/2017/12/kb-web-front-end';  
-this.page.identifier = '/kb/2017/12/kb-web-front-end';
+this.page.url = 'https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador';  
+this.page.identifier = '/blog/2017/11/15/revisando-el-buscador';
 };
 (function() { 
 var d = document, s = d.createElement('script');
