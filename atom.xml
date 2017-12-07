@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-12-06T15:18:09-06:00</updated>
+ <updated>2017-12-07T15:47:06-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
@@ -84,18 +84,12 @@ es peculiar y esto se debe a que cuando busco algo ya vengo con la idea de que e
   &lt;li&gt;&lt;a href=&quot;https://varvy.com/robottxt.html&quot;&gt;The robots.txt file&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;faq&quot;&gt;FAQ&lt;/h3&gt;
+&lt;h3 id=&quot;glosario&quot;&gt;Glosario&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/139066&quot;&gt;Canonical URL&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;tests&quot;&gt;Tests&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/&quot;&gt;W3 HTML&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;Google: PageSpeed Insights&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://search.google.com/test/mobile-friendly&quot;&gt;Google: Mobile Friendly&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.webpagetest.org&quot;&gt;Page Speed&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;h3 id=&quot;optimize&quot;&gt;Optimize&lt;/h3&gt;
 &lt;ul&gt;
@@ -120,6 +114,26 @@ es peculiar y esto se debe a que cuando busco algo ya vengo con la idea de que e
 &lt;h2 id=&quot;guías&quot;&gt;Guías&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/thedaviddias/Front-End-Checklist&quot;&gt;Front-End-Checklist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;libs&quot;&gt;Libs&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/tools/workbox/&quot;&gt;Offline - Workbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;progressive-web-apps&quot;&gt;Progressive Web Apps&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://app-manifest.firebaseapp.com/&quot;&gt;Manifest&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://manifoldjs.com/generator&quot;&gt;Worker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tests&quot;&gt;Tests&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/&quot;&gt;Google: Lighthouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/&quot;&gt;W3 HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;Google: PageSpeed Insights&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://search.google.com/test/mobile-friendly&quot;&gt;Google: Mobile Friendly&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.webpagetest.org&quot;&gt;Page Speed&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>

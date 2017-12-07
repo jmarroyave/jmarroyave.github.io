@@ -55,26 +55,27 @@
     <meta name="twitter:image" content="https://jmarroyave.github.io/res/files/imgs/link/tw/labs-search.png">
 
     
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-110522821-1', 'auto');
-  ga('send', 'pageview');
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-106760837-1', 'auto');
-  ga('send', 'pageview');
-</script>   
-     
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-110522821-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-106760837-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+ 
+   
 
     <link rel="stylesheet" type="text/css" href="/res/css/font-awesome.min.css" /> 
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="/res/css/bootstrap.min.css">    
 
     <style>
         @font-face {
@@ -170,11 +171,15 @@ h5, h6 {
     display: table;
 }
 
+.home .row{
+    display: table-row;
+}
+
 .home .headline{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    padding: 0px!important;
+    padding: 6rem 0!important;
 }
 
 .home .headline > h1{
@@ -186,6 +191,20 @@ h5, h6 {
     font-size: 2rem;
     font-weight: 200;
     color: #808080;    
+}
+
+.home .recent-activity{
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+}
+
+.home .recent-activity .title{
+    font-size: 1.0rem;
+}
+
+.home .recent-activity .post{
+    font-size: 0.8rem;
 }
 
 /************************* Site ******************************/
@@ -414,8 +433,8 @@ footer .copyright{
 
 <body>
 
-<div class="site-title" style='background-color: #0288d1'>
-    <a class='last_post' href='blog/2017/12/06/ok-google-busca?ref=head'>Post > ok Google, busca...</a>
+<div class="site-title" style='background-color: #ff8f00'>
+    <a class="last_post" href="/blog/2017/12/06/ok-google-busca?ref=head">POST > ok Google, busca...</a>
 </div>
 <nav class="navbar nav-pills navbar-expand navbar-light sticky-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -438,10 +457,6 @@ footer .copyright{
       
         <li class="nav-item active">
           <a class="nav-link" href="/labs">Labs</a>
-        </li>
-      
-        <li class="nav-item active">
-          <a class="nav-link" href="/courses">Cursos</a>
         </li>
       
         <li class="nav-item active">
@@ -517,19 +532,21 @@ Prototipo de un buscador con features orientadas a mejorar la UX
   </div>
 </div>
 
-<script>
-var disqus_config = function () {
-this.page.url = 'https://jmarroyave.github.io/labs/2017/11/search';  
-this.page.identifier = '/labs/2017/11/search';
-};
-(function() { 
-var d = document, s = d.createElement('script');
-s.src = 'https://jmarroyave-github-io.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+	<script>
+	var disqus_config = function () {
+	this.page.url = 'https://jmarroyave.github.io/labs/2017/11/search';  
+	this.page.identifier = '/labs/2017/11/search';
+	};
+	(function() { 
+	var d = document, s = d.createElement('script');
+	s.src = 'https://jmarroyave-github-io.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+ 
 
 <footer class="com-home">
 	<div class="footer-div">
