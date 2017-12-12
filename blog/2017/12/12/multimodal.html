@@ -4,7 +4,7 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="JMArroyave Jose Miguel Arroyave" href="https://jmarroyave.github.io/feed.xml">
     <link rel="alternate" type="application/atom+xml" title="JMArroyave Jose Miguel Arroyave" href="https://jmarroyave.github.io/atom.xml">
-    <link rel="canonical" href="https://jmarroyave.github.io/blog/2017/09/19/kaggle">
+    <link rel="canonical" href="https://jmarroyave.github.io/blog/2017/12/12/multimodal">
     <meta charset="utf-8">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -13,7 +13,7 @@
     <meta name="msapplication-TileImage" content="https://jmarroyave.github.io/img/favicons/favicon-144.png">
     <meta name="msapplication-TileColor" content="#ffffff">
 
-    <title>Kaggle - JMArroyave</title>
+    <title>Multimodal Search - JMArroyave</title>
     <meta name="description" content="Blog de que trata temas de tecnología comunes enfocados desde la perspectiva de las ciencias de la computación, buscando analizar su composición e internarlizar su funcionamiento">
 
     <!-- Favicons -->
@@ -39,20 +39,20 @@
     <![endif]-->
 
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://jmarroyave.github.io/blog/2017/09/19/kaggle">
-    <meta property="og:title" content="Kaggle">
-    <meta property="og:image" content="https://jmarroyave.github.io/res/files/imgs/link/post-kaggle.png">
-    <meta property="og:description" content="Probando la plataforma de data science Kaggle">
+    <meta property="og:url" content="https://jmarroyave.github.io/blog/2017/12/12/multimodal">
+    <meta property="og:title" content="Multimodal Search">
+    <meta property="og:image" content="https://jmarroyave.github.io/res/files/imgs/link/labs-search.png">
+    <meta property="og:description" content="La canción era como "tut turut tuuu, tut turut tuuu", la cantaba una mujer y decia algo de...">
     <meta property="og:site_name" content="JMArroyave">
     <meta property="og:locale" content="es_GT">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@jmarroyave">
     <meta name="twitter:creator" content="@jmarroyave">
-    <meta name="twitter:url" content="https://jmarroyave.github.io/blog/2017/09/19/kaggle">
-    <meta name="twitter:title" content="Kaggle">
-    <meta name="twitter:description" content="Probando la plataforma de data science Kaggle">
-    <meta name="twitter:image" content="https://jmarroyave.github.io/res/files/imgs/link/tw/post-kaggle.png">
+    <meta name="twitter:url" content="https://jmarroyave.github.io/blog/2017/12/12/multimodal">
+    <meta name="twitter:title" content="Multimodal Search">
+    <meta name="twitter:description" content="La canción era como "tut turut tuuu, tut turut tuuu", la cantaba una mujer y decia algo de...">
+    <meta name="twitter:image" content="https://jmarroyave.github.io/res/files/imgs/link/tw/labs-search.png">
 
     
   <script>
@@ -470,19 +470,47 @@ footer .copyright{
 <div class="container-fluid post frame">
   <div class="row">
     <div class="col">
-      <h1 class='page-title'>Kaggle</h1>
-      <div class="date">19/09/2017</div>
+      <h1 class='page-title'>Multimodal Search</h1>
+      <div class="date">12/12/2017</div>
     </div>
   </div>
   <div class="row">
     <div class="col content">
       <div class="excerpt">
-Probando la plataforma de data science Kaggle
+Multimodal Search: La canción era como "tut turut tuuu, tut turut tuuu", la cantaba una mujer y decia algo de...
 </div>
 
-<p>Kaggle es un sitio de competencias de data science, ellos ponen la data, el reto y la infraestructura para correr los scripts (kernels), o bien, cargar los resultados y calificarlos.</p>
+<div class="alert alert-primary" role="alert">
+  Este post forma parte del proyecto <a href="/labs/2017/11/search">Labs: Search UX</a>
+</div>
 
-<p>Tienen muchos recursos y kernels de los cuales aprender, aquí está el <a href="https://www.kaggle.com/jmarroyave/intro-to-data-science-learning-from-titanic">link</a> al mio o en <a href="https://github.com/jmarroyave/jmarroyave.github.io/blob/master/res/files/kaggle/notebook.ipynb">github</a>.</p>
+<p>Algo así era el nombre(tut turut tuuu, tut turut tuuu.mp3) de un archivo mp3 que había en la compu de un amigo, le pregunte quién la cantaba y me dijo que una mujer, lo cual fue todo un reto para la evaluación del acervo musical, finalmente la tarareó y fue inmediato era ode to my family de Cramberries(saludos amigo). Busqué “tut turut tuuu, tut turut tuuu” en google y me sorprendí al ver la cantidad de resultados que obtuve(métrica: si no te aparece ningún resultado en google), si bien habían traslapes de las palabras con otros idiomas tuve la agradable sorpresa de encontrar preguntas en foros con la misma dinámica aunque no tantas como para esperar un onomatopeya.google.com.</p>
+
+<p>Leyendo un poco más del tema a éste problema se le conoce como <strong>multimodal search</strong> y es el de realizar búsquedas donde el query no es texto, sino una imagen, sonidos, un fragmento de una canción, un video… uno por uno o en actuando todos en conjunto. El reto está en obtener/construir los descriptores(información con las características) tanto de la muestra como de la base de datos para poder compararlos adecuadamente y no estar en el problema de las peras con manzanas, además no es solo cuestión de reconocer la firma, también esta la situación de poder inferir relaciones y obtener resultados similares.</p>
+
+<p>Algunos ejemplos de buscadores multi modo:</p>
+<ul>
+  <li>Google, Bing: obviamente con las imágenes</li>
+  <li><a href="http://www.isearch-project.eu/isearch/">ISearch Project</a></li>
+  <li><a href="http://www.wolframalpha.com">Wolfram Alpha</a></li>
+</ul>
+
+<p>Saben de otros?</p>
+
+<h2 id="relacionados">Relacionados</h2>
+<ul>
+  <li><a href="/blog/2017/12/06/ok-google-busca?ref=rel">Post &gt; Ok Google, busca…</a></li>
+  <li><a href="/blog/2017/12/01/me-siento-con-suerte?ref=rel">Post &gt; Me siento con suerte</a></li>
+  <li><a href="/blog/2017/11/24/componentes-buscador">Post &gt; Componentes de los buscadores</a></li>
+  <li><a href="/blog/2017/11/15/revisando-el-buscador?ref=rel">Post &gt; Revisando el buscador</a></li>
+  <li><a href="/labs/2017/11/search?ref=rel">Labs &gt; Search UX</a></li>
+</ul>
+
+<h2 id="links">Links</h2>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Multimodal_search">Wikipedia</a></li>
+  <li><a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38201.pdf">Context-aware Querying for Multimodal Search Engines</a></li>
+</ul>
 
     </div>
   </div>
@@ -496,8 +524,8 @@ Probando la plataforma de data science Kaggle
 
 	<script>
 	var disqus_config = function () {
-	this.page.url = 'https://jmarroyave.github.io/blog/2017/09/19/kaggle';  
-	this.page.identifier = '/blog/2017/09/19/kaggle';
+	this.page.url = 'https://jmarroyave.github.io/blog/2017/12/12/multimodal';  
+	this.page.identifier = '/blog/2017/12/12/multimodal';
 	};
 	(function() { 
 	var d = document, s = d.createElement('script');

@@ -4,13 +4,70 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-12-07T15:47:06-06:00</updated>
+ <updated>2017-12-12T13:07:53-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
    <email>jmarroyave@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Multimodal Search</title>
+   <link href="https://jmarroyave.github.io/blog/2017/12/12/multimodal"/>
+   <updated>2017-12-12T06:02:00-06:00</updated>
+   <id>https://jmarroyave.github.io/blog/2017/12/12/multimodal</id>
+   <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
+Multimodal Search: La canción era como &quot;tut turut tuuu, tut turut tuuu&quot;, la cantaba una mujer y decia algo de...
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
+  Este post forma parte del proyecto &lt;a href=&quot;/labs/2017/11/search&quot;&gt;Labs: Search UX&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Algo así era el nombre(tut turut tuuu, tut turut tuuu.mp3) de un archivo mp3 que había en la compu de un amigo, le pregunte quién la cantaba y me dijo que una mujer, lo cual fue todo un reto para la evaluación del acervo musical, finalmente la tarareó y fue inmediato era ode to my family de Cramberries(saludos amigo). Busqué “tut turut tuuu, tut turut tuuu” en google y me sorprendí al ver la cantidad de resultados que obtuve(métrica: si no te aparece ningún resultado en google), si bien habían traslapes de las palabras con otros idiomas tuve la agradable sorpresa de encontrar preguntas en foros con la misma dinámica aunque no tantas como para esperar un onomatopeya.google.com.&lt;/p&gt;
+
+&lt;p&gt;Leyendo un poco más del tema a éste problema se le conoce como &lt;strong&gt;multimodal search&lt;/strong&gt; y es el de realizar búsquedas donde el query no es texto, sino una imagen, sonidos, un fragmento de una canción, un video… uno por uno o en actuando todos en conjunto. El reto está en obtener/construir los descriptores(información con las características) tanto de la muestra como de la base de datos para poder compararlos adecuadamente y no estar en el problema de las peras con manzanas, además no es solo cuestión de reconocer la firma, también esta la situación de poder inferir relaciones y obtener resultados similares.&lt;/p&gt;
+
+&lt;p&gt;Algunos ejemplos de buscadores multi modo:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Google, Bing: obviamente con las imágenes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.isearch-project.eu/isearch/&quot;&gt;ISearch Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.wolframalpha.com&quot;&gt;Wolfram Alpha&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Saben de otros?&lt;/p&gt;
+
+&lt;h2 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Multimodal_search&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38201.pdf&quot;&gt;Context-aware Querying for Multimodal Search Engines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mobile: Android</title>
+   <link href="https://jmarroyave.github.io/kb/2017/12/kb-android"/>
+   <updated>2017-12-07T18:00:00-06:00</updated>
+   <id>https://jmarroyave.github.io/kb/2017/12/kb-android</id>
+   <content type="html">&lt;p&gt;Recopilación de librerías para utilizar en Android&lt;/p&gt;
+
+&lt;p&gt;importados desde:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/wasabeef/awesome-android-ui&quot;&gt;wasabeef/awesome-android-ui&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>ok Google, busca...</title>
@@ -36,6 +93,7 @@ es peculiar y esto se debe a que cuando busco algo ya vengo con la idea de que e
 
 &lt;h2 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h2&gt;
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/12/multimodal?ref=rel&quot;&gt;Post &amp;gt; Multimodal Search&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
@@ -52,7 +110,7 @@ es peculiar y esto se debe a que cuando busco algo ya vengo con la idea de que e
  </entry>
  
  <entry>
-   <title>SEO</title>
+   <title>Digital Marketing: SEO</title>
    <link href="https://jmarroyave.github.io/kb/2017/12/kb-seo"/>
    <updated>2017-12-04T06:37:00-06:00</updated>
    <id>https://jmarroyave.github.io/kb/2017/12/kb-seo</id>
@@ -183,6 +241,7 @@ Qué, dónde y cuándo buscar? videos, fotos, un término, un resultado general 
 
 &lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/12/multimodal?ref=rel&quot;&gt;Post &amp;gt; Multimodal Search&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
@@ -373,6 +432,7 @@ Cuáles son los elementos de interacción básicos de un buscador?
 
 &lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/12/multimodal?ref=rel&quot;&gt;Post &amp;gt; Multimodal Search&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
@@ -422,6 +482,7 @@ artículos, música, películas… hasta ahora voy contabilizando mas de 100 dom
 
 &lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/12/multimodal?ref=rel&quot;&gt;Post &amp;gt; Multimodal Search&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador?ref=rel&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
@@ -484,7 +545,9 @@ Prototipo de un buscador con features orientadas a mejorar la UX
 &lt;p&gt;Por cada búsqueda se presentan los diferentes contextos* a los que el query se podría referir.&lt;/p&gt;
 
 &lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
+
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/12/multimodal?ref=rel&quot;&gt;Post &amp;gt; Multimodal Search&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;

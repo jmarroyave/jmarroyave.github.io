@@ -5,9 +5,43 @@
     <description>Jose Miguel Arroyave</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Dec 2017 15:47:06 -0600</pubDate>
-    <lastBuildDate>Thu, 07 Dec 2017 15:47:06 -0600</lastBuildDate>
+    <pubDate>Tue, 12 Dec 2017 13:07:53 -0600</pubDate>
+    <lastBuildDate>Tue, 12 Dec 2017 13:07:53 -0600</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>BLOG: Multimodal Search</title>
+        <description>La canción era como &quot;tut turut tuuu, tut turut tuuu&quot;, la cantaba una mujer y decia algo de...</description>
+        <pubDate>Tue, 12 Dec 2017 06:02:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/blog/2017/12/12/multimodal</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/12/12/multimodal</guid>
+        
+        <category>ui/ux,</category>
+        
+        <category>labs-search-ux</category>
+        
+        
+        <category>UX</category>
+        
+      </item>
+    
+      <item>
+        <title>KB: Mobile: Android</title>
+        <description>Recopilaci&amp;oacute;n de librerías para utilizar en Android</description>
+        <pubDate>Thu, 07 Dec 2017 18:00:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/kb/2017/12/kb-android</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/kb/2017/12/kb-android</guid>
+        
+        <category>android,</category>
+        
+        <category>programming,</category>
+        
+        <category>libs</category>
+        
+        
+        <category>learn</category>
+        
+      </item>
     
       <item>
         <title>BLOG: ok Google, busca...</title>
@@ -26,7 +60,7 @@
       </item>
     
       <item>
-        <title>KB: SEO</title>
+        <title>KB: Digital Marketing: SEO</title>
         <description>Recopilaci&amp;oacute;n de artículos y guías de SEO</description>
         <pubDate>Mon, 04 Dec 2017 06:37:00 -0600</pubDate>
         <link>https://jmarroyave.github.io/kb/2017/12/kb-seo</link>
@@ -134,46 +168,6 @@
         
         
         <category>HCI</category>
-        
-      </item>
-    
-      <item>
-        <title>BLOG: Kaggle</title>
-        <description>Probando la plataforma de data science Kaggle</description>
-        <pubDate>Tue, 19 Sep 2017 06:02:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/blog/2017/09/19/kaggle</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/19/kaggle</guid>
-        
-        <category>python</category>
-        
-        <category>machine-learning</category>
-        
-        <category>e-learning</category>
-        
-        <category>kaggle</category>
-        
-        
-        <category>learn</category>
-        
-      </item>
-    
-      <item>
-        <title>BLOG: Machine Learning Tutorial</title>
-        <description>Recopilaci&amp;oacute;n de tutoriales de machine learning</description>
-        <pubDate>Sat, 09 Sep 2017 06:37:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/blog/2017/09/09/machine-learning</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/09/09/machine-learning</guid>
-        
-        <category>helloworld</category>
-        
-        <category>python</category>
-        
-        <category>machine-learning</category>
-        
-        <category>e-learning</category>
-        
-        
-        <category>learn</category>
         
       </item>
     

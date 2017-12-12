@@ -1,0 +1,3219 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="JMArroyave Jose Miguel Arroyave" href="https://jmarroyave.github.io/feed.xml">
+    <link rel="alternate" type="application/atom+xml" title="JMArroyave Jose Miguel Arroyave" href="https://jmarroyave.github.io/atom.xml">
+    <link rel="canonical" href="https://jmarroyave.github.io/kb/2017/12/kb-android">
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="application-name" content="JMArroyave Jose Miguel Arroyave">
+    <meta name="msapplication-TileImage" content="https://jmarroyave.github.io/img/favicons/favicon-144.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    <title>Mobile: Android - JMArroyave</title>
+    <meta name="description" content="Blog de que trata temas de tecnología comunes enfocados desde la perspectiva de las ciencias de la computación, buscando analizar su composición e internarlizar su funcionamiento">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64 96x96" href="https://jmarroyave.github.io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://jmarroyave.github.io/img/favicons/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://jmarroyave.github.io/img/favicons/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://jmarroyave.github.io/img/favicons/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://jmarroyave.github.io/img/favicons/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="https://jmarroyave.github.io/img/favicons/favicon-96.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://jmarroyave.github.io/img/favicons/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://jmarroyave.github.io/img/favicons/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://jmarroyave.github.io/img/favicons/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://jmarroyave.github.io/img/favicons/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jmarroyave.github.io/img/favicons/favicon-180.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="https://jmarroyave.github.io/img/favicons/favicon-192.png">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if ie]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jmarroyave.github.io/kb/2017/12/kb-android">
+    <meta property="og:title" content="Mobile: Android">
+    <meta property="og:image" content="https://jmarroyave.github.io/res/files/imgs/link/kb-android.png">
+    <meta property="og:description" content="Recopilaci&oacute;n de librerías para utilizar en Android">
+    <meta property="og:site_name" content="JMArroyave">
+    <meta property="og:locale" content="es_GT">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@jmarroyave">
+    <meta name="twitter:creator" content="@jmarroyave">
+    <meta name="twitter:url" content="https://jmarroyave.github.io/kb/2017/12/kb-android">
+    <meta name="twitter:title" content="Mobile: Android">
+    <meta name="twitter:description" content="Recopilaci&oacute;n de librerías para utilizar en Android">
+    <meta name="twitter:image" content="https://jmarroyave.github.io/res/files/imgs/link/tw/kb-android.png">
+
+    
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-110522821-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-106760837-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+ 
+   
+
+    <link rel="stylesheet" type="text/css" href="/res/css/font-awesome.min.css" /> 
+    <link rel="stylesheet" type="text/css" href="/res/css/bootstrap.min.css">    
+
+    <style>
+        @font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+html{
+  font-size: 14px;
+}
+
+body {
+  margin-top: 40px!important;
+  font-family: Verdana!important;
+  font-weight: 100!important; 
+}
+
+nav {
+    background-color: #FFF!important;
+}
+
+main{
+    padding-top: 40px!important;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, div, li, a {
+    font-size: 1rem;
+    text-align: left;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 0.25rem 0;
+    margin-top: 0.75rem;    
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin: 0.25rem 0;
+    margin-top: 0.75rem;    
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 0.25rem 0;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0.25rem 0;
+}
+
+h5, h6 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 0.25rem 0;
+}
+
+.container-fluid{
+	padding: 0;
+	display: block;
+}
+
+.frame {
+  padding: 0 1.5rem;
+  min-height: 60vh;
+	display: block;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.list {
+  padding: 0 1.5rem;
+  min-height: 60vh;
+	display: block;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+
+/************************* Home ******************************/
+.home {
+    width: 100%;
+    height: 70vh;
+    display: table;
+}
+
+.home .row{
+    display: table-row;
+}
+
+.home .headline{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 6rem 0!important;
+}
+
+.home .headline > h1{
+    font-size: 3rem;
+    font-weight: 500;
+}   
+
+.home .headline > h2{
+    font-size: 2rem;
+    font-weight: 200;
+    color: #808080;    
+}
+
+.home .recent-activity{
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+}
+
+.home .recent-activity .title{
+    font-size: 1.0rem;
+}
+
+.home .recent-activity .post{
+    font-size: 0.8rem;
+}
+
+/************************* Site ******************************/
+
+.site-title{
+    padding-top: 10px;
+    margin-top: -40px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+.site-title a{
+    color: white;
+}
+
+.site-title a:hover{
+    color: white;
+}
+
+.site-title .last_post{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.page-title{
+    font-weight: 500;
+    color: #606060;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+/************************* Footer ******************************/
+.social-icons{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social-icons a{
+		font-size: 14px!important; 
+    margin-right: 5px;
+}
+
+.social-icons a:hover{
+    text-decoration: none;
+}	
+
+.social-icons a i{ 
+    background-color: white; 
+    background-position: center center;
+    line-height: 32px; 
+    border-radius: 8px;
+    border: 1px solid #a0a0a0;
+    height: 38px;
+    width: 38px;    
+    padding-top: 2px;
+}
+
+footer {
+    margin: 0;
+    text-align: center;    
+    padding: 1.5rem 0px;
+    background-color: #FFF!important;
+}
+
+footer .footer-div{
+    display: inline-block;
+}
+
+footer .copyright{
+    font-size: 0.75rem;
+}
+
+/************************* List ******************************/
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.post{
+}
+
+.tags{
+    font-size: 0.75rem;
+}
+
+.lead{
+    padding: 0.5rem 0px;
+}
+
+/************************* Post ******************************/
+.post .content {
+    display: block;
+    overflow-x: hidden;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.post .date{
+    font-size: 0.65rem;
+}
+
+.post .content .excerpt {
+    overflow-x: hidden;
+    font-size: 0.90rem;
+    line-height: 1.4rem;
+    color: #606060;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.post .content img {
+    max-width: 100%;
+}
+
+.post .content .container.tile{
+    margin: 0px -15px;
+}
+
+.post .carousel-control-prev, .carousel-control-next{
+}
+
+.post .carousel-control-next > span, .carousel-control-prev > span{
+    background-color: #c0c0c0;
+    border-radius: 2px;
+}
+
+.post .carousel-control-indicator{
+    border: 1px solid #f0f0f0;
+}
+
+.post .carousel-control-indicator.active{
+    background-color: #808080;
+}
+
+.post #disqus_thread{
+    margin: 0px 10px;
+}
+
+.post p,.post div, .post li{
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+
+.post p,.post div {
+    text-align: justify;
+}
+
+.post li {
+    text-align: left;
+}
+
+/************************* List ******************************/
+
+.tile{
+    margin-bottom: 2rem;
+}
+
+/************************* Other ******************************/
+
+@media  (max-width:1200px) {
+	html{
+	  font-size: 18px;
+	}
+
+  .site-title{
+      padding-top: 3px;
+  }  
+}
+
+@media(max-width:991px) {
+	html{
+	  font-size: 16px;
+	}
+
+  .site-title{
+      padding-top: 3px;
+  }
+}
+
+@media(max-width:768px) {
+	html{
+	  font-size: 16px;
+	}
+
+  .site-title{
+      padding-top: 6px;
+  }
+}
+
+@media(max-width:640px) {
+	html{
+	  font-size: 14px;
+	}
+
+  .site-title{
+      padding-top: 8px;
+  }
+}
+
+@media(max-width:375px) {
+	html{
+	  font-size: 12px;
+	}
+
+  .site-title{
+      padding-top: 10px;
+  }
+}
+
+.not-released{
+    display: none;
+}   
+    </style>
+</head>
+
+<body>
+
+<div class="site-title" style='background-color: #4527a0'>
+    <a class="last_post" href="/blog/2017/12/12/multimodal?ref=head">POST > Multimodal Search</a>
+</div>
+<nav class="navbar nav-pills navbar-expand navbar-light sticky-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav navbar-right">
+      
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+      
+        <li class="nav-item active">
+          <a class="nav-link" href="/blog">Blog</a>
+        </li>
+      
+        <li class="nav-item active">
+          <a class="nav-link" href="/kb">KB</a>
+        </li>
+      
+        <li class="nav-item active">
+          <a class="nav-link" href="/labs">Labs</a>
+        </li>
+      
+        <li class="nav-item active">
+          <a class="nav-link" href="/cv">CV</a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid post frame">
+  <div class="row">
+    <div class="col">
+      <h1 class='page-title'>Mobile: Android</h1>
+      <div class="date">07/12/2017</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col content">
+      <p>Recopilación de librerías para utilizar en Android</p>
+
+<p>importados desde:</p>
+<ul>
+  <li><a href="https://github.com/wasabeef/awesome-android-ui">wasabeef/awesome-android-ui</a></li>
+</ul>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col content">
+      <table class='table table-sm table-responsive' width="100%">
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Button
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/dmytrodanylyk/circular-progress-button">circular-progress-button</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/circular-progress-button.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/circular-progress-button.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/dmytrodanylyk/android-process-button">android-process-button</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-process-button.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-process-button.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-process-button2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-process-button2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/markushi/android-circlebutton">android-circlebutton</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-circlebutton.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-circlebutton.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/hoang8f/android-flat-button">android-flat-button</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-flat-button.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-flat-button.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/TheFinestArtist/MovingButton">MovingButton</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MovingButton.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MovingButton.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/linger1216/labelview">LabelView</a></td>
+            <td>
+            
+              <a href="https://github.com/https://github.com/linger1216/labelview/raw/master/img/img1.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com/https://github.com/linger1216/labelview/raw/master/img/img1.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Material
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/navasmdc/MaterialDesignLibrary">MaterialDesignLibrary</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary2.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary3.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary3.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary4.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary4.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary5.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary5.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary6.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary6.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary7.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary7.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary8.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary8.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary9.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary9.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary10.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary10.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary11.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary11.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary12.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary12.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary13.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary13.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary14.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDesignLibrary14.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ChrisRenke/DrawerArrowDrawable">DrawerArrowDrawable</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DrawerArrowDrawable.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DrawerArrowDrawable.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/neokree/MaterialTabs">MaterialTabs</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTabs.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTabs.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTabs2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTabs2.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTabs3.jpeg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTabs3.jpeg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/jpardogo/PagerSlidingTabStrip">PagerSlidingTabStrip</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PagerSlidingTabStrip.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PagerSlidingTabStrip.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/balysv/material-ripple">material-ripple</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-ripple.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-ripple.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/traex/RippleEffect">RippleEffect</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RippleEffect.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RippleEffect.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ikimuhendis/LDrawer">LDrawer</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/LDrawer.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/LDrawer.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/google/material-design-icons">material-design-icons</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-design-icons.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-design-icons.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/tekinarslan/AndroidMaterialDesignToolbar">AndroidMaterialDesignToolbar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidMaterialDesignToolbar.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidMaterialDesignToolbar.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/rengwuxian/MaterialEditText">MaterialEditText</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialEditText.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialEditText.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/balysv/material-menu">material-menu</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-menu.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-menu.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-menu2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-menu2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/afollestad/material-dialogs">material-dialogs</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-dialogs.webp"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-dialogs.webp" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-dialogs2.webp"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-dialogs2.webp" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-dialogs3.webp"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-dialogs3.webp" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/fengdai/AlertDialogPro">AlertDialogPro</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AlertDialogPro.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AlertDialogPro.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AlertDialogPro2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AlertDialogPro2.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AlertDialogPro3.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AlertDialogPro3.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AlertDialogPro4.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AlertDialogPro4.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/neokree/MaterialNavigationDrawer">MaterialNavigationDrawer</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialNavigationDrawer.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialNavigationDrawer.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/drakeet/MaterialDialog">MaterialDialog</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDialog.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDialog.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDialog2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDialog2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/pnikosis/materialish-progress">materialish-progress</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/materialish-progress.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/materialish-progress.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/materialish-progress2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/materialish-progress2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/makovkastar/FloatingActionButton">FloatingActionButton</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FloatingActionButton.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FloatingActionButton.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/futuresimple/android-floating-action-button">android-floating-action-button</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-floating-action-button.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-floating-action-button.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-floating-action-button.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-floating-action-button.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/gowong/material-sheet-fab">MaterialSheetFab</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialSheetFab.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialSheetFab.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/nispok/snackbar">snackbar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/snackbar.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/snackbar.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ozodrukh/CircularReveal">CircularReveal</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircularReveal.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircularReveal.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/oli107/material-range-bar">material-range-bar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-range-bar.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-range-bar.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-range-bar2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-range-bar2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/sachin1092/Lollipop-AppCompat-Widgets-Skeleton">Lollipop-AppCompat-Widgets-Skeleton</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/LollipopAppCompatWidgetSkeleton.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/LollipopAppCompatWidgetSkeleton.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ZieIony/Carbon">Carbon</a></td>
+            <td>
+            
+              <a href="https://github.com/"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com/" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/prolificinteractive/material-calendarview">material-calendarview</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-calendarview.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-calendarview.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/rey5137/material">Material</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material2.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material3.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material3.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material4.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material4.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material5.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material5.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material6.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material6.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material7.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material7.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material8.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material8.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material9.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material9.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material10.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material10.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material11.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Material11.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/code-mc/material-icon-lib">Material Icon Library</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-icon-lib.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-icon-lib.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/SaeedMasoumi/FAB-Loading">FAB-Loading</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FAB-Loading.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FAB-Loading.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/florent37/MaterialTextField">MaterialTextField</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTextField.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTextField.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/borax12/MaterialDateRangePicker">MaterialDateRangePicker</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDateRangePicker.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDateRangePicker.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDateRangePicker2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDateRangePicker2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/KeepSafe/TapTargetView">TapTargetView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TapTargetView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TapTargetView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/TakuSemba/Spotlight">Spotlight</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/spotlight.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/spotlight.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/spotlight2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/spotlight2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/sjwall/MaterialTapTargetPrompt">MaterialTapTargetPrompt</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTapTargetPrompt.jpg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialTapTargetPrompt.jpg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/harjot-oberai/MaterialShadows">MaterialShadows</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialShadows.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialShadows.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialShadows.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialShadows.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Layout
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/john990/WaveView">WaveView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/waveview.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/waveview.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/kyze8439690/ResideLayout">ResideLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ResideLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ResideLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/daimajia/AndroidSwipeLayout">AndroidSwipeLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidSwipeLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidSwipeLayout.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidSwipeLayout2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidSwipeLayout2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Issacw0ng/SwipeBackLayout">SwipeBackLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeBackLayout.webp"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeBackLayout.webp" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeBackLayout2.webp"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeBackLayout2.webp" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/christophesmet/android_maskable_layout">Maskable Layout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android_maskable_layout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android_maskable_layout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/traex/ExpandableLayout">ExpandableLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ExpandableLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ExpandableLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/baoyongzhang/android-PullRefreshLayout">android-PullRefreshLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-PullRefreshLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-PullRefreshLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/moagrius/TileView">TileView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TileView.jpeg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TileView.jpeg" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TileView2.jpeg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TileView2.jpeg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/amlcurran/ShowcaseView">ShowcaseView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ShowcaseView.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ShowcaseView.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ShowcaseView2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ShowcaseView2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh">Ultra Pull To Refresh</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-Ultra-Pull-To-Refresh.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-Ultra-Pull-To-Refresh.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-Ultra-Pull-To-Refresh2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-Ultra-Pull-To-Refresh2.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-Ultra-Pull-To-Refresh3.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-Ultra-Pull-To-Refresh3.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-Ultra-Pull-To-Refresh4.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-Ultra-Pull-To-Refresh4.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/daimajia/AndroidViewHover">AndroidViewHover</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidViewHover.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidViewHover.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/pedrovgs/DraggablePanel">DraggablePanel</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DraggablePanel.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DraggablePanel.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DraggablePanel2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DraggablePanel2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/r0adkll/Slidr">Slidr</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Slidr.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Slidr.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Yalantis/Phoenix">Phoenix Pull-to-Refresh</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Phoenix.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Phoenix.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Yalantis/Taurus">Pull-to-Refresh.Tours</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Taurus.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Taurus.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/zhaozhentao/InboxLayout">InboxLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/InboxLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/InboxLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/liuguangqiang/SwipeBack">SwipeBack</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeBack.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeBack.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeBack2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeBack2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ogaclejapan/ArcLayout">ArcLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/arclayout1.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/arclayout1.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ppamorim/Dragger">Dragger</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Dragger.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Dragger.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Jawnnypoo/PhysicsLayout">PhysicsLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PhysicsLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PhysicsLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Flipboard/bottomsheet">BottomSheet</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BottomSheet.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BottomSheet.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/txusballesteros/bubbles-for-android">Bubbles for Android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/bubbles-for-android.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/bubbles-for-android.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/umano/AndroidSlidingUpPanel">AndroidSlidingUpPanel</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidSlidingUpPanel.jpg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidSlidingUpPanel.jpg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/kaichunlin/android-transition">android-transition</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-transition.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-transition.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/tuesda/CircleRefreshLayout">CircleRefreshLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircleRefreshLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircleRefreshLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout">WaveSwipeRefreshLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/WaveSwipeRefreshLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/WaveSwipeRefreshLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/recruit-lifestyle/FloatingView">FloatingView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FloatingView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FloatingView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/pyricau/frenchtoast">FrenchToast</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/frenchtoast.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/frenchtoast.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/zzz40500/AndroidSweetSheet">AndroidSweetSheet</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidSweetSheet.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidSweetSheet.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/truizlop/FABRevealLayout">FABRevealLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FABRevealLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FABRevealLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/fenjuly/ToggleExpandLayout">ToggleExpandLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ToggleExpandLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ToggleExpandLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/mxn21/FlowingDrawer">FlowingDrawer</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlowingDrawer.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlowingDrawer.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/gelitenight/WaveView">WaveView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/gelitenight-WaveView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/gelitenight-WaveView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/worldline/FoldableLayout">FoldableLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FoldableLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FoldableLayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/shts/TriangleLabelView">TriangleLabelView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TriangleLabelView.jpg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TriangleLabelView.jpg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/google/flexbox-layout">FlexboxLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlexboxLayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlexboxLayout.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlexboxLayout2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlexboxLayout2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Quatja/Vorolay">Vorolay</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Vorolay.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Vorolay.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Vorolay2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Vorolay2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/google/hover">Hover</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/hover.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/hover.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          ViewPager
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/xgc1986/ParallaxPagerTransformer">ParallaxPagerTransformer</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ParallaxPagerTransformer.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ParallaxPagerTransformer.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ToxicBakery/ViewPagerTransforms">ViewPagerTransforms</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ViewPagerTransforms.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ViewPagerTransforms.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ongakuer/CircleIndicator">CircleIndicator</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircleIndicator.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircleIndicator.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/JakeWharton/Android-ViewPagerIndicator">Android ViewPagerIndicator</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ViewPagerIndicator.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ViewPagerIndicator.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/kmshack/Android-ParallaxHeaderViewPager">Android-ParallaxHeaderViewPager</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ParallaxHeaderViewPager.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ParallaxHeaderViewPager.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/alexzaitsev/freepager">freepager</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/freepager.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/freepager.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/chenupt/SpringIndicator">SpringIndicator</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SpringIndicator.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SpringIndicator.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ogaclejapan/SmartTabLayout">SmartTabLayout</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/smarttablayout.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/smarttablayout.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Yalantis/FlipViewPager.Draco">FlipViewPager.Draco</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlipViewPager-Draco.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlipViewPager-Draco.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/florent37/MaterialViewPager">MaterialViewPager</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialViewPager.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialViewPager.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialViewPager2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialViewPager2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/LyndonChin/AndroidRubberIndicator">AndroidRubberIndicator</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidRubberIndicator.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidRubberIndicator.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/florent37/HollyViewPager">HollyViewPager</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/HollyViewPager.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/HollyViewPager.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/sacot41/SCViewPager">SCViewPager</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SCViewPager.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SCViewPager.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/roughike/SwipeSelector">SwipeSelector</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeSelector.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeSelector.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/DevLight-Mobile-Agency/NavigationTabStrip">NavigationTabStrip</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NavigationTabStrip.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NavigationTabStrip.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/DevLight-Mobile-Agency/NavigationTabBar">NavigationTabBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NavigationTabBar.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NavigationTabBar.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NavigationTabBar2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NavigationTabBar2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/alibaba/UltraViewPager">UltraViewPager</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/UltraViewPager.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/UltraViewPager.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/UltraViewPager2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/UltraViewPager2.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/UltraViewPager3.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/UltraViewPager3.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/UltraViewPager4.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/UltraViewPager4.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          List / Grid
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/Malinskiy/SuperRecyclerView">SuperRecyclerView</a></td>
+            <td>
+            
+              <a href="https://github.com/"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com/" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/CodeFalling/RecyclerViewSwipeDismiss">RecyclerViewSwipeDismiss</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerViewSwipeDismiss.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerViewSwipeDismiss.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/jpardogo/FlabbyListView">FlabbyListView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlabbyListView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlabbyListView.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlabbyListView2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlabbyListView2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/eowise/recyclerview-stickyheaders">recyclerview-stickyheaders</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recyclerview-stickyheaders.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recyclerview-stickyheaders.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Gnod/ParallaxListView">ParallaxListView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ParallaxListView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ParallaxListView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Frank-Zhu/PullZoomView">PullZoomView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PullZoomView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PullZoomView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/baoyongzhang/SwipeMenuListView">SwipeMenuListView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeMenuListView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeMenuListView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/flavienlaurent/discrollview">discrollview</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/discrollview.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/discrollview.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/emilsjolander/StickyListHeaders">StickyListHeaders</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/StickyListHeaders.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/StickyListHeaders.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/jpardogo/ListBuddies">ListBuddies</a></td>
+            <td>
+            
+              <a href="https://github.com/"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com/" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ksoichiro/Android-ObservableScrollView">Android-ObservableScrollView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView2.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView3.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView3.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView4.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView4.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView5.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView5.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView6.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView6.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView7.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView7.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView8.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView8.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView9.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView9.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView10.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView10.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView11.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView11.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView12.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView12.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView13.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ObservableScrollView13.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/felipecsl/AsymmetricGridView">AsymmetricGridView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AsymmetricGridView.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AsymmetricGridView.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AsymmetricGridView2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AsymmetricGridView2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/askerov/DynamicGrid">DynamicGrid</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DynamicGrid.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DynamicGrid.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/etsy/AndroidStaggeredGrid">AndroidStaggeredGrid</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidStaggeredGrid.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidStaggeredGrid.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/47deg/android-swipelistview">SwipeListView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-swipelistview.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-swipelistview.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/kanytu/android-parallax-recyclerview">android-parallax-recyclerview</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-parallax-recyclerview.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-parallax-recyclerview.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-parallax-recyclerview2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-parallax-recyclerview2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/emmano/BlurStickyHeaderListView">BlurStickyHeaderListView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurStickyHeaderListView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurStickyHeaderListView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/wasabeef/recyclerview-animators">RecyclerView Animators</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recyclerview-animators.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recyclerview-animators.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recyclerview-animators2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recyclerview-animators2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/yqritc/RecyclerView-FlexibleDivider">RecyclerView-FlexibleDivider</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerView-FlexibleDivider.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerView-FlexibleDivider.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerView-FlexibleDivider2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerView-FlexibleDivider2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/bmelnychuk/AndroidTreeView">AndroidTreeView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidTreeView.webp"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidTreeView.webp" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidTreeView2.webp"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidTreeView2.webp" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/danoz73/RecyclerViewFastScroller">RecyclerViewFastScroller</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerViewFastScroller.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerViewFastScroller.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerViewFastScroller2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerViewFastScroller2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/yqritc/RecyclerView-MultipleViewTypesAdapter">RecyclerView-MultipleViewTypesAdapter</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerView-MultipleViewTypesAdapter.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RecyclerView-MultipleViewTypesAdapter.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/diftco/SwipeToAction">SwipeToAction</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeToAction.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SwipeToAction.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/h6ah4i/android-advancedrecyclerview">Advanced Recyclerview</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AdvancedRecyclerView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AdvancedRecyclerView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/magiepooh/RecyclerItemDecoration">RecyclerItemDecoration</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recycler-itemdecoration1.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recycler-itemdecoration1.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recycler-itemdecoration2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/recycler-itemdecoration2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ZieIony/MaterialRecents">MaterialRecents</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialRecents.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialRecents.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Karumi/Dividers">Dividers</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Dividers.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Dividers.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/afollestad/drag-select-recyclerview">Drag Select Recycler View</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/drag-select-recyclerview.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/drag-select-recyclerview.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/timehop/sticky-headers-recyclerview">sticky-headers-recyclerview</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/sticky-headers-recyclerview.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/sticky-headers-recyclerview.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Effect
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/Manabu-GT/EtsyBlur">EtsyBlur</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EtsyBlur.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EtsyBlur.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/tvbarthel/BlurDialogFragment">BlurDialogFragment</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurDialogFragment.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurDialogFragment.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurDialogFragment2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurDialogFragment2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/faradaj/BlurBehind">BlurBehind</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurBehind.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurBehind.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurBehind2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BlurBehind2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/kikoso/android-stackblur">Android StackBlur</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-stackblur.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-stackblur.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/AndroidAlliance/EdgeEffectOverride">EdgeEffectOverride</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EdgeEffectOverride.jpeg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EdgeEffectOverride.jpeg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/tyrantgit/ExplosionField">ExplosionField</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ExplosionField.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ExplosionField.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/zhanyongsheng/BrokenView">BrokenView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BrokenView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BrokenView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/manolovn/trianglify">Trianglify</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Trianglify.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Trianglify.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ChadCSong/ShineButton">ShineButton</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ShineButton.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ShineButton.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Other
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/Diolor/Swipecards">Swipecards</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Swipecards.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Swipecards.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Bearded-Hen/Android-Bootstrap">Android-Bootstrap</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-Bootstrap.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-Bootstrap.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/JoanZapata/android-pdfview">Android PDFView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-pdfview.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-pdfview.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/lucasr/dspec">Dspec</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/dspec.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/dspec.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/OrangeGangsters/LolliPin">LolliPin</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/LolliPin.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/LolliPin.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/PaNaVTEC/DrawableView">DrawableView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DrawableView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DrawableView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/h6ah4i/android-materialshadowninepatch">Material Shadow 9-Patch</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-materialshadowninepatch.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-materialshadowninepatch.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/championswimmer/SimpleFingerGestures_Android_Library">SimpleFingerGestures</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleFingerGestures1.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleFingerGestures1.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleFingerGestures2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleFingerGestures2.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleFingerGestures3.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleFingerGestures3.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleFingerGestures4.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleFingerGestures4.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/chemouna/decor">Decor</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/decor.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/decor.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/tyorikan/voice-recording-visualizer">Voice Recording Visualizer</a></td>
+            <td>
+            
+              <a href="https://github.com/https://camo.githubusercontent.com/dec65b58525ce17eff5e0318d3c39ae33760284a/687474703a2f2f696d672e796f75747562652e636f6d2f76692f664a546c31626751336a342f302e6a7067"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com/https://camo.githubusercontent.com/dec65b58525ce17eff5e0318d3c39ae33760284a/687474703a2f2f696d672e796f75747562652e636f6d2f76692f664a546c31626751336a342f302e6a7067" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/vsvankhede/easyfonts">EasyFonts</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/easyfonts.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/easyfonts.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/klinker41/android-slidingactivity">Android Sliding Activity Library</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-slidingactivity.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-slidingactivity.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-slidingactivity2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-slidingactivity2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/txusballesteros/snake">Snake View</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/snake.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/snake.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/yayaa/Rotatable">Rotatable</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Rotatable.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Rotatable.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/laobie/StatusBarUtil">StatusBarUtil</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/StatusBarUtil.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/StatusBarUtil.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Yalantis/Horizon">Horizon - Simple visual equaliser for Android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Horizon.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Horizon.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/DanielMartinus/Stepper-Touch">Stepper Touch</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/StepperTouch.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/StepperTouch.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/DanielMartinus/konfetti">Konfetti</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/konfetti.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/konfetti.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Parallax
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/Narfss/ParallaxEverywhere">ParallaxEverywhere</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/parallax-everywhere.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/parallax-everywhere.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Animation
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/daimajia/AndroidViewAnimations">AndroidViewAnimations</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/androidviewanimations.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/androidviewanimations.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/nhaarman/ListViewAnimations">ListViewAnimations</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ListViewAnimations.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ListViewAnimations.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/daimajia/AndroidImageSlider">AndroidImageSlider</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidImageSlider.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidImageSlider.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/andkulikov/transitions-everywhere">transitions-everywhere</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/transitions-everywhere.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/transitions-everywhere.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/skyfishjy/android-ripple-background">Android Ripple Background</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-ripple-background.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-ripple-background.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-ripple-background2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-ripple-background2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/openaphid/android-flip">android-flip</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-flip.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-flip.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-flip2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-flip2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/DesarrolloAntonio/FragmentTransactionExtended">FragmentTransactionExtended</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FragmentTransactionExtended.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FragmentTransactionExtended.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FragmentTransactionExtended2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FragmentTransactionExtended2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/flavioarfaria/KenBurnsView">KenBurnsView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/KenBurnsView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/KenBurnsView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/facebook/rebound">rebound</a></td>
+            <td>
+            
+              <a href="https://github.com/"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com/" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/sakebook/Reachability">Reachability</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Reachability.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Reachability.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/daimajia/AnimationEasingFunctions">AnimationEasingFunctions</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AnimationEasingFunctions.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AnimationEasingFunctions.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/2359media/EasyAndroidAnimations">EasyAndroidAnimations</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EasyAndroidAnimations.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EasyAndroidAnimations.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/geftimov/android-pathview">android-pathview</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-pathview.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-pathview.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/sephiroth74/ViewRevealAnimator">ViewRevealAnimator</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ViewRevealAnimator.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ViewRevealAnimator.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/asyl/ArcAnimator">ArcAnimator</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ArcAnimator.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ArcAnimator.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ArcAnimator2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ArcAnimator2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/kongnanlive/SearchMenuAnim">SearchMenuAnim</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SearchMenuAnim.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SearchMenuAnim.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/cdflynn/crossview">Cross View</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/crossview.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/crossview.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/crossview2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/crossview2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Nightonke/WoWoViewPager">WoWoViewPager</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/WoWoAppIntroExample.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/WoWoAppIntroExample.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/WoWoCVExample.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/WoWoCVExample.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/airbnb/lottie-android">Lottie for Android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/lottie-android.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/lottie-android.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/lottie-android2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/lottie-android2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/tarek360/RichPath">RichPath</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RichPath.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RichPath.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Graph
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/blackfizz/EazeGraph">EazeGraph</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EazeGraph.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EazeGraph.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EazeGraph2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EazeGraph2.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EazeGraph3.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EazeGraph3.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EazeGraph4.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EazeGraph4.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/jjoe64/GraphView">GraphView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/graphview-zooming.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/graphview-zooming.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/graphview-anim.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/graphview-anim.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/lecho/hellocharts-android">hellocharts-android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/hellocharts-android.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/hellocharts-android.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/hellocharts-android2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/hellocharts-android2.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/hellocharts-android3.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/hellocharts-android3.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MPAndroidChart.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MPAndroidChart.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MPAndroidChart2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MPAndroidChart2.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MPAndroidChart3.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MPAndroidChart3.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MPAndroidChart4.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MPAndroidChart4.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/diogobernardino/WilliamChart">WilliamChart</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/williamchart_line.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/williamchart_line.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/williamchart_bar.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/williamchart_bar.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Calendar
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/roomorama/Caldroid">Caldroid</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Caldroid.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Caldroid.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/square/android-times-square">android-times-square</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-times-square.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-times-square.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/romannurik/Android-MonthCalendarWidget">Android-MonthCalendarWidget</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-MonthCalendarWidget.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-MonthCalendarWidget.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/derekbrameyer/android-betterpickers">android-betterpickers</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-betterpickers.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-betterpickers.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/alamkanak/Android-Week-View">Android-Week-View</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-Week-View.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-Week-View.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/NLMartian/SilkCal">SilkCal</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SilkCat.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SilkCat.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/vikramkakkar/SublimePicker">SublimePicker</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/sublimePicker_date.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/sublimePicker_date.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/sublimePicker_time.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/sublimePicker_time.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/sublimePicker_repeat.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/sublimePicker_repeat.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/wdullaer/MaterialDateTimePicker">MaterialDateTimePicker</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDateTimePicker_date.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDateTimePicker_date.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDateTimePicker_time.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MaterialDateTimePicker_time.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/SundeepK/CompactCalendarView">CompactCalendarView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/compact-calendar-demo.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/compact-calendar-demo.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Dialog
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/orhanobut/dialogplus">DialogPlus</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DialogPlus.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DialogPlus.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DialogPlus2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/DialogPlus2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/pedant/sweet-alert-dialog">Sweet Alert</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/swalert_change_type.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/swalert_change_type.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/H07000223/FlycoDialog_Master">FlycoDialog-Matser</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlycoDialog-Matser.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FlycoDialog-Matser.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          ActionBar
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/ManuelPeinado/FadingActionBar">FadingActionBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FadingActionBar.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FadingActionBar.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ManuelPeinado/GlassActionBar">GlassActionBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GlassActionBar.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GlassActionBar.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/flavienlaurent/NotBoringActionBar">NotBoringActionBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NotBoringActionBar.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NotBoringActionBar.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Menu
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/oguzbilgener/CircularFloatingActionMenu">CircularFloatingActionMenu</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircularFloatingActionMenu.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircularFloatingActionMenu.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/SpecialCyCi/AndroidResideMenu">AndroidResideMenu</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidResideMenu.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidResideMenu.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/dkmeteor/Folder-ResideMenu">Folder-ResideMenu</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Folder-ResideMenu.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Folder-ResideMenu.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Yalantis/Side-Menu.Android">Side-Menu.Android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Side-Menu.Android.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Side-Menu.Android.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Yalantis/Context-Menu.Android">Context-Menu.Android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Context-Menu.Android.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Context-Menu.Android.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Yalantis/GuillotineMenu-Android">GuillotineMenu-Android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GuillotineMenu-Android.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GuillotineMenu-Android.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/xmuSistone/android-snake-menu">android-snake-menu</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-snake-menu.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-snake-menu.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Nightonke/BoomMenu">BoomMenu</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BoomMenu.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BoomMenu.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BoomMenu2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BoomMenu2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Progress
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/castorflex/SmoothProgressBar">SmoothProgressBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SmoothProgressBar.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SmoothProgressBar.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/daimajia/NumberProgressBar">NumberProgressBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NumberProgressBar.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/NumberProgressBar.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/lzyzsd/CircleProgress">CircleProgress</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircleProgress.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircleProgress.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/mrwonderman/android-square-progressbar">android-square-progressbar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-square-progressbar.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-square-progressbar.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-square-progressbar2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-square-progressbar2.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-square-progressbar3.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-square-progressbar3.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/jpardogo/GoogleProgressBar">GoogleProgressBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GoogleProgressBar.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GoogleProgressBar.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GoogleProgressBar2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GoogleProgressBar2.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GoogleProgressBar3.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GoogleProgressBar3.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/akexorcist/Android-RoundCornerProgressBar">Android-RoundCornerProgressBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-RoundCornerProgressBar.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-RoundCornerProgressBar.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-RoundCornerProgressBar2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-RoundCornerProgressBar2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/tajchert/WaitingDots">WaitingDots</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/waitingdots.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/waitingdots.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Tibolte/ElasticDownload">ElasticDownload</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ElasticDownload.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ElasticDownload.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ElasticDownload2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ElasticDownload2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/JorgeCastilloPrz/FABProgressCircle">FABProgressCircle</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FABProgressCircle.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/FABProgressCircle.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/yankai-victor/Loading">Loading</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Loading.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Loading.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Loading2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Loading2.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Loading3.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Loading3.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/jlmd/AnimatedCircleLoadingView">Animated Circle Loading View</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AnimatedCircleLoadingView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AnimatedCircleLoadingView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/JorgeCastilloPrz/AndroidFillableLoaders">AndroidFillableLoaders</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidFillableLoaders.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidFillableLoaders.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidFillableLoaders2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidFillableLoaders2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/d-max/spots-dialog">spots-dialog</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/spots_dialog.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/spots_dialog.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/81813780/AVLoadingIndicatorView">AVLoadingIndicatorView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AVLoadingIndicatorView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AVLoadingIndicatorView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/EyalBira/loading-dots">LoadingDots</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/loading-dots.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/loading-dots.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Shinelw/ColorArcProgressBar">ColorArcProgerssBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ColorArcProgressBar.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Android-ColorArcProgressBar.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/GIGAMOLE/ArcProgressStackView">ArcProgressStackView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ArcProgressStackView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ArcProgressStackView.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ArcProgressStackView2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ArcProgressStackView2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/tangqi92/WaveLoadingView">WaveLoadingView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/WaveLoadingView.jpg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/WaveLoadingView.jpg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Rogero0o/CatLoadingView">CatLoadingView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CatLoadingView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CatLoadingView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/race604/WaveLoading">WaveLoading</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/race604-WaveLoading.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/race604-WaveLoading.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          SeekBar
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/AnderWeb/discreteSeekBar">DiscreteSeekBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/discreteseekbar.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/discreteseekbar.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/discreteseekbar2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/discreteseekbar2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/ahmedrizwan/SeekBarCompat">SeekBarCompat</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/seekbarcompat.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/seekbarcompat.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/rubensousa/PreviewSeekBar">PreviewSeekBar</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PreviewSeekBar.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PreviewSeekBar.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Image
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/MikeOrtiz/TouchImageView">TouchImageView</a></td>
+            <td>
+            
+              <a href="https://github.com/"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com/" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/hdodenhof/CircleImageView">CircleImageView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircleImageView.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CircleImageView.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/siyamed/android-shape-imageview">android-shape-imageview</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-shape-imageview.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-shape-imageview.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-shape-imageview2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-shape-imageview2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/felipecsl/GifImageView">GifImageView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GifImageView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/GifImageView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/edmodo/cropper">cropper</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/cropper.jpeg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/cropper.jpeg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/jdamcd/android-crop">android-crop</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-crop.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-crop.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/pungrue26/SelectableRoundedImageView">SelectableRoundedImageView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SelectableRoundedImageView.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SelectableRoundedImageView.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/vinc3m1/RoundedImageView">RoundedImageView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RoundedImageView.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RoundedImageView.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RoundedImageView2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RoundedImageView2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/cesards/CropImageView">CropImageView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CropImageView.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/CropImageView.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/cooltechworks/BitmapMerger">BitmapMerger</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BitmapMerger.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BitmapMerger.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BitmapMerger2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BitmapMerger2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Q42/AndroidScrollingImageView">Scrolling Image View</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidScrollingImageView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/AndroidScrollingImageView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/DanielMartinus/Pixelate">Pixelate Android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-pixelate.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-pixelate.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/IsseiAoki/SimpleCropView">SimpleCropView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleCropView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SimpleCropView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/lankton/android-anyshape">android-anyshape</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-anyshape.jpg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-anyshape.jpg" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-anyshape2.jpg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-anyshape2.jpg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/gjiazhe/PanoramaImageView">PanoramaImageView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PanoramaImageView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/PanoramaImageView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+        <tr style='background-color: #4527a0; color: white'><td colspan="2">
+          Label / Form
+        </td></tr>
+        
+          <tr>
+            <td><a href="https://github.com/RomainPiel/Shimmer-android">Shimmer-android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Shimmer-android.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Shimmer-android.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/facebook/shimmer-android">Shimmer for Android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/shimmer-android-fb.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/shimmer-android-fb.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/RomainPiel/Titanic">Titanic</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Titanic.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/Titanic.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Rogero0o/MatchView">MatchView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MatchView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/MatchView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/grantland/android-autofittextview">android-autofittextview</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-autofittextview.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/android-autofittextview.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/matthewrkula/SecretTextView">SecretTextView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SecretTextView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/SecretTextView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/bluejamesbond/TextJustify-Android">TextJustify-Android</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextJustify-Android.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextJustify-Android.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextJustify-Android2.jpeg"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextJustify-Android2.jpeg" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/pavlospt/RoundedLetterView">RoundedLetterView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RoundedLetterView.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RoundedLetterView.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/amulyakhare/TextDrawable">TextDrawable</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextDrawable.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextDrawable.png" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextDrawable2.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextDrawable2.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/quiqueqs/BabushkaText">BabushkaText</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BabushkaText.png"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/BabushkaText.png" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/Manabu-GT/ExpandableTextView">ExpandableTextView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ExpandableTextView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ExpandableTextView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/wrapp/floatlabelededittext">Float Labeled EditText</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/floatlabelededittext.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/floatlabelededittext.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/erchenger/SizeAdjustingTextView">SizeAdjustingTextView</a></td>
+            <td>
+            
+              <a href="https://github.com/"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com/" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/gotokatsuya/ParkedTextView">ParkedTextView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ParkedTextView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/ParkedTextView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/glomadrian/material-code-input">Material Code input</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-code-input.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-code-input.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-code-input2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/material-code-input2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/elevenetc/TextSurface">TextSurface</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextSurface.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/TextSurface.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/tasomaniac/EmailAutoCompleteTextView">EmailAutoCompleteTextView</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EmailAutoCompleteTextView.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/EmailAutoCompleteTextView.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/xenione/tab-digit">Tab Digit</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/tab-digit.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/tab-digit.gif" alt="not found"/></a>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/tab-digit2.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/tab-digit2.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+        
+          <tr>
+            <td><a href="https://github.com/sdsmdg/RotatingText">RotatingText</a></td>
+            <td>
+            
+              <a href="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RotatingText.gif"><img class='img-thumbnail' style='max-height: 200px' src="https://github.com//wasabeef/awesome-android-ui/raw/master/art/RotatingText.gif" alt="not found"/></a>
+                  
+            </td>
+          </tr>
+          
+      
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div id="disqus_thread"></div>
+    </div>
+  </div>
+</div>
+
+
+	<script>
+	var disqus_config = function () {
+	this.page.url = 'https://jmarroyave.github.io/kb/2017/12/kb-android';  
+	this.page.identifier = '/kb/2017/12/kb-android';
+	};
+	(function() { 
+	var d = document, s = d.createElement('script');
+	s.src = 'https://jmarroyave-github-io.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+ 
+
+<footer class="com-home">
+	<div class="footer-div">
+	  <div class="social-icons layout-align-center-center layout-column flex">
+	    <a href="http://twitter.com/jmarroyave">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-twitter fa-stack-1x" style="color: #00aced;"></i>
+				</span>
+			</a>
+	    <a href="http://facebook.com/jmarroyave">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-facebook fa-stack-1x" style="color: #3b5998;"></i>
+				</span>	    
+			</a>
+	    <a href="http://gt.linkedin.com/jmarroyave">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-linkedin fa-stack-1x" style="color: #0077B5;"></i>
+				</span>	    
+			</a>
+	    <a href="http://plus.google.com/112618720945759819017">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-google-plus fa-stack-1x" style="color: #d34836;"></i>
+				</span>	    
+			</a>
+	    <a href="http://github.com/jmarroyave">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-github fa-stack-1x" style="color: black;"></i>
+				</span>	    
+			</a>
+	    <a href="mailto:jmarroyave@gmail.com" class='not-released'>
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-square-o fa-stack-2x"></i>
+				  <i class="fa fa-envelope-o fa-stack-1x" style="color: black;"></i>
+				</span>
+	    </a>    
+	  </div>
+  </div>
+  <br/>
+  <div class="footer-div">
+	  <div class="layout-align-center-center layout-column flex">
+	    <div class='copyright'>Guatemala, Centro América, 2,017</div>
+	  </div>  
+	</div>
+</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
