@@ -5,9 +5,25 @@
     <description>Jose Miguel Arroyave</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Dec 2017 13:11:45 -0600</pubDate>
-    <lastBuildDate>Tue, 12 Dec 2017 13:11:45 -0600</lastBuildDate>
+    <pubDate>Thu, 14 Dec 2017 16:08:42 -0600</pubDate>
+    <lastBuildDate>Thu, 14 Dec 2017 16:08:42 -0600</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>BLOG: Test</title>
+        <description>La canción era como [tut turut tuuu, tut turut tuuu], la cantaba una mujer y decia algo de...</description>
+        <pubDate>Tue, 12 Dec 2017 18:00:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/blog/2017/12/12/recsys</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/12/12/recsys</guid>
+        
+        <category>ui/ux,</category>
+        
+        <category>labs-search-ux</category>
+        
+        
+        <category>UX</category>
+        
+      </item>
     
       <item>
         <title>BLOG: Multimodal Search</title>
@@ -154,20 +170,6 @@
         
         
         <category>UX</category>
-        
-      </item>
-    
-      <item>
-        <title>LABS: Search UX</title>
-        <description>Prototipo de un buscador con features orientadas a mejorar la UX</description>
-        <pubDate>Mon, 13 Nov 2017 09:34:45 -0600</pubDate>
-        <link>https://jmarroyave.github.io/labs/2017/11/search</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/labs/2017/11/search</guid>
-        
-        <category>v.0.2</category>
-        
-        
-        <category>HCI</category>
         
       </item>
     
