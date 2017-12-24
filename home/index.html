@@ -88,7 +88,7 @@ html{
 }
 
 body {
-  margin-top: 40px!important;
+  margin-top: 100px!important;
   font-family: Verdana!important;
   font-weight: 100!important; 
 }
@@ -98,7 +98,7 @@ nav {
 }
 
 main{
-    padding-top: 40px!important;
+    padding-top: 100px!important;
 }
 
 a {
@@ -210,13 +210,13 @@ h5, h6 {
 /************************* Site ******************************/
 
 .site-title{
-    padding-top: 10px;
-    margin-top: -40px;
-    height: 40px;
+    margin-top: -100px;
+    height: 100px;
     width: 100%;
     text-align: center;
     color: white;
     box-sizing: border-box;
+    display: table;
 }
 
 .site-title a{
@@ -230,6 +230,9 @@ h5, h6 {
 .site-title .last_post{
     font-size: 0.8rem;
     font-weight: 500;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .page-title{
@@ -379,20 +382,12 @@ footer .copyright{
 	html{
 	  font-size: 18px;
 	}
-
-  .site-title{
-      padding-top: 3px;
-  }  
 }
 
 @media(max-width:991px) {
 	html{
 	  font-size: 16px;
 	}
-
-  .site-title{
-      padding-top: 3px;
-  }
 }
 
 @media(max-width:768px) {
@@ -400,29 +395,18 @@ footer .copyright{
 	  font-size: 16px;
 	}
 
-  .site-title{
-      padding-top: 6px;
-  }
 }
 
 @media(max-width:640px) {
 	html{
 	  font-size: 14px;
 	}
-
-  .site-title{
-      padding-top: 8px;
-  }
 }
 
 @media(max-width:375px) {
 	html{
 	  font-size: 12px;
 	}
-
-  .site-title{
-      padding-top: 10px;
-  }
 }
 
 .not-released{
@@ -433,8 +417,10 @@ footer .copyright{
 
 <body>
 
-<div class="site-title" style='background-color: #A5C737'>
-    <a class="last_post" href="/kb/2017/12/kb-android?ref=head">KB > Mobile: Android</a>
+<div class="site-title" style='background-image: url("/res/files/imgs/hero/xmas.jpeg");  background-origin: border-box; background-position: left bottom; background-size: contain; background-repeat: no-repeat; background-color: #271108;'>
+    
+      <div class="last_post">Feliz Navidad</div>
+    
 </div>
 <nav class="navbar nav-pills navbar-expand navbar-light sticky-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -480,6 +466,9 @@ footer .copyright{
 			<h3 class='title'>Reciente</h3>
 			
 				
+				<a href='/kb/2017/12/kb-android' class='post'>[KB] Mobile: Android</a><br/>
+			
+				
 				<a href='/blog/2017/12/12/multimodal' class='post'>[POST] Multimodal Search</a><br/>
 			
 				
@@ -487,9 +476,6 @@ footer .copyright{
 			
 				
 				<a href='/kb/2017/12/kb-web-front-end' class='post'>[KB] Web Front End</a><br/>
-			
-				
-				<a href='/labs/2017/11/search' class='post'>[LABS] Search UX</a><br/>
 			
 		</div> 
   </div>

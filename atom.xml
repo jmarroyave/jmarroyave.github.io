@@ -4,60 +4,13 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-12-14T16:08:42-06:00</updated>
+ <updated>2017-12-24T13:45:34-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
    <email>jmarroyave@gmail.com</email>
  </author>
 
- 
- <entry>
-   <title>Test</title>
-   <link href="https://jmarroyave.github.io/blog/2017/12/12/recsys"/>
-   <updated>2017-12-12T18:00:00-06:00</updated>
-   <id>https://jmarroyave.github.io/blog/2017/12/12/recsys</id>
-   <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
-  Este post forma parte del proyecto &lt;a href=&quot;/labs/2017/11/search&quot;&gt;Labs: Search UX&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Por un lado&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;los motores de búsqueda son útiles siempre y cuando la información que devuelvan sea &lt;em&gt;relevante&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;la relevancia es una métrica que se utiliza como un &lt;em&gt;criterio de ordenamiento&lt;/em&gt; de información&lt;/li&gt;
-  &lt;li&gt;el ordenamiento es necesario debido al &lt;em&gt;volumen de información&lt;/em&gt;(information overflow)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Cómo determina la relevancia un motor de búsqueda?&lt;/p&gt;
-
-&lt;p&gt;Sistemas de recomendacion&lt;/p&gt;
-
-&lt;p&gt;Un motor de busqueda no es un sistema de recomendacion, how to tell?&lt;/p&gt;
-
-&lt;p&gt;Mi busqueda es en la imagen que el motor de busqueda tiene del internet no en el internet&lt;/p&gt;
-
-&lt;h2 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/12/multimodal?ref=rel&quot;&gt;Post &amp;gt; Multimodal Search&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Recommender_system&quot;&gt;Recommendation Systems&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.409.3977&amp;amp;rep=rep1&amp;amp;type=pdf&quot;&gt;Information Search and Recommender Systems&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://krisjack.wordpress.com/2013/10/01/what-makes-a-search-engine-different-from-a-recommender-system/&quot;&gt;What makes a Search Engine different from a Recommender System?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
  
  <entry>
    <title>Multimodal Search</title>
@@ -109,12 +62,26 @@ Multimodal Search: La canción era como [tut turut tuuu, tut turut tuuu], la can
    <id>https://jmarroyave.github.io/kb/2017/12/kb-android</id>
    <content type="html">&lt;p&gt;Recopilación de librerías para utilizar en Android&lt;/p&gt;
 
+&lt;p&gt;links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.freecodecamp.org/30-new-android-libraries-released-in-the-spring-of-2017-which-deserve-your-attention-faea359a1915&quot;&gt;The 30 Coolest Android Libraries from Spring 2017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.freecodecamp.org/25-new-android-libraries-which-you-definitely-want-to-try-at-the-beginning-of-2017-45878d5408c0&quot;&gt;25 Android libraries you definitely want to try out in early 2017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plus.google.com/communities/100609058582053363304/stream/9c74a80a-0e2f-4d02-993f-449f345cabad&quot;&gt;Android projects on Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;importados desde:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/wasabeef/awesome-android-ui&quot;&gt;wasabeef/awesome-android-ui&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/wasabeef/awesome-android-libraries&quot;&gt;wasabeef/awesome-android-libraries&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/Trinea/android-open-project&quot;&gt;Trinea/android-open-project&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/PhilJay/AndroidElementals&quot;&gt;PhilJay/AndroidElementals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/thanhtoan1196/awesome-android-ui&quot;&gt;thanhtoan1196/awesome-android-ui&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/thanhtoan1196/awesome-android&quot;&gt;thanhtoan1196/awesome-android&lt;/a&gt;*&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/snowdream/awesome-android&quot;&gt;snowdream/awesome-android&lt;/a&gt;*&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/thanhtoan1196/awesome-android-libraries&quot;&gt;thanhtoan1196/awesome-android-libraries&lt;/a&gt;*&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lightSky/Awesome-MaterialDesign&quot;&gt;lightSky/Awesome-MaterialDesign&lt;/a&gt;*&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/codepath/android_guides/wiki/Must-Have-Libraries&quot;&gt;codepath/android_guides&lt;/a&gt;*&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lightSky/Awesome-MaterialDesign&quot;&gt;lightSky/Awesome-MaterialDesign&lt;/a&gt;*&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
