@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2017-12-24T13:46:25-06:00</updated>
+ <updated>2018-01-05T15:14:57-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave</name>
@@ -60,7 +60,11 @@ Multimodal Search: La canción era como [tut turut tuuu, tut turut tuuu], la can
    <link href="https://jmarroyave.github.io/kb/2017/12/kb-android"/>
    <updated>2017-12-07T18:00:00-06:00</updated>
    <id>https://jmarroyave.github.io/kb/2017/12/kb-android</id>
-   <content type="html">&lt;p&gt;Recopilación de librerías para utilizar en Android&lt;/p&gt;
+   <content type="html">&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  Esta versión esta desactualizada, haz click &lt;a href=&quot;/kb/android&quot;&gt;aquí&lt;/a&gt; para ir a la más nueva.
+&lt;/div&gt;
+
+&lt;p&gt;Recopilación de librerías para utilizar en Android&lt;/p&gt;
 
 &lt;p&gt;links:&lt;/p&gt;
 &lt;ul&gt;
