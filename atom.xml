@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2018-08-14T16:50:38-06:00</updated>
+ <updated>2018-08-14T17:42:27-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave O.</name>
@@ -18,16 +18,12 @@
    <updated>2018-08-13T09:34:45-06:00</updated>
    <id>https://jmarroyave.github.io/labs/2018/08/mlb</id>
    <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
-Implementación de un prototipo lo más parecido al cliente de mlb.com 
-&lt;/div&gt;
-
-&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
-	Para utilizarse con conexiones a internet con alto ancho de banda
+	Test lab de mlb.com desarrollado con reactjs
 &lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;/res/files/prototypes/mlb&quot;&gt;Prototipo&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Implementación de un prototipo lo más parecido al cliente de mlb.com desarrollado con reactjs y material-ui en la parte front-end y con nodejs como servicio de datos y procesamiento back-end.&lt;/p&gt;
+&lt;p&gt;Test lab de mlb.com desarrollado con reactjs y material-ui en la parte front-end y con nodejs como servicio de datos y procesamiento back-end.&lt;/p&gt;
 
 &lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
 
