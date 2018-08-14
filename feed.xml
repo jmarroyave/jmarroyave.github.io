@@ -2,12 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JMArroyave</title>
-    <description>Jose Miguel Arroyave</description>
+    <description>Jose Miguel Arroyave O.</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Jan 2018 15:14:57 -0600</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2018 15:14:57 -0600</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <pubDate>Tue, 14 Aug 2018 16:19:59 -0600</pubDate>
+    <lastBuildDate>Tue, 14 Aug 2018 16:19:59 -0600</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>LABS: MLB</title>
+        <description>Prototipo de cliente para mlb.com</description>
+        <pubDate>Mon, 13 Aug 2018 09:34:45 -0600</pubDate>
+        <link>https://jmarroyave.github.io/labs/2018/08/mlb</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/labs/2018/08/mlb</guid>
+        
+        <category>v.0.1</category>
+        
+        
+        <category>HCI</category>
+        
+      </item>
     
       <item>
         <title>BLOG: Multimodal Search</title>
@@ -154,20 +168,6 @@
         
         
         <category>UX</category>
-        
-      </item>
-    
-      <item>
-        <title>LABS: Search UX</title>
-        <description>Prototipo de un buscador con features orientadas a mejorar la UX</description>
-        <pubDate>Mon, 13 Nov 2017 09:34:45 -0600</pubDate>
-        <link>https://jmarroyave.github.io/labs/2017/11/search</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/labs/2017/11/search</guid>
-        
-        <category>v.0.2</category>
-        
-        
-        <category>HCI</category>
         
       </item>
     

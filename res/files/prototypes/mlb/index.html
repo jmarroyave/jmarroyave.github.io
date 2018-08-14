@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      window.__app = {debug:false,online:false};
+    </script>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#038EFB">
+    
+    <title> Labs | MLB </title>
+    <style>
+      html, body {
+        background-color: #FFF;
+        padding: 0px;
+        margin: 0px;
+        font-size: 12px;
+        font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+      }
+      #splash footer{
+        position: fixed;
+        height: 50px;
+        bottom: 0px;
+        width: 100%;
+        background-color: #fff;
+        box-sizing: border-box;
+      }
+      #splash .footer-right{
+        padding: 10px;
+        float: right;
+        font-size: 0.9rem;
+        text-align: justify;
+      }
+      #splash .container{
+        background-color: #000;        
+        height: 100vh;
+        width: 100%;
+      }
+
+      #splash .loading{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        padding: 5px;
+        border-radius: 3px;
+        background-color: white;  
+      }
+    </style>   
+    <link rel="stylesheet" href="./res/styles.css">
+    <link rel="stylesheet" href="./res/styles-mlb.css">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="//www.mlbstatic.com/mlb.com/builds/site-core/56baa8f3792d3caac1f26caaba3410be92cc0c86_1533660169/fonts/benton-sans-cond-medium.woff2" />
+  </head> 
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">
+      <div id="splash">
+        <div class='container'>
+          <div class='loading'>
+            <img src='./res/img/logo.svg' height="100" />
+          </div>
+        </div>
+        <footer>
+          <div class='footer-right'>
+            <span>Labs | MLB is not affiliated with Major League Baseball, MLB or MLB.com</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+          }).catch(function(err) {
+            console.log(err)
+          });
+        });
+      } else {
+        console.log('service worker is not supported');
+      }
+    </script>   
+	<script src="./index.bundle.js"></script>
+  </body>
+</html>

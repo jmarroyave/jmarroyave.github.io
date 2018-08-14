@@ -4,13 +4,38 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2018-01-05T15:14:57-06:00</updated>
+ <updated>2018-08-14T16:19:59-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
-   <name>Jose Miguel Arroyave</name>
+   <name>Jose Miguel Arroyave O.</name>
    <email>jmarroyave@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>MLB</title>
+   <link href="https://jmarroyave.github.io/labs/2018/08/mlb"/>
+   <updated>2018-08-13T09:34:45-06:00</updated>
+   <id>https://jmarroyave.github.io/labs/2018/08/mlb</id>
+   <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
+Implementación de un prototipo lo más parecido al cliente de mlb.com 
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+	Para utilizarse con conexiones a internet con alto ancho de banda
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;/res/files/prototypes/mlb&quot;&gt;Prototipo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Implementación de un prototipo lo más parecido al cliente de mlb.com desarrollado con reactjs y material-ui en la parte front-end y con nodejs como servicio de datos y procesamiento back-end.&lt;/p&gt;
+
+&lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ningún post relacionado por el momento&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Multimodal Search</title>
@@ -43,7 +68,7 @@ Multimodal Search: La canción era como [tut turut tuuu, tut turut tuuu], la can
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/16/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -117,7 +142,7 @@ es peculiar y esto se debe a que cuando busco algo ya vengo con la idea de que e
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/12/multimodal?ref=rel&quot;&gt;Post &amp;gt; Multimodal Search&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/16/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -265,7 +290,7 @@ Qué, dónde y cuándo buscar? videos, fotos, un término, un resultado general 
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/12/multimodal?ref=rel&quot;&gt;Post &amp;gt; Multimodal Search&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/16/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -456,7 +481,7 @@ Cuáles son los elementos de interacción básicos de un buscador?
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/12/multimodal?ref=rel&quot;&gt;Post &amp;gt; Multimodal Search&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/16/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/labs/2017/11/search?ref=rel&quot;&gt;Labs &amp;gt; Search UX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -472,7 +497,7 @@ Cuáles son los elementos de interacción básicos de un buscador?
  
  <entry>
    <title>Revisando el buscador</title>
-   <link href="https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador"/>
+   <link href="https://jmarroyave.github.io/blog/2017/11/16/revisando-el-buscador"/>
    <updated>2017-11-15T18:00:00-06:00</updated>
    <id>https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador</id>
    <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
@@ -572,7 +597,7 @@ Prototipo de un buscador con features orientadas a mejorar la UX
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/06/ok-google-busca?ref=rel&quot;&gt;Post &amp;gt; Ok Google, busca…&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/12/01/me-siento-con-suerte?ref=rel&quot;&gt;Post &amp;gt; Me siento con suerte&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/blog/2017/11/24/componentes-buscador&quot;&gt;Post &amp;gt; Componentes de los buscadores&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/15/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2017/11/16/revisando-el-buscador?ref=rel&quot;&gt;Post &amp;gt; Revisando el buscador&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -637,13 +662,13 @@ Aprendiendo un poco de las progressive web apps con code labs
 Visualización de tendencias de tecnologías, herramientas y servicios de las que se habla en Stackoverflow.com
 &lt;/div&gt;
 
-&lt;p&gt;Visualización de tendencias de tecnologías, herramientas y servicios de las que se habla en Stackoverflow obtenidos por medio del API de stackexchange y procesados localmente para la extracción de etiquetas características de cada tópico.&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&quot;https://stackvoverflow.firebaseapp.com&quot;&gt;Prototipo&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+&lt;p&gt;Visualización de tendencias de tecnologías, herramientas y servicios mencionados en Stackoverflow. Obtenidos por medio del API de stackexchange y procesados localmente para la extracción de información y características de los diferentes tópicos.&lt;/p&gt;
+
+&lt;!--div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
   Nota al 24/11/2017: El prototipo se encuentra desactualizado, espero en estos días poner la versión actual.
-&lt;/div&gt;
+&lt;/div--&gt;
 </content>
  </entry>
  
