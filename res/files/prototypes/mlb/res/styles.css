@@ -132,12 +132,22 @@ a:hover{
 .table th{
     margin: 0px;
     padding: 5px 0px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .table td{
     margin: 0px;
     padding: 7px 0px;
+}
+
+.table td span.num{
+    font-size: 1rem;
+    color: #888;
+    width: 10px;
+    display: inline-block;
+    text-align: right;
 }
 
 .table td.s10{
@@ -158,6 +168,7 @@ a:hover{
 
 .table td.sfit{
     width: 100%;
+    padding-left: 5px;
 }
 
 .table td.center{
@@ -363,7 +374,7 @@ a:hover{
 }
 
 .mod-games{
-    background-color: white;
+    background-color: transparent;
 }
 
 .mod-games a:hover{
@@ -394,7 +405,7 @@ a:hover{
 }
 
 .mod-games .vertical .item {
-    border-top: 1px solid #606060;
+    border-top: 1px solid #efefef;
 }
 
 .mod-games .horizontal {
@@ -428,18 +439,24 @@ a:hover{
 .mod-games .horizontal .list {
     display: inline-flex;
     min-width: 100%;
-    border: 1px solid #606060;
+    border: 1px solid #efefef;
 }
 
 .mod-games .horizontal .list .item {
     display: inline-block;
     float: left;
-    border-right: 1px solid #606060;
+    border-right: 1px solid #efefef;
 }
 
 .mod-games .item{
     padding: 4px 7px 7px 7px;
     min-width: 105px;
+    background-color: white;
+}
+
+.mod-games .item:pressed,
+.mod-games .item:hover{
+    background-color: #efefef;
 }
 
 .mod-games .item.head {
@@ -924,5 +941,71 @@ a:hover{
 .mod-footer .copyrights{
     padding-top: 10px;
     font-size: 0.75rem;
+    text-align: justify;
+}
+
+.mod-records{
+
+}
+
+.mod-records .title{
+    font-size: 1rem;    
+    font-weight: 600;
+}
+
+.mod-records .name{
+    font-size: 1.4rem;    
+    font-weight: 600;
+}
+
+.mod-records .cats{
+    font-size: 1rem;    
+    color: #AAA;
+}
+
+.mod-records .metrics{
+    font-size: 1rem;    
+    text-transform: uppercase;
+    float: right;
+}
+
+.mod-records .val{
+    font-size: 2rem;
+    font-weight: 600;
+    float: right;
+}
+
+.mod-records .row{
+    padding: 5px 0px;
+    border-bottom: 1px solid #efefef;
+}
+
+.mod-records .row:last-child{
+    border-bottom:; 0px;
+}
+
+.mod-resume .head{
+    position: relative;
+}
+
+.mod-resume .head .heading{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    position:absolute;
+    bottom:0px;
+    right: 0px;
+    padding: 10px;
+    text-align: right;
+    text-shadow: 2px 2px black;
+    color: white;
+    display: block;
+    width: 50%;
+    font-weight: bold;
+}
+
+.mod-resume .body{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 5px 10px;
     text-align: justify;
 }
