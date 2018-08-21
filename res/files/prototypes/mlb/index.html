@@ -46,10 +46,16 @@
         border-radius: 3px;
         background-color: white;  
       }
+      .preload{
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+      }
     </style>   
     <link rel="stylesheet" href="./res/styles.css">
     <link rel="stylesheet" href="./res/styles-mlb.css">
     <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="//www.mlbstatic.com/mlb.com/builds/site-core/56baa8f3792d3caac1f26caaba3410be92cc0c86_1533660169/fonts/benton-sans-cond-medium.woff2" />
+    <link rel="stylesheet" type="text/css" href="/res/font-awesome.min.css" /> 
   </head> 
   <body>
     <noscript>
@@ -68,6 +74,12 @@
           </div>
         </footer>
       </div>
+      <img class='preload' src='./res/img/pl/1.jpg'/>
+      <img class='preload' src='./res/img/pl/2.jpg'/>
+      <img class='preload' src='./res/img/pl/3.jpg'/>
+      <img class='preload' src='./res/img/pl/face.jpg'/>
+      <img class='preload' src='./res/img/pl/ph.svg'/>
+      <img class='preload' src='./res/img/pl/action.svg'/>
     </div>
     <script>
       if ('serviceWorker' in navigator) {
@@ -86,6 +98,7 @@
         console.log('service worker is not supported');
       }
     </script>   
-	<script src="./index.bundle.js"></script>
+  <script src="./vendor.js"></script>
+  <script src="./app.js"></script>
   </body>
 </html>
