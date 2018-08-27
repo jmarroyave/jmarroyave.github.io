@@ -1,0 +1,1925 @@
+{
+  "copyright" : "Copyright 2018 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "leagueLeaders" : [ {
+    "leaderCategory" : "wins",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "16",
+      "team" : {
+        "id" : 147,
+        "name" : "New York Yankees",
+        "link" : "/api/v1/teams/147",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3313,
+          "name" : "Yankee Stadium",
+          "link" : "/api/v1/venues/3313"
+        },
+        "teamCode" : "nya",
+        "fileCode" : "nyy",
+        "abbreviation" : "NYY",
+        "teamName" : "Yankees",
+        "locationName" : "Bronx",
+        "firstYearOfPlay" : "1903",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 201,
+          "name" : "American League East",
+          "link" : "/api/v1/divisions/201"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "NY Yankees",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 622663,
+        "fullName" : "Luis Severino",
+        "link" : "/api/v1/people/622663",
+        "firstName" : "Luis",
+        "lastName" : "Severino",
+        "primaryNumber" : "40",
+        "birthDate" : "1994-02-20",
+        "currentAge" : 24,
+        "birthCity" : "Sabana de la Mar",
+        "birthCountry" : "Dominican Republic",
+        "height" : "6' 2",
+        "weight" : 215,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Luis",
+        "boxscoreName" : "Severino",
+        "nickName" : "Sevy",
+        "mlbDebutDate" : "2015-08-05",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Luis Severino",
+        "nameSlug" : "luis-severino-622663",
+        "firstLastName" : "Luis Severino",
+        "lastFirstName" : "Severino, Luis",
+        "lastInitName" : "Severino, L",
+        "initLastName" : "L Severino",
+        "fullFMLName" : "Luis Severino",
+        "fullLFMName" : "Severino, Luis",
+        "strikeZoneTop" : 3.36,
+        "strikeZoneBottom" : 1.53
+      }
+    }, {
+      "rank" : 1,
+      "value" : "16",
+      "team" : {
+        "id" : 114,
+        "name" : "Cleveland Indians",
+        "link" : "/api/v1/teams/114",
+        "season" : 2018,
+        "venue" : {
+          "id" : 5,
+          "name" : "Progressive Field",
+          "link" : "/api/v1/venues/5"
+        },
+        "teamCode" : "cle",
+        "fileCode" : "cle",
+        "abbreviation" : "CLE",
+        "teamName" : "Indians",
+        "locationName" : "Cleveland",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 202,
+          "name" : "American League Central",
+          "link" : "/api/v1/divisions/202"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Cleveland",
+        "springLeague" : {
+          "id" : 114,
+          "name" : "Cactus League",
+          "link" : "/api/v1/league/114",
+          "abbreviation" : "CL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 446372,
+        "fullName" : "Corey Kluber",
+        "link" : "/api/v1/people/446372",
+        "firstName" : "Corey",
+        "lastName" : "Kluber",
+        "primaryNumber" : "28",
+        "birthDate" : "1986-04-10",
+        "currentAge" : 32,
+        "birthCity" : "Birmingham",
+        "birthStateProvince" : "AL",
+        "birthCountry" : "USA",
+        "height" : "6' 4",
+        "weight" : 215,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Corey",
+        "middleName" : "Scott",
+        "boxscoreName" : "Kluber",
+        "nickName" : "Klubes",
+        "draftYear" : 2007,
+        "pronunciation" : "CLUE-burr",
+        "mlbDebutDate" : "2011-09-01",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Corey Kluber",
+        "nameSlug" : "corey-kluber-446372",
+        "firstLastName" : "Corey Kluber",
+        "lastFirstName" : "Kluber, Corey",
+        "lastInitName" : "Kluber, C",
+        "initLastName" : "C Kluber",
+        "fullFMLName" : "Corey Scott Kluber",
+        "fullLFMName" : "Kluber, Corey Scott",
+        "strikeZoneTop" : 3.52,
+        "strikeZoneBottom" : 1.63
+      }
+    }, {
+      "rank" : 1,
+      "value" : "16",
+      "team" : {
+        "id" : 120,
+        "name" : "Washington Nationals",
+        "link" : "/api/v1/teams/120",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3309,
+          "name" : "Nationals Park",
+          "link" : "/api/v1/venues/3309"
+        },
+        "teamCode" : "was",
+        "fileCode" : "was",
+        "abbreviation" : "WSH",
+        "teamName" : "Nationals",
+        "locationName" : "Washington",
+        "firstYearOfPlay" : "1969",
+        "league" : {
+          "id" : 104,
+          "name" : "National League",
+          "link" : "/api/v1/league/104"
+        },
+        "division" : {
+          "id" : 204,
+          "name" : "National League East",
+          "link" : "/api/v1/divisions/204"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Washington",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 453286,
+        "fullName" : "Max Scherzer",
+        "link" : "/api/v1/people/453286",
+        "firstName" : "Maxwell",
+        "lastName" : "Scherzer",
+        "primaryNumber" : "31",
+        "birthDate" : "1984-07-27",
+        "currentAge" : 34,
+        "birthCity" : "St. Louis",
+        "birthStateProvince" : "MO",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 215,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Max",
+        "middleName" : "M.",
+        "boxscoreName" : "Scherzer",
+        "nickName" : "Blue Eye",
+        "draftYear" : 2006,
+        "pronunciation" : "SHER-zer",
+        "mlbDebutDate" : "2008-04-29",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Max Scherzer",
+        "nameSlug" : "max-scherzer-453286",
+        "firstLastName" : "Max Scherzer",
+        "lastFirstName" : "Scherzer, Max",
+        "lastInitName" : "Scherzer, M",
+        "initLastName" : "M Scherzer",
+        "fullFMLName" : "Maxwell M. Scherzer",
+        "fullLFMName" : "Scherzer, Maxwell M.",
+        "strikeZoneTop" : 3.5,
+        "strikeZoneBottom" : 1.65
+      }
+    } ],
+    "statGroup" : "pitching"
+  }, {
+    "leaderCategory" : "saves",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "48",
+      "team" : {
+        "id" : 136,
+        "name" : "Seattle Mariners",
+        "link" : "/api/v1/teams/136",
+        "season" : 2018,
+        "venue" : {
+          "id" : 680,
+          "name" : "Safeco Field",
+          "link" : "/api/v1/venues/680"
+        },
+        "teamCode" : "sea",
+        "fileCode" : "sea",
+        "abbreviation" : "SEA",
+        "teamName" : "Mariners",
+        "locationName" : "Seattle",
+        "firstYearOfPlay" : "1977",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 200,
+          "name" : "American League West",
+          "link" : "/api/v1/divisions/200"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Seattle",
+        "springLeague" : {
+          "id" : 114,
+          "name" : "Cactus League",
+          "link" : "/api/v1/league/114",
+          "abbreviation" : "CL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 621242,
+        "fullName" : "Edwin Diaz",
+        "link" : "/api/v1/people/621242",
+        "firstName" : "Edwin",
+        "lastName" : "Diaz",
+        "primaryNumber" : "39",
+        "birthDate" : "1994-03-22",
+        "currentAge" : 24,
+        "birthCity" : "Naguabo",
+        "birthCountry" : "Puerto Rico",
+        "height" : "6' 3",
+        "weight" : 165,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Edwin",
+        "middleName" : "Orlando",
+        "boxscoreName" : "Díaz, E",
+        "nickName" : "Sugar",
+        "draftYear" : 2012,
+        "mlbDebutDate" : "2016-06-06",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Edwin Diaz",
+        "nameSlug" : "edwin-diaz-621242",
+        "firstLastName" : "Edwin Díaz",
+        "lastFirstName" : "Díaz, Edwin",
+        "lastInitName" : "Díaz, E",
+        "initLastName" : "E Díaz",
+        "fullFMLName" : "Edwin Orlando Díaz",
+        "fullLFMName" : "Díaz, Edwin Orlando",
+        "strikeZoneTop" : 3.49,
+        "strikeZoneBottom" : 1.6
+      }
+    } ],
+    "statGroup" : "pitching"
+  }, {
+    "leaderCategory" : "earnedRunAverage",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "1.71",
+      "team" : {
+        "id" : 121,
+        "name" : "New York Mets",
+        "link" : "/api/v1/teams/121",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3289,
+          "name" : "Citi Field",
+          "link" : "/api/v1/venues/3289"
+        },
+        "teamCode" : "nyn",
+        "fileCode" : "nym",
+        "abbreviation" : "NYM",
+        "teamName" : "Mets",
+        "locationName" : "New York",
+        "firstYearOfPlay" : "1962",
+        "league" : {
+          "id" : 104,
+          "name" : "National League",
+          "link" : "/api/v1/league/104"
+        },
+        "division" : {
+          "id" : 204,
+          "name" : "National League East",
+          "link" : "/api/v1/divisions/204"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "NY Mets",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 594798,
+        "fullName" : "Jacob deGrom",
+        "link" : "/api/v1/people/594798",
+        "firstName" : "Jacob",
+        "lastName" : "deGrom",
+        "primaryNumber" : "48",
+        "birthDate" : "1988-06-19",
+        "currentAge" : 30,
+        "birthCity" : "DeLand",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 4",
+        "weight" : 180,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Jacob",
+        "middleName" : "Anthony",
+        "boxscoreName" : "deGrom",
+        "nickName" : "Jake",
+        "draftYear" : 2010,
+        "mlbDebutDate" : "2014-05-15",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Jacob deGrom",
+        "nameSlug" : "jacob-degrom-594798",
+        "firstLastName" : "Jacob deGrom",
+        "lastFirstName" : "deGrom, Jacob",
+        "lastInitName" : "deGrom, J",
+        "initLastName" : "J deGrom",
+        "fullFMLName" : "Jacob Anthony deGrom",
+        "fullLFMName" : "deGrom, Jacob Anthony",
+        "strikeZoneTop" : 3.72,
+        "strikeZoneBottom" : 1.86
+      }
+    } ],
+    "statGroup" : "pitching"
+  }, {
+    "leaderCategory" : "strikeouts",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "177",
+      "team" : {
+        "id" : 145,
+        "name" : "Chicago White Sox",
+        "link" : "/api/v1/teams/145",
+        "season" : 2018,
+        "venue" : {
+          "id" : 4,
+          "name" : "Guaranteed Rate Field",
+          "link" : "/api/v1/venues/4"
+        },
+        "teamCode" : "cha",
+        "fileCode" : "cws",
+        "abbreviation" : "CWS",
+        "teamName" : "White Sox",
+        "locationName" : "Chicago",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 202,
+          "name" : "American League Central",
+          "link" : "/api/v1/divisions/202"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Chi White Sox",
+        "springLeague" : {
+          "id" : 114,
+          "name" : "Cactus League",
+          "link" : "/api/v1/league/114",
+          "abbreviation" : "CL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 660162,
+        "fullName" : "Yoan Moncada",
+        "link" : "/api/v1/people/660162",
+        "firstName" : "Yoan",
+        "lastName" : "Moncada",
+        "primaryNumber" : "10",
+        "birthDate" : "1995-05-27",
+        "currentAge" : 23,
+        "birthCity" : "Abreus",
+        "birthCountry" : "Cuba",
+        "height" : "6' 2",
+        "weight" : 205,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "4",
+          "name" : "Second Base",
+          "type" : "Infielder",
+          "abbreviation" : "2B"
+        },
+        "useName" : "Yoan",
+        "middleName" : "Manuel",
+        "boxscoreName" : "Moncada",
+        "nickName" : "Yoyo",
+        "mlbDebutDate" : "2016-09-02",
+        "batSide" : {
+          "code" : "S",
+          "description" : "Switch"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Yoan Moncada",
+        "nameSlug" : "yoan-moncada-660162",
+        "firstLastName" : "Yoán Moncada",
+        "lastFirstName" : "Moncada, Yoán",
+        "lastInitName" : "Moncada, Y",
+        "initLastName" : "Y Moncada",
+        "fullFMLName" : "Yoán Manuel Moncada",
+        "fullLFMName" : "Moncada, Yoán Manuel",
+        "strikeZoneTop" : 3.467,
+        "strikeZoneBottom" : 1.589
+      }
+    } ],
+    "statGroup" : "hitting"
+  }, {
+    "leaderCategory" : "strikeouts",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "234",
+      "team" : {
+        "id" : 120,
+        "name" : "Washington Nationals",
+        "link" : "/api/v1/teams/120",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3309,
+          "name" : "Nationals Park",
+          "link" : "/api/v1/venues/3309"
+        },
+        "teamCode" : "was",
+        "fileCode" : "was",
+        "abbreviation" : "WSH",
+        "teamName" : "Nationals",
+        "locationName" : "Washington",
+        "firstYearOfPlay" : "1969",
+        "league" : {
+          "id" : 104,
+          "name" : "National League",
+          "link" : "/api/v1/league/104"
+        },
+        "division" : {
+          "id" : 204,
+          "name" : "National League East",
+          "link" : "/api/v1/divisions/204"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Washington",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 453286,
+        "fullName" : "Max Scherzer",
+        "link" : "/api/v1/people/453286",
+        "firstName" : "Maxwell",
+        "lastName" : "Scherzer",
+        "primaryNumber" : "31",
+        "birthDate" : "1984-07-27",
+        "currentAge" : 34,
+        "birthCity" : "St. Louis",
+        "birthStateProvince" : "MO",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 215,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Max",
+        "middleName" : "M.",
+        "boxscoreName" : "Scherzer",
+        "nickName" : "Blue Eye",
+        "draftYear" : 2006,
+        "pronunciation" : "SHER-zer",
+        "mlbDebutDate" : "2008-04-29",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Max Scherzer",
+        "nameSlug" : "max-scherzer-453286",
+        "firstLastName" : "Max Scherzer",
+        "lastFirstName" : "Scherzer, Max",
+        "lastInitName" : "Scherzer, M",
+        "initLastName" : "M Scherzer",
+        "fullFMLName" : "Maxwell M. Scherzer",
+        "fullLFMName" : "Scherzer, Maxwell M.",
+        "strikeZoneTop" : 3.5,
+        "strikeZoneBottom" : 1.65
+      }
+    } ],
+    "statGroup" : "pitching"
+  }, {
+    "leaderCategory" : "walksAndHitsPerInningPitched",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "0.85",
+      "team" : {
+        "id" : 111,
+        "name" : "Boston Red Sox",
+        "link" : "/api/v1/teams/111",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3,
+          "name" : "Fenway Park",
+          "link" : "/api/v1/venues/3"
+        },
+        "teamCode" : "bos",
+        "fileCode" : "bos",
+        "abbreviation" : "BOS",
+        "teamName" : "Red Sox",
+        "locationName" : "Boston",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 201,
+          "name" : "American League East",
+          "link" : "/api/v1/divisions/201"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Boston",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 519242,
+        "fullName" : "Chris Sale",
+        "link" : "/api/v1/people/519242",
+        "firstName" : "Christopher",
+        "lastName" : "Sale",
+        "primaryNumber" : "41",
+        "birthDate" : "1989-03-30",
+        "currentAge" : 29,
+        "birthCity" : "Lakeland",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 6",
+        "weight" : 180,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Chris",
+        "middleName" : "Allen",
+        "boxscoreName" : "Sale",
+        "nickName" : "The Conductor",
+        "draftYear" : 2010,
+        "mlbDebutDate" : "2010-08-06",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Chris Sale",
+        "nameSlug" : "chris-sale-519242",
+        "firstLastName" : "Chris Sale",
+        "lastFirstName" : "Sale, Chris",
+        "lastInitName" : "Sale, C",
+        "initLastName" : "C Sale",
+        "fullFMLName" : "Christopher Allen Sale",
+        "fullLFMName" : "Sale, Christopher Allen",
+        "strikeZoneTop" : 3.656,
+        "strikeZoneBottom" : 1.677
+      }
+    } ],
+    "statGroup" : "pitching"
+  }, {
+    "leaderCategory" : "battingAverage",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : ".340",
+      "team" : {
+        "id" : 111,
+        "name" : "Boston Red Sox",
+        "link" : "/api/v1/teams/111",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3,
+          "name" : "Fenway Park",
+          "link" : "/api/v1/venues/3"
+        },
+        "teamCode" : "bos",
+        "fileCode" : "bos",
+        "abbreviation" : "BOS",
+        "teamName" : "Red Sox",
+        "locationName" : "Boston",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 201,
+          "name" : "American League East",
+          "link" : "/api/v1/divisions/201"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Boston",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 605141,
+        "fullName" : "Mookie Betts",
+        "link" : "/api/v1/people/605141",
+        "firstName" : "Markus",
+        "lastName" : "Betts",
+        "primaryNumber" : "50",
+        "birthDate" : "1992-10-07",
+        "currentAge" : 25,
+        "birthCity" : "Nashville",
+        "birthStateProvince" : "TN",
+        "birthCountry" : "USA",
+        "height" : "5' 9",
+        "weight" : 180,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "9",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "RF"
+        },
+        "useName" : "Mookie",
+        "middleName" : "Lynn",
+        "boxscoreName" : "Betts",
+        "draftYear" : 2011,
+        "mlbDebutDate" : "2014-06-29",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Mookie Betts",
+        "nameSlug" : "mookie-betts-605141",
+        "firstLastName" : "Mookie Betts",
+        "lastFirstName" : "Betts, Mookie",
+        "lastInitName" : "Betts, M",
+        "initLastName" : "M Betts",
+        "fullFMLName" : "Markus Lynn Betts",
+        "fullLFMName" : "Betts, Markus Lynn",
+        "strikeZoneTop" : 3.285,
+        "strikeZoneBottom" : 1.487
+      }
+    } ],
+    "statGroup" : "hitting"
+  }, {
+    "leaderCategory" : "battingAverage",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : ".175",
+      "team" : {
+        "id" : 111,
+        "name" : "Boston Red Sox",
+        "link" : "/api/v1/teams/111",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3,
+          "name" : "Fenway Park",
+          "link" : "/api/v1/venues/3"
+        },
+        "teamCode" : "bos",
+        "fileCode" : "bos",
+        "abbreviation" : "BOS",
+        "teamName" : "Red Sox",
+        "locationName" : "Boston",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 201,
+          "name" : "American League East",
+          "link" : "/api/v1/divisions/201"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Boston",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 519242,
+        "fullName" : "Chris Sale",
+        "link" : "/api/v1/people/519242",
+        "firstName" : "Christopher",
+        "lastName" : "Sale",
+        "primaryNumber" : "41",
+        "birthDate" : "1989-03-30",
+        "currentAge" : 29,
+        "birthCity" : "Lakeland",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 6",
+        "weight" : 180,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Chris",
+        "middleName" : "Allen",
+        "boxscoreName" : "Sale",
+        "nickName" : "The Conductor",
+        "draftYear" : 2010,
+        "mlbDebutDate" : "2010-08-06",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Chris Sale",
+        "nameSlug" : "chris-sale-519242",
+        "firstLastName" : "Chris Sale",
+        "lastFirstName" : "Sale, Chris",
+        "lastInitName" : "Sale, C",
+        "initLastName" : "C Sale",
+        "fullFMLName" : "Christopher Allen Sale",
+        "fullLFMName" : "Sale, Christopher Allen",
+        "strikeZoneTop" : 3.656,
+        "strikeZoneBottom" : 1.677
+      }
+    } ],
+    "statGroup" : "pitching"
+  }, {
+    "leaderCategory" : "runs",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "103",
+      "team" : {
+        "id" : 114,
+        "name" : "Cleveland Indians",
+        "link" : "/api/v1/teams/114",
+        "season" : 2018,
+        "venue" : {
+          "id" : 5,
+          "name" : "Progressive Field",
+          "link" : "/api/v1/venues/5"
+        },
+        "teamCode" : "cle",
+        "fileCode" : "cle",
+        "abbreviation" : "CLE",
+        "teamName" : "Indians",
+        "locationName" : "Cleveland",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 202,
+          "name" : "American League Central",
+          "link" : "/api/v1/divisions/202"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Cleveland",
+        "springLeague" : {
+          "id" : 114,
+          "name" : "Cactus League",
+          "link" : "/api/v1/league/114",
+          "abbreviation" : "CL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 596019,
+        "fullName" : "Francisco Lindor",
+        "link" : "/api/v1/people/596019",
+        "firstName" : "Francisco",
+        "lastName" : "Lindor",
+        "primaryNumber" : "12",
+        "birthDate" : "1993-11-14",
+        "currentAge" : 24,
+        "birthCity" : "Caguas",
+        "birthCountry" : "Puerto Rico",
+        "height" : "5' 11",
+        "weight" : 190,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "6",
+          "name" : "Shortstop",
+          "type" : "Infielder",
+          "abbreviation" : "SS"
+        },
+        "useName" : "Francisco",
+        "middleName" : "Miguel",
+        "boxscoreName" : "Lindor",
+        "nickName" : "Mr. Smile",
+        "draftYear" : 2011,
+        "pronunciation" : "lin-DOOR",
+        "mlbDebutDate" : "2015-06-14",
+        "batSide" : {
+          "code" : "S",
+          "description" : "Switch"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Francisco Lindor",
+        "nameSlug" : "francisco-lindor-596019",
+        "firstLastName" : "Francisco Lindor",
+        "lastFirstName" : "Lindor, Francisco",
+        "lastInitName" : "Lindor, F",
+        "initLastName" : "F Lindor",
+        "fullFMLName" : "Francisco Miguel Lindor",
+        "fullLFMName" : "Lindor, Francisco Miguel",
+        "strikeZoneTop" : 3.3,
+        "strikeZoneBottom" : 1.51
+      }
+    } ],
+    "statGroup" : "hitting"
+  }, {
+    "leaderCategory" : "runs",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "95",
+      "team" : {
+        "id" : 145,
+        "name" : "Chicago White Sox",
+        "link" : "/api/v1/teams/145",
+        "season" : 2018,
+        "venue" : {
+          "id" : 4,
+          "name" : "Guaranteed Rate Field",
+          "link" : "/api/v1/venues/4"
+        },
+        "teamCode" : "cha",
+        "fileCode" : "cws",
+        "abbreviation" : "CWS",
+        "teamName" : "White Sox",
+        "locationName" : "Chicago",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 202,
+          "name" : "American League Central",
+          "link" : "/api/v1/divisions/202"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Chi White Sox",
+        "springLeague" : {
+          "id" : 114,
+          "name" : "Cactus League",
+          "link" : "/api/v1/league/114",
+          "abbreviation" : "CL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 608337,
+        "fullName" : "Lucas Giolito",
+        "link" : "/api/v1/people/608337",
+        "firstName" : "Lucas",
+        "lastName" : "Giolito",
+        "primaryNumber" : "27",
+        "birthDate" : "1994-07-14",
+        "currentAge" : 24,
+        "birthCity" : "Santa Monica",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "height" : "6' 6",
+        "weight" : 245,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Lucas",
+        "middleName" : "F.",
+        "boxscoreName" : "Giolito",
+        "nickName" : "Big Foot",
+        "draftYear" : 2012,
+        "mlbDebutDate" : "2016-06-28",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Lucas Giolito",
+        "nameSlug" : "lucas-giolito-608337",
+        "firstLastName" : "Lucas Giolito",
+        "lastFirstName" : "Giolito, Lucas",
+        "lastInitName" : "Giolito, L",
+        "initLastName" : "L Giolito",
+        "fullFMLName" : "Lucas F. Giolito",
+        "fullLFMName" : "Giolito, Lucas F.",
+        "strikeZoneTop" : 3.75,
+        "strikeZoneBottom" : 1.68
+      }
+    } ],
+    "statGroup" : "pitching"
+  }, {
+    "leaderCategory" : "homeRuns",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "38",
+      "team" : {
+        "id" : 133,
+        "name" : "Oakland Athletics",
+        "link" : "/api/v1/teams/133",
+        "season" : 2018,
+        "venue" : {
+          "id" : 10,
+          "name" : "Oakland Coliseum",
+          "link" : "/api/v1/venues/10"
+        },
+        "teamCode" : "oak",
+        "fileCode" : "oak",
+        "abbreviation" : "OAK",
+        "teamName" : "Athletics",
+        "locationName" : "Oakland",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 200,
+          "name" : "American League West",
+          "link" : "/api/v1/divisions/200"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Oakland",
+        "springLeague" : {
+          "id" : 114,
+          "name" : "Cactus League",
+          "link" : "/api/v1/league/114",
+          "abbreviation" : "CL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 501981,
+        "fullName" : "Khris Davis",
+        "link" : "/api/v1/people/501981",
+        "firstName" : "Khris",
+        "lastName" : "Davis",
+        "primaryNumber" : "2",
+        "birthDate" : "1987-12-21",
+        "currentAge" : 30,
+        "birthCity" : "Lakewood",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "height" : "5' 10",
+        "weight" : 195,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "7",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "LF"
+        },
+        "useName" : "Khris",
+        "middleName" : "Adrian",
+        "boxscoreName" : "Davis, K",
+        "nickName" : "KD",
+        "draftYear" : 2009,
+        "mlbDebutDate" : "2013-04-01",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Khris Davis",
+        "nameSlug" : "khris-davis-501981",
+        "firstLastName" : "Khris Davis",
+        "lastFirstName" : "Davis, Khris",
+        "lastInitName" : "Davis, K",
+        "initLastName" : "K Davis",
+        "fullFMLName" : "Khris Adrian Davis",
+        "fullLFMName" : "Davis, Khris Adrian",
+        "strikeZoneTop" : 3.301,
+        "strikeZoneBottom" : 1.504
+      }
+    }, {
+      "rank" : 1,
+      "value" : "38",
+      "team" : {
+        "id" : 111,
+        "name" : "Boston Red Sox",
+        "link" : "/api/v1/teams/111",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3,
+          "name" : "Fenway Park",
+          "link" : "/api/v1/venues/3"
+        },
+        "teamCode" : "bos",
+        "fileCode" : "bos",
+        "abbreviation" : "BOS",
+        "teamName" : "Red Sox",
+        "locationName" : "Boston",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 201,
+          "name" : "American League East",
+          "link" : "/api/v1/divisions/201"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Boston",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 502110,
+        "fullName" : "J.D. Martinez",
+        "link" : "/api/v1/people/502110",
+        "firstName" : "Julio",
+        "lastName" : "Martinez",
+        "primaryNumber" : "28",
+        "birthDate" : "1987-08-21",
+        "currentAge" : 30,
+        "birthCity" : "Miami",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 220,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "7",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "LF"
+        },
+        "useName" : "J.D.",
+        "middleName" : "Daniel",
+        "boxscoreName" : "Martinez, J",
+        "nickName" : "Flaco",
+        "draftYear" : 2009,
+        "mlbDebutDate" : "2011-07-30",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "J.D. Martinez",
+        "nameSlug" : "j-d-martinez-502110",
+        "firstLastName" : "J.D. Martinez",
+        "lastFirstName" : "Martinez, J.D.",
+        "lastInitName" : "Martinez, J",
+        "initLastName" : "J Martinez",
+        "fullFMLName" : "Julio Daniel Martinez",
+        "fullLFMName" : "Martinez, Julio Daniel",
+        "strikeZoneTop" : 3.75,
+        "strikeZoneBottom" : 1.71
+      }
+    } ],
+    "statGroup" : "hitting"
+  }, {
+    "leaderCategory" : "homeRuns",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "33",
+      "team" : {
+        "id" : 110,
+        "name" : "Baltimore Orioles",
+        "link" : "/api/v1/teams/110",
+        "season" : 2018,
+        "venue" : {
+          "id" : 2,
+          "name" : "Oriole Park at Camden Yards",
+          "link" : "/api/v1/venues/2"
+        },
+        "teamCode" : "bal",
+        "fileCode" : "bal",
+        "abbreviation" : "BAL",
+        "teamName" : "Orioles",
+        "locationName" : "Baltimore",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 201,
+          "name" : "American League East",
+          "link" : "/api/v1/divisions/201"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Baltimore",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 605164,
+        "fullName" : "Dylan Bundy",
+        "link" : "/api/v1/people/605164",
+        "firstName" : "Dylan",
+        "lastName" : "Bundy",
+        "primaryNumber" : "37",
+        "birthDate" : "1992-11-15",
+        "currentAge" : 25,
+        "birthCity" : "Tulsa",
+        "birthStateProvince" : "OK",
+        "birthCountry" : "USA",
+        "height" : "6' 1",
+        "weight" : 200,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Dylan",
+        "middleName" : "Matthew",
+        "boxscoreName" : "Bundy",
+        "nickName" : "Dilly",
+        "draftYear" : 2011,
+        "mlbDebutDate" : "2012-09-23",
+        "batSide" : {
+          "code" : "S",
+          "description" : "Switch"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Dylan Bundy",
+        "nameSlug" : "dylan-bundy-605164",
+        "firstLastName" : "Dylan Bundy",
+        "lastFirstName" : "Bundy, Dylan",
+        "lastInitName" : "Bundy, D",
+        "initLastName" : "D Bundy",
+        "fullFMLName" : "Dylan Matthew Bundy",
+        "fullLFMName" : "Bundy, Dylan Matthew",
+        "strikeZoneTop" : 3.51,
+        "strikeZoneBottom" : 1.62
+      }
+    } ],
+    "statGroup" : "pitching"
+  }, {
+    "leaderCategory" : "runsBattedIn",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "106",
+      "team" : {
+        "id" : 111,
+        "name" : "Boston Red Sox",
+        "link" : "/api/v1/teams/111",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3,
+          "name" : "Fenway Park",
+          "link" : "/api/v1/venues/3"
+        },
+        "teamCode" : "bos",
+        "fileCode" : "bos",
+        "abbreviation" : "BOS",
+        "teamName" : "Red Sox",
+        "locationName" : "Boston",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 201,
+          "name" : "American League East",
+          "link" : "/api/v1/divisions/201"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Boston",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 502110,
+        "fullName" : "J.D. Martinez",
+        "link" : "/api/v1/people/502110",
+        "firstName" : "Julio",
+        "lastName" : "Martinez",
+        "primaryNumber" : "28",
+        "birthDate" : "1987-08-21",
+        "currentAge" : 30,
+        "birthCity" : "Miami",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 220,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "7",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "LF"
+        },
+        "useName" : "J.D.",
+        "middleName" : "Daniel",
+        "boxscoreName" : "Martinez, J",
+        "nickName" : "Flaco",
+        "draftYear" : 2009,
+        "mlbDebutDate" : "2011-07-30",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "J.D. Martinez",
+        "nameSlug" : "j-d-martinez-502110",
+        "firstLastName" : "J.D. Martinez",
+        "lastFirstName" : "Martinez, J.D.",
+        "lastInitName" : "Martinez, J",
+        "initLastName" : "J Martinez",
+        "fullFMLName" : "Julio Daniel Martinez",
+        "fullLFMName" : "Martinez, Julio Daniel",
+        "strikeZoneTop" : 3.75,
+        "strikeZoneBottom" : 1.71
+      }
+    } ],
+    "statGroup" : "hitting"
+  }, {
+    "leaderCategory" : "stolenBases",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "32",
+      "team" : {
+        "id" : 120,
+        "name" : "Washington Nationals",
+        "link" : "/api/v1/teams/120",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3309,
+          "name" : "Nationals Park",
+          "link" : "/api/v1/venues/3309"
+        },
+        "teamCode" : "was",
+        "fileCode" : "was",
+        "abbreviation" : "WSH",
+        "teamName" : "Nationals",
+        "locationName" : "Washington",
+        "firstYearOfPlay" : "1969",
+        "league" : {
+          "id" : 104,
+          "name" : "National League",
+          "link" : "/api/v1/league/104"
+        },
+        "division" : {
+          "id" : 204,
+          "name" : "National League East",
+          "link" : "/api/v1/divisions/204"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Washington",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 607208,
+        "fullName" : "Trea Turner",
+        "link" : "/api/v1/people/607208",
+        "firstName" : "Trea",
+        "lastName" : "Turner",
+        "primaryNumber" : "7",
+        "birthDate" : "1993-06-30",
+        "currentAge" : 25,
+        "birthCity" : "Boynton Beach",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 2",
+        "weight" : 185,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "6",
+          "name" : "Shortstop",
+          "type" : "Infielder",
+          "abbreviation" : "SS"
+        },
+        "useName" : "Trea",
+        "middleName" : "Vance",
+        "boxscoreName" : "Turner",
+        "nickName" : "Triple Trea",
+        "draftYear" : 2014,
+        "mlbDebutDate" : "2015-08-21",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Trea Turner",
+        "nameSlug" : "trea-turner-607208",
+        "firstLastName" : "Trea Turner",
+        "lastFirstName" : "Turner, Trea",
+        "lastInitName" : "Turner, T",
+        "initLastName" : "T Turner",
+        "fullFMLName" : "Trea Vance Turner",
+        "fullLFMName" : "Turner, Trea Vance",
+        "strikeZoneTop" : 3.467,
+        "strikeZoneBottom" : 1.589
+      }
+    } ],
+    "statGroup" : "hitting"
+  }, {
+    "leaderCategory" : "stolenBases",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "25",
+      "team" : {
+        "id" : 121,
+        "name" : "New York Mets",
+        "link" : "/api/v1/teams/121",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3289,
+          "name" : "Citi Field",
+          "link" : "/api/v1/venues/3289"
+        },
+        "teamCode" : "nyn",
+        "fileCode" : "nym",
+        "abbreviation" : "NYM",
+        "teamName" : "Mets",
+        "locationName" : "New York",
+        "firstYearOfPlay" : "1962",
+        "league" : {
+          "id" : 104,
+          "name" : "National League",
+          "link" : "/api/v1/league/104"
+        },
+        "division" : {
+          "id" : 204,
+          "name" : "National League East",
+          "link" : "/api/v1/divisions/204"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "NY Mets",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 592789,
+        "fullName" : "Noah Syndergaard",
+        "link" : "/api/v1/people/592789",
+        "firstName" : "Noah",
+        "lastName" : "Syndergaard",
+        "primaryNumber" : "34",
+        "birthDate" : "1992-08-29",
+        "currentAge" : 25,
+        "birthCity" : "Mansfield",
+        "birthStateProvince" : "TX",
+        "birthCountry" : "USA",
+        "height" : "6' 6",
+        "weight" : 240,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Noah",
+        "middleName" : "Seth",
+        "boxscoreName" : "Syndergaard",
+        "nickName" : "Thor",
+        "draftYear" : 2010,
+        "mlbDebutDate" : "2015-05-12",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Noah Syndergaard",
+        "nameSlug" : "noah-syndergaard-592789",
+        "firstLastName" : "Noah Syndergaard",
+        "lastFirstName" : "Syndergaard, Noah",
+        "lastInitName" : "Syndergaard, N",
+        "initLastName" : "N Syndergaard",
+        "fullFMLName" : "Noah Seth Syndergaard",
+        "fullLFMName" : "Syndergaard, Noah Seth",
+        "strikeZoneTop" : 3.38,
+        "strikeZoneBottom" : 1.66
+      }
+    }, {
+      "rank" : 1,
+      "value" : "25",
+      "team" : {
+        "id" : 121,
+        "name" : "New York Mets",
+        "link" : "/api/v1/teams/121",
+        "season" : 2018,
+        "venue" : {
+          "id" : 3289,
+          "name" : "Citi Field",
+          "link" : "/api/v1/venues/3289"
+        },
+        "teamCode" : "nyn",
+        "fileCode" : "nym",
+        "abbreviation" : "NYM",
+        "teamName" : "Mets",
+        "locationName" : "New York",
+        "firstYearOfPlay" : "1962",
+        "league" : {
+          "id" : 104,
+          "name" : "National League",
+          "link" : "/api/v1/league/104"
+        },
+        "division" : {
+          "id" : 204,
+          "name" : "National League East",
+          "link" : "/api/v1/divisions/204"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "NY Mets",
+        "springLeague" : {
+          "id" : 115,
+          "name" : "Grapefruit League",
+          "link" : "/api/v1/league/115",
+          "abbreviation" : "GL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 571927,
+        "fullName" : "Steven Matz",
+        "link" : "/api/v1/people/571927",
+        "firstName" : "Steven",
+        "lastName" : "Matz",
+        "primaryNumber" : "32",
+        "birthDate" : "1991-05-29",
+        "currentAge" : 27,
+        "birthCity" : "Stony Brook",
+        "birthStateProvince" : "NY",
+        "birthCountry" : "USA",
+        "height" : "6' 2",
+        "weight" : 200,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Steven",
+        "middleName" : "Jakob",
+        "boxscoreName" : "Matz",
+        "nickName" : "Matzy",
+        "draftYear" : 2009,
+        "mlbDebutDate" : "2015-06-28",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Steven Matz",
+        "nameSlug" : "steven-matz-571927",
+        "firstLastName" : "Steven Matz",
+        "lastFirstName" : "Matz, Steven",
+        "lastInitName" : "Matz, S",
+        "initLastName" : "S Matz",
+        "fullFMLName" : "Steven Jakob Matz",
+        "fullLFMName" : "Matz, Steven Jakob",
+        "strikeZoneTop" : 3.467,
+        "strikeZoneBottom" : 1.589
+      }
+    } ],
+    "statGroup" : "pitching"
+  }, {
+    "leaderCategory" : "stolenBases",
+    "season" : "2018",
+    "gameType" : {
+      "id" : "R",
+      "description" : "Regular season"
+    },
+    "leaders" : [ {
+      "rank" : 1,
+      "value" : "57",
+      "team" : {
+        "id" : 133,
+        "name" : "Oakland Athletics",
+        "link" : "/api/v1/teams/133",
+        "season" : 2018,
+        "venue" : {
+          "id" : 10,
+          "name" : "Oakland Coliseum",
+          "link" : "/api/v1/venues/10"
+        },
+        "teamCode" : "oak",
+        "fileCode" : "oak",
+        "abbreviation" : "OAK",
+        "teamName" : "Athletics",
+        "locationName" : "Oakland",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 200,
+          "name" : "American League West",
+          "link" : "/api/v1/divisions/200"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Oakland",
+        "springLeague" : {
+          "id" : 114,
+          "name" : "Cactus League",
+          "link" : "/api/v1/league/114",
+          "abbreviation" : "CL"
+        },
+        "active" : true
+      },
+      "person" : {
+        "id" : 518960,
+        "fullName" : "Jonathan Lucroy",
+        "link" : "/api/v1/people/518960",
+        "firstName" : "Jonathan",
+        "lastName" : "Lucroy",
+        "primaryNumber" : "21",
+        "birthDate" : "1986-06-13",
+        "currentAge" : 32,
+        "birthCity" : "Eustis",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 0",
+        "weight" : 200,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "2",
+          "name" : "Catcher",
+          "type" : "Catcher",
+          "abbreviation" : "C"
+        },
+        "useName" : "Jonathan",
+        "middleName" : "Charles",
+        "boxscoreName" : "Lucroy",
+        "nickName" : "Luc",
+        "draftYear" : 2007,
+        "pronunciation" : "luke-roy",
+        "mlbDebutDate" : "2010-05-21",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Jonathan Lucroy",
+        "nameSlug" : "jonathan-lucroy-518960",
+        "firstLastName" : "Jonathan Lucroy",
+        "lastFirstName" : "Lucroy, Jonathan",
+        "lastInitName" : "Lucroy, J",
+        "initLastName" : "J Lucroy",
+        "fullFMLName" : "Jonathan Charles Lucroy",
+        "fullLFMName" : "Lucroy, Jonathan Charles",
+        "strikeZoneTop" : 3.371,
+        "strikeZoneBottom" : 1.535
+      }
+    } ],
+    "statGroup" : "fielding"
+  } ]
+}
