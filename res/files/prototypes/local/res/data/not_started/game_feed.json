@@ -1,0 +1,4185 @@
+{
+  "copyright" : "Copyright 2018 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "gamePk" : 531317,
+  "link" : "/api/v1.1/game/531317/feed/live",
+  "metaData" : {
+    "wait" : 10,
+    "timeStamp" : "20180822_165059",
+    "gameEvents" : [ ],
+    "logicalEvents" : [ ]
+  },
+  "gameData" : {
+    "game" : {
+      "pk" : 531317,
+      "type" : "R",
+      "doubleHeader" : "N",
+      "id" : "2018/08/22/texmlb-oakmlb-1",
+      "gamedayType" : "P",
+      "tiebreaker" : "N",
+      "gameNumber" : 1,
+      "calendarEventID" : "14-531317-2018-08-22",
+      "season" : "2018",
+      "seasonDisplay" : "2018"
+    },
+    "datetime" : {
+      "dateTime" : "2018-08-22T19:35:00Z",
+      "originalDate" : "2018-08-22",
+      "dayNight" : "day",
+      "time" : "12:35",
+      "ampm" : "PM"
+    },
+    "status" : {
+      "abstractGameState" : "Preview",
+      "codedGameState" : "S",
+      "detailedState" : "Scheduled",
+      "statusCode" : "S",
+      "abstractGameCode" : "P"
+    },
+    "teams" : {
+      "away" : {
+        "id" : 140,
+        "name" : "Texas Rangers",
+        "link" : "/api/v1/teams/140",
+        "venue" : {
+          "id" : 13,
+          "name" : "Globe Life Park in Arlington",
+          "link" : "/api/v1/venues/13"
+        },
+        "teamCode" : "tex",
+        "fileCode" : "tex",
+        "abbreviation" : "TEX",
+        "teamName" : "Rangers",
+        "locationName" : "Arlington",
+        "firstYearOfPlay" : "1961",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 200,
+          "name" : "American League West",
+          "link" : "/api/v1/divisions/200"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Texas",
+        "record" : {
+          "gamesPlayed" : 127,
+          "wildCardGamesBack" : "-",
+          "leagueGamesBack" : "-",
+          "springLeagueGamesBack" : "-",
+          "sportGamesBack" : "-",
+          "divisionGamesBack" : "-",
+          "conferenceGamesBack" : "-",
+          "leagueRecord" : {
+            "wins" : 56,
+            "losses" : 71,
+            "pct" : ".441"
+          },
+          "records" : { },
+          "divisionLeader" : false,
+          "wins" : 56,
+          "losses" : 71
+        },
+        "springLeague" : {
+          "id" : 114,
+          "name" : "Cactus League",
+          "link" : "/api/v1/league/114",
+          "abbreviation" : "CL"
+        },
+        "active" : true
+      },
+      "home" : {
+        "id" : 133,
+        "name" : "Oakland Athletics",
+        "link" : "/api/v1/teams/133",
+        "venue" : {
+          "id" : 10,
+          "name" : "Oakland Coliseum",
+          "link" : "/api/v1/venues/10"
+        },
+        "teamCode" : "oak",
+        "fileCode" : "oak",
+        "abbreviation" : "OAK",
+        "teamName" : "Athletics",
+        "locationName" : "Oakland",
+        "firstYearOfPlay" : "1901",
+        "league" : {
+          "id" : 103,
+          "name" : "American League",
+          "link" : "/api/v1/league/103"
+        },
+        "division" : {
+          "id" : 200,
+          "name" : "American League West",
+          "link" : "/api/v1/divisions/200"
+        },
+        "sport" : {
+          "id" : 1,
+          "link" : "/api/v1/sports/1",
+          "name" : "Major League Baseball"
+        },
+        "shortName" : "Oakland",
+        "record" : {
+          "gamesPlayed" : 125,
+          "wildCardGamesBack" : "-",
+          "leagueGamesBack" : "-",
+          "springLeagueGamesBack" : "-",
+          "sportGamesBack" : "-",
+          "divisionGamesBack" : "-",
+          "conferenceGamesBack" : "-",
+          "leagueRecord" : {
+            "wins" : 75,
+            "losses" : 50,
+            "pct" : ".600"
+          },
+          "records" : { },
+          "divisionLeader" : false,
+          "wins" : 75,
+          "losses" : 50
+        },
+        "springLeague" : {
+          "id" : 114,
+          "name" : "Cactus League",
+          "link" : "/api/v1/league/114",
+          "abbreviation" : "CL"
+        },
+        "active" : true
+      }
+    },
+    "players" : {
+      "ID425783" : {
+        "id" : 425783,
+        "fullName" : "Shin-Soo Choo",
+        "link" : "/api/v1/people/425783",
+        "firstName" : "Shin-Soo",
+        "lastName" : "Choo",
+        "primaryNumber" : "17",
+        "birthDate" : "1982-07-13",
+        "currentAge" : 36,
+        "birthCity" : "Busan",
+        "birthCountry" : "South Korea",
+        "height" : "5' 11",
+        "weight" : 210,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "9",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "RF"
+        },
+        "useName" : "Shin-Soo",
+        "boxscoreName" : "Choo",
+        "mlbDebutDate" : "2005-04-21",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Shin-Soo Choo",
+        "nameSlug" : "shin-soo-choo-425783",
+        "firstLastName" : "Shin-Soo Choo",
+        "lastFirstName" : "Choo, Shin-Soo",
+        "lastInitName" : "Choo, S",
+        "initLastName" : "S Choo",
+        "fullFMLName" : "Shin-Soo Choo",
+        "fullLFMName" : "Choo, Shin-Soo",
+        "strikeZoneTop" : 3.319,
+        "strikeZoneBottom" : 1.513
+      },
+      "ID451596" : {
+        "id" : 451596,
+        "fullName" : "Yovani Gallardo",
+        "link" : "/api/v1/people/451596",
+        "firstName" : "Yovani",
+        "lastName" : "Gallardo",
+        "primaryNumber" : "49",
+        "birthDate" : "1986-02-27",
+        "currentAge" : 32,
+        "birthCity" : "Penjamillo",
+        "birthStateProvince" : "Michoacan",
+        "birthCountry" : "Mexico",
+        "height" : "6' 2",
+        "weight" : 205,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Yovani",
+        "boxscoreName" : "Gallardo",
+        "nickName" : "Yo",
+        "draftYear" : 2004,
+        "pronunciation" : "yoh-VAN-nee giy-YAHR-doh",
+        "mlbDebutDate" : "2007-06-18",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Yovani Gallardo",
+        "nameSlug" : "yovani-gallardo-451596",
+        "firstLastName" : "Yovani Gallardo",
+        "lastFirstName" : "Gallardo, Yovani",
+        "lastInitName" : "Gallardo, Y",
+        "initLastName" : "Y Gallardo",
+        "fullFMLName" : "Yovani Gallardo",
+        "fullLFMName" : "Gallardo, Yovani",
+        "strikeZoneTop" : 3.52,
+        "strikeZoneBottom" : 1.59
+      },
+      "ID112526" : {
+        "id" : 112526,
+        "fullName" : "Bartolo Colon",
+        "link" : "/api/v1/people/112526",
+        "firstName" : "Bartolo",
+        "lastName" : "Colon",
+        "primaryNumber" : "40",
+        "birthDate" : "1973-05-24",
+        "currentAge" : 45,
+        "birthCity" : "Altamira",
+        "birthCountry" : "Dominican Republic",
+        "height" : "5' 11",
+        "weight" : 285,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Bartolo",
+        "boxscoreName" : "Colon",
+        "nickName" : "Big Sexy",
+        "pronunciation" : "like \"cologne\"",
+        "mlbDebutDate" : "1997-04-04",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Bartolo Colon",
+        "nameSlug" : "bartolo-colon-112526",
+        "firstLastName" : "Bartolo Colon",
+        "lastFirstName" : "Colon, Bartolo",
+        "lastInitName" : "Colon, B",
+        "initLastName" : "B Colon",
+        "fullFMLName" : "Bartolo Colon",
+        "fullLFMName" : "Colon, Bartolo",
+        "strikeZoneTop" : 3.4,
+        "strikeZoneBottom" : 1.52
+      },
+      "ID571800" : {
+        "id" : 571800,
+        "fullName" : "Drew Hutchison",
+        "link" : "/api/v1/people/571800",
+        "firstName" : "Andrew",
+        "lastName" : "Hutchison",
+        "primaryNumber" : "48",
+        "birthDate" : "1990-08-22",
+        "currentAge" : 27,
+        "birthCity" : "Lakeland",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 205,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Drew",
+        "middleName" : "Scott",
+        "boxscoreName" : "Hutchison",
+        "nickName" : "Hutch",
+        "draftYear" : 2009,
+        "mlbDebutDate" : "2012-04-21",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Drew Hutchison",
+        "nameSlug" : "drew-hutchison-571800",
+        "firstLastName" : "Drew Hutchison",
+        "lastFirstName" : "Hutchison, Drew",
+        "lastInitName" : "Hutchison, D",
+        "initLastName" : "D Hutchison",
+        "fullFMLName" : "Andrew Scott Hutchison",
+        "fullLFMName" : "Hutchison, Andrew Scott",
+        "strikeZoneTop" : 3.49,
+        "strikeZoneBottom" : 1.601
+      },
+      "ID595777" : {
+        "id" : 595777,
+        "fullName" : "Jurickson Profar",
+        "link" : "/api/v1/people/595777",
+        "firstName" : "Jurickson",
+        "lastName" : "Profar",
+        "primaryNumber" : "19",
+        "birthDate" : "1993-02-20",
+        "currentAge" : 25,
+        "birthCity" : "Willemstad",
+        "birthCountry" : "Curacao",
+        "height" : "6' 0",
+        "weight" : 190,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "6",
+          "name" : "Shortstop",
+          "type" : "Infielder",
+          "abbreviation" : "SS"
+        },
+        "useName" : "Jurickson",
+        "middleName" : "Barthelomeus",
+        "boxscoreName" : "Profar",
+        "nickName" : "El Patron",
+        "pronunciation" : "JER-ik-suhn PROH-fahr",
+        "mlbDebutDate" : "2012-09-02",
+        "batSide" : {
+          "code" : "S",
+          "description" : "Switch"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Jurickson Profar",
+        "nameSlug" : "jurickson-profar-595777",
+        "firstLastName" : "Jurickson Profar",
+        "lastFirstName" : "Profar, Jurickson",
+        "lastInitName" : "Profar, J",
+        "initLastName" : "J Profar",
+        "fullFMLName" : "Jurickson Barthelomeus Profar",
+        "fullLFMName" : "Profar, Jurickson Barthelomeus",
+        "strikeZoneTop" : 3.24,
+        "strikeZoneBottom" : 1.49
+      },
+      "ID501985" : {
+        "id" : 501985,
+        "fullName" : "Mike Minor",
+        "link" : "/api/v1/people/501985",
+        "firstName" : "Michael",
+        "lastName" : "Minor",
+        "primaryNumber" : "36",
+        "birthDate" : "1987-12-26",
+        "currentAge" : 30,
+        "birthCity" : "Chapel Hill",
+        "birthStateProvince" : "TN",
+        "birthCountry" : "USA",
+        "height" : "6' 4",
+        "weight" : 210,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Mike",
+        "middleName" : "David",
+        "boxscoreName" : "Minor",
+        "nickName" : "Spykezylla",
+        "draftYear" : 2009,
+        "mlbDebutDate" : "2010-08-09",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Mike Minor",
+        "nameSlug" : "mike-minor-501985",
+        "firstLastName" : "Mike Minor",
+        "lastFirstName" : "Minor, Mike",
+        "lastInitName" : "Minor, M",
+        "initLastName" : "M Minor",
+        "fullFMLName" : "Michael David Minor",
+        "fullLFMName" : "Minor, Michael David",
+        "strikeZoneTop" : 3.549,
+        "strikeZoneBottom" : 1.627
+      },
+      "ID502239" : {
+        "id" : 502239,
+        "fullName" : "Trevor Cahill",
+        "link" : "/api/v1/people/502239",
+        "firstName" : "Trevor",
+        "lastName" : "Cahill",
+        "primaryNumber" : "53",
+        "birthDate" : "1988-03-01",
+        "currentAge" : 30,
+        "birthCity" : "Oceanside",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "height" : "6' 4",
+        "weight" : 240,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Trevor",
+        "middleName" : "John",
+        "boxscoreName" : "Cahill",
+        "nickName" : "T.C.",
+        "draftYear" : 2006,
+        "mlbDebutDate" : "2009-04-07",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Trevor Cahill",
+        "nameSlug" : "trevor-cahill-502239",
+        "firstLastName" : "Trevor Cahill",
+        "lastFirstName" : "Cahill, Trevor",
+        "lastInitName" : "Cahill, T",
+        "initLastName" : "T Cahill",
+        "fullFMLName" : "Trevor John Cahill",
+        "fullLFMName" : "Cahill, Trevor John",
+        "strikeZoneTop" : 3.69,
+        "strikeZoneBottom" : 1.68
+      },
+      "ID656305" : {
+        "id" : 656305,
+        "fullName" : "Matt Chapman",
+        "link" : "/api/v1/people/656305",
+        "firstName" : "Matt",
+        "lastName" : "Chapman",
+        "primaryNumber" : "26",
+        "birthDate" : "1993-04-28",
+        "currentAge" : 25,
+        "birthCity" : "Victorville",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "height" : "6' 0",
+        "weight" : 210,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "5",
+          "name" : "Third Base",
+          "type" : "Infielder",
+          "abbreviation" : "3B"
+        },
+        "useName" : "Matt",
+        "middleName" : "James",
+        "boxscoreName" : "Chapman, M",
+        "nickName" : "Chappy",
+        "draftYear" : 2014,
+        "mlbDebutDate" : "2017-06-15",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Matt Chapman",
+        "nameSlug" : "matt-chapman-656305",
+        "firstLastName" : "Matt Chapman",
+        "lastFirstName" : "Chapman, Matt",
+        "lastInitName" : "Chapman, M",
+        "initLastName" : "M Chapman",
+        "fullFMLName" : "Matt James Chapman",
+        "fullLFMName" : "Chapman, Matt James",
+        "strikeZoneTop" : 3.371,
+        "strikeZoneBottom" : 1.535
+      },
+      "ID592192" : {
+        "id" : 592192,
+        "fullName" : "Mark Canha",
+        "link" : "/api/v1/people/592192",
+        "firstName" : "Mark",
+        "lastName" : "Canha",
+        "primaryNumber" : "20",
+        "birthDate" : "1989-02-15",
+        "currentAge" : 29,
+        "birthCity" : "San Jose",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "height" : "6' 2",
+        "weight" : 210,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "8",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "CF"
+        },
+        "useName" : "Mark",
+        "middleName" : "David",
+        "boxscoreName" : "Canha",
+        "nickName" : "Tom Ace",
+        "draftYear" : 2010,
+        "pronunciation" : "CAN-uh",
+        "mlbDebutDate" : "2015-04-08",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Mark Canha",
+        "nameSlug" : "mark-canha-592192",
+        "firstLastName" : "Mark Canha",
+        "lastFirstName" : "Canha, Mark",
+        "lastInitName" : "Canha, M",
+        "initLastName" : "M Canha",
+        "fullFMLName" : "Mark David Canha",
+        "fullLFMName" : "Canha, Mark David",
+        "strikeZoneTop" : 3.467,
+        "strikeZoneBottom" : 1.589
+      },
+      "ID501981" : {
+        "id" : 501981,
+        "fullName" : "Khris Davis",
+        "link" : "/api/v1/people/501981",
+        "firstName" : "Khris",
+        "lastName" : "Davis",
+        "primaryNumber" : "2",
+        "birthDate" : "1987-12-21",
+        "currentAge" : 30,
+        "birthCity" : "Lakewood",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "height" : "5' 10",
+        "weight" : 195,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "7",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "LF"
+        },
+        "useName" : "Khris",
+        "middleName" : "Adrian",
+        "boxscoreName" : "Davis, K",
+        "nickName" : "KD",
+        "draftYear" : 2009,
+        "mlbDebutDate" : "2013-04-01",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Khris Davis",
+        "nameSlug" : "khris-davis-501981",
+        "firstLastName" : "Khris Davis",
+        "lastFirstName" : "Davis, Khris",
+        "lastInitName" : "Davis, K",
+        "initLastName" : "K Davis",
+        "fullFMLName" : "Khris Adrian Davis",
+        "fullLFMName" : "Davis, Khris Adrian",
+        "strikeZoneTop" : 3.301,
+        "strikeZoneBottom" : 1.504
+      },
+      "ID624636" : {
+        "id" : 624636,
+        "fullName" : "Carlos Tocci",
+        "link" : "/api/v1/people/624636",
+        "firstName" : "Carlos",
+        "lastName" : "Tocci",
+        "primaryNumber" : "15",
+        "birthDate" : "1995-08-23",
+        "currentAge" : 22,
+        "birthCity" : "Maracay",
+        "birthCountry" : "Venezuela",
+        "height" : "6' 2",
+        "weight" : 160,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "8",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "CF"
+        },
+        "useName" : "Carlos",
+        "middleName" : "Daniel",
+        "boxscoreName" : "Tocci",
+        "nickName" : "El Musiu",
+        "mlbDebutDate" : "2018-03-31",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Carlos Tocci",
+        "nameSlug" : "carlos-tocci-624636",
+        "firstLastName" : "Carlos Tocci",
+        "lastFirstName" : "Tocci, Carlos",
+        "lastInitName" : "Tocci, C",
+        "initLastName" : "C Tocci",
+        "fullFMLName" : "Carlos Daniel Tocci",
+        "fullLFMName" : "Tocci, Carlos Daniel",
+        "strikeZoneTop" : 3.467,
+        "strikeZoneBottom" : 1.589
+      },
+      "ID621566" : {
+        "id" : 621566,
+        "fullName" : "Matt Olson",
+        "link" : "/api/v1/people/621566",
+        "firstName" : "Matthew",
+        "lastName" : "Olson",
+        "primaryNumber" : "28",
+        "birthDate" : "1994-03-29",
+        "currentAge" : 24,
+        "birthCity" : "Atlanta",
+        "birthStateProvince" : "GA",
+        "birthCountry" : "USA",
+        "height" : "6' 5",
+        "weight" : 230,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "3",
+          "name" : "First Base",
+          "type" : "Infielder",
+          "abbreviation" : "1B"
+        },
+        "useName" : "Matt",
+        "middleName" : "Kent",
+        "boxscoreName" : "Olson",
+        "nickName" : "Oly",
+        "draftYear" : 2012,
+        "mlbDebutDate" : "2016-09-12",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Matt Olson",
+        "nameSlug" : "matt-olson-621566",
+        "firstLastName" : "Matt Olson",
+        "lastFirstName" : "Olson, Matt",
+        "lastInitName" : "Olson, M",
+        "initLastName" : "M Olson",
+        "fullFMLName" : "Matthew Kent Olson",
+        "fullLFMName" : "Olson, Matthew Kent",
+        "strikeZoneTop" : 3.575,
+        "strikeZoneBottom" : 1.681
+      },
+      "ID474463" : {
+        "id" : 474463,
+        "fullName" : "Brett Anderson",
+        "link" : "/api/v1/people/474463",
+        "firstName" : "Brett",
+        "lastName" : "Anderson",
+        "primaryNumber" : "30",
+        "birthDate" : "1988-02-01",
+        "currentAge" : 30,
+        "birthCity" : "Midland",
+        "birthStateProvince" : "TX",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 230,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Brett",
+        "middleName" : "Franklin",
+        "boxscoreName" : "Anderson, B",
+        "draftYear" : 2006,
+        "mlbDebutDate" : "2009-04-10",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Brett Anderson",
+        "nameSlug" : "brett-anderson-474463",
+        "firstLastName" : "Brett Anderson",
+        "lastFirstName" : "Anderson, Brett",
+        "lastInitName" : "Anderson, B",
+        "initLastName" : "B Anderson",
+        "fullFMLName" : "Brett Franklin Anderson",
+        "fullLFMName" : "Anderson, Brett Franklin",
+        "strikeZoneTop" : 3.69,
+        "strikeZoneBottom" : 1.77
+      },
+      "ID640461" : {
+        "id" : 640461,
+        "fullName" : "Chad Pinder",
+        "link" : "/api/v1/people/640461",
+        "firstName" : "Chadwick",
+        "lastName" : "Pinder",
+        "primaryNumber" : "18",
+        "birthDate" : "1992-03-29",
+        "currentAge" : 26,
+        "birthCity" : "Richmond",
+        "birthStateProvince" : "VA",
+        "birthCountry" : "USA",
+        "height" : "6' 2",
+        "weight" : 195,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "7",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "LF"
+        },
+        "useName" : "Chad",
+        "middleName" : "Hudson",
+        "boxscoreName" : "Pinder",
+        "nickName" : "Chi",
+        "draftYear" : 2013,
+        "mlbDebutDate" : "2016-08-20",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Chad Pinder",
+        "nameSlug" : "chad-pinder-640461",
+        "firstLastName" : "Chad Pinder",
+        "lastFirstName" : "Pinder, Chad",
+        "lastInitName" : "Pinder, C",
+        "initLastName" : "C Pinder",
+        "fullFMLName" : "Chadwick Hudson Pinder",
+        "fullLFMName" : "Pinder, Chadwick Hudson",
+        "strikeZoneTop" : 3.55,
+        "strikeZoneBottom" : 1.61
+      },
+      "ID407845" : {
+        "id" : 407845,
+        "fullName" : "Fernando Rodney",
+        "link" : "/api/v1/people/407845",
+        "firstName" : "Fernando",
+        "lastName" : "Rodney",
+        "primaryNumber" : "56",
+        "birthDate" : "1977-03-18",
+        "currentAge" : 41,
+        "birthCity" : "Samana",
+        "birthCountry" : "Dominican Republic",
+        "height" : "5' 11",
+        "weight" : 230,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Fernando",
+        "boxscoreName" : "Rodney",
+        "nickName" : "Uiya Clara",
+        "mlbDebutDate" : "2002-05-04",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Fernando Rodney",
+        "nameSlug" : "fernando-rodney-407845",
+        "firstLastName" : "Fernando Rodney",
+        "lastFirstName" : "Rodney, Fernando",
+        "lastInitName" : "Rodney, F",
+        "initLastName" : "F Rodney",
+        "fullFMLName" : "Fernando Rodney",
+        "fullLFMName" : "Rodney, Fernando",
+        "strikeZoneTop" : 3.319,
+        "strikeZoneBottom" : 1.513
+      },
+      "ID605361" : {
+        "id" : 605361,
+        "fullName" : "Nick Martini",
+        "link" : "/api/v1/people/605361",
+        "firstName" : "Nicholas",
+        "lastName" : "Martini",
+        "primaryNumber" : "38",
+        "birthDate" : "1990-06-27",
+        "currentAge" : 28,
+        "birthCity" : "Crystal Lake",
+        "birthStateProvince" : "IL",
+        "birthCountry" : "USA",
+        "height" : "5' 11",
+        "weight" : 205,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "7",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "LF"
+        },
+        "useName" : "Nick",
+        "middleName" : "Scott",
+        "boxscoreName" : "Martini",
+        "nickName" : "Tini",
+        "draftYear" : 2011,
+        "mlbDebutDate" : "2018-06-06",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Nick Martini",
+        "nameSlug" : "nick-martini-605361",
+        "firstLastName" : "Nick Martini",
+        "lastFirstName" : "Martini, Nick",
+        "lastInitName" : "Martini, N",
+        "initLastName" : "N Martini",
+        "fullFMLName" : "Nicholas Scott Martini",
+        "fullLFMName" : "Martini, Nicholas Scott",
+        "strikeZoneTop" : 3.319,
+        "strikeZoneBottom" : 1.513
+      },
+      "ID608597" : {
+        "id" : 608597,
+        "fullName" : "Ronald Guzman",
+        "link" : "/api/v1/people/608597",
+        "firstName" : "Ronald",
+        "lastName" : "Guzman",
+        "primaryNumber" : "67",
+        "birthDate" : "1994-10-20",
+        "currentAge" : 23,
+        "birthCity" : "La Vega",
+        "birthCountry" : "Dominican Republic",
+        "height" : "6' 5",
+        "weight" : 225,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "3",
+          "name" : "First Base",
+          "type" : "Infielder",
+          "abbreviation" : "1B"
+        },
+        "useName" : "Ronald",
+        "middleName" : "Enmanuel",
+        "boxscoreName" : "Guzmán",
+        "nickName" : "Cepeda",
+        "mlbDebutDate" : "2018-04-13",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Ronald Guzman",
+        "nameSlug" : "ronald-guzman-608597",
+        "firstLastName" : "Ronald Guzmán",
+        "lastFirstName" : "Guzmán, Ronald",
+        "lastInitName" : "Guzmán, R",
+        "initLastName" : "R Guzmán",
+        "fullFMLName" : "Ronald Enmanuel Guzmán",
+        "fullLFMName" : "Guzmán, Ronald Enmanuel",
+        "strikeZoneTop" : 3.575,
+        "strikeZoneBottom" : 1.681
+      },
+      "ID605488" : {
+        "id" : 605488,
+        "fullName" : "Jeffrey Springs",
+        "link" : "/api/v1/people/605488",
+        "firstName" : "Jeffrey",
+        "lastName" : "Springs",
+        "primaryNumber" : "54",
+        "birthDate" : "1992-09-20",
+        "currentAge" : 25,
+        "birthCity" : "Belmont",
+        "birthStateProvince" : "NC",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 180,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Jeffrey",
+        "middleName" : "Scott",
+        "boxscoreName" : "Springs",
+        "draftYear" : 2015,
+        "mlbDebutDate" : "2018-07-31",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Jeffrey Springs",
+        "nameSlug" : "jeffrey-springs-605488",
+        "firstLastName" : "Jeffrey Springs",
+        "lastFirstName" : "Springs, Jeffrey",
+        "lastInitName" : "Springs, J",
+        "initLastName" : "J Springs",
+        "fullFMLName" : "Jeffrey Scott Springs",
+        "fullLFMName" : "Springs, Jeffrey Scott",
+        "strikeZoneTop" : 3.49,
+        "strikeZoneBottom" : 1.601
+      },
+      "ID600917" : {
+        "id" : 600917,
+        "fullName" : "Jose Leclerc",
+        "link" : "/api/v1/people/600917",
+        "firstName" : "Jose",
+        "lastName" : "Leclerc",
+        "primaryNumber" : "62",
+        "birthDate" : "1993-12-19",
+        "currentAge" : 24,
+        "birthCity" : "Esperanza",
+        "birthCountry" : "Dominican Republic",
+        "height" : "6' 0",
+        "weight" : 190,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Jose",
+        "middleName" : "Ramon",
+        "boxscoreName" : "Leclerc",
+        "nickName" : "Pico",
+        "mlbDebutDate" : "2016-07-06",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Jose Leclerc",
+        "nameSlug" : "jose-leclerc-600917",
+        "firstLastName" : "José Leclerc",
+        "lastFirstName" : "Leclerc, José",
+        "lastInitName" : "Leclerc, J",
+        "initLastName" : "J Leclerc",
+        "fullFMLName" : "José Ramon Leclerc",
+        "fullLFMName" : "Leclerc, José Ramon",
+        "strikeZoneTop" : 3.371,
+        "strikeZoneBottom" : 1.535
+      },
+      "ID527048" : {
+        "id" : 527048,
+        "fullName" : "Martin Perez",
+        "link" : "/api/v1/people/527048",
+        "firstName" : "Martin",
+        "lastName" : "Perez",
+        "primaryNumber" : "33",
+        "birthDate" : "1991-04-04",
+        "currentAge" : 27,
+        "birthCity" : "Guanare",
+        "birthCountry" : "Venezuela",
+        "height" : "6' 0",
+        "weight" : 200,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Martin",
+        "boxscoreName" : "Pérez, M",
+        "nickName" : "El De Las Matas",
+        "pronunciation" : "mahr-TEEN PAIR-ehz",
+        "mlbDebutDate" : "2012-06-27",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Martin Perez",
+        "nameSlug" : "martin-perez-527048",
+        "firstLastName" : "Martin Pérez",
+        "lastFirstName" : "Pérez, Martin",
+        "lastInitName" : "Pérez, M",
+        "initLastName" : "M Pérez",
+        "fullFMLName" : "Martin Pérez",
+        "fullLFMName" : "Pérez, Martin",
+        "strikeZoneTop" : 3.65,
+        "strikeZoneBottom" : 1.7
+      },
+      "ID455119" : {
+        "id" : 455119,
+        "fullName" : "Chris Martin",
+        "link" : "/api/v1/people/455119",
+        "firstName" : "Christopher",
+        "lastName" : "Martin",
+        "primaryNumber" : "31",
+        "birthDate" : "1986-06-02",
+        "currentAge" : 32,
+        "birthCity" : "Arlington",
+        "birthStateProvince" : "TX",
+        "birthCountry" : "USA",
+        "height" : "6' 8",
+        "weight" : 215,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Chris",
+        "middleName" : "R.",
+        "boxscoreName" : "Martin, Ch",
+        "nickName" : "C-Mart",
+        "draftYear" : 2005,
+        "mlbDebutDate" : "2014-04-26",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Chris Martin",
+        "nameSlug" : "chris-martin-455119",
+        "firstLastName" : "Chris Martin",
+        "lastFirstName" : "Martin, Chris",
+        "lastInitName" : "Martin, C",
+        "initLastName" : "C Martin",
+        "fullFMLName" : "Christopher R. Martin",
+        "fullLFMName" : "Martin, Christopher R.",
+        "strikeZoneTop" : 3.688,
+        "strikeZoneBottom" : 1.747
+      },
+      "ID433589" : {
+        "id" : 433589,
+        "fullName" : "Yusmeiro Petit",
+        "link" : "/api/v1/people/433589",
+        "firstName" : "Yusmeiro",
+        "lastName" : "Petit",
+        "primaryNumber" : "36",
+        "birthDate" : "1984-11-22",
+        "currentAge" : 33,
+        "birthCity" : "Maracaibo",
+        "birthCountry" : "Venezuela",
+        "height" : "6' 1",
+        "weight" : 255,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Yusmeiro",
+        "middleName" : "Alberto",
+        "boxscoreName" : "Petit",
+        "nickName" : "Yus",
+        "pronunciation" : "YOOS-mair-oh puh-TEET",
+        "mlbDebutDate" : "2006-05-14",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Yusmeiro Petit",
+        "nameSlug" : "yusmeiro-petit-433589",
+        "firstLastName" : "Yusmeiro Petit",
+        "lastFirstName" : "Petit, Yusmeiro",
+        "lastInitName" : "Petit, Y",
+        "initLastName" : "Y Petit",
+        "fullFMLName" : "Yusmeiro Alberto Petit",
+        "fullLFMName" : "Petit, Yusmeiro Alberto",
+        "strikeZoneTop" : 3.53,
+        "strikeZoneBottom" : 1.61
+      },
+      "ID518715" : {
+        "id" : 518715,
+        "fullName" : "Cory Gearrin",
+        "link" : "/api/v1/people/518715",
+        "firstName" : "Cory",
+        "lastName" : "Gearrin",
+        "primaryNumber" : "44",
+        "birthDate" : "1986-04-14",
+        "currentAge" : 32,
+        "birthCity" : "Chattanooga",
+        "birthStateProvince" : "TN",
+        "birthCountry" : "USA",
+        "height" : "6' 1",
+        "weight" : 205,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Cory",
+        "middleName" : "Nathanial",
+        "boxscoreName" : "Gearrin",
+        "nickName" : "CeeGee",
+        "draftYear" : 2007,
+        "pronunciation" : "GEAR-in",
+        "mlbDebutDate" : "2011-04-25",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Cory Gearrin",
+        "nameSlug" : "cory-gearrin-518715",
+        "firstLastName" : "Cory Gearrin",
+        "lastFirstName" : "Gearrin, Cory",
+        "lastInitName" : "Gearrin, C",
+        "initLastName" : "C Gearrin",
+        "fullFMLName" : "Cory Nathanial Gearrin",
+        "fullLFMName" : "Gearrin, Cory Nathanial",
+        "strikeZoneTop" : 3.411,
+        "strikeZoneBottom" : 1.565
+      },
+      "ID544727" : {
+        "id" : 544727,
+        "fullName" : "Jeurys Familia",
+        "link" : "/api/v1/people/544727",
+        "firstName" : "Jeurys",
+        "lastName" : "Familia",
+        "primaryNumber" : "32",
+        "birthDate" : "1989-10-10",
+        "currentAge" : 28,
+        "birthCity" : "Santo Domingo",
+        "birthCountry" : "Dominican Republic",
+        "height" : "6' 3",
+        "weight" : 240,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Jeurys",
+        "boxscoreName" : "Familia",
+        "nickName" : "La Fama",
+        "pronunciation" : "Jer-IS",
+        "mlbDebutDate" : "2012-09-04",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Jeurys Familia",
+        "nameSlug" : "jeurys-familia-544727",
+        "firstLastName" : "Jeurys Familia",
+        "lastFirstName" : "Familia, Jeurys",
+        "lastInitName" : "Familia, J",
+        "initLastName" : "J Familia",
+        "fullFMLName" : "Jeurys Familia",
+        "fullLFMName" : "Familia, Jeurys",
+        "strikeZoneTop" : 3.49,
+        "strikeZoneBottom" : 1.601
+      },
+      "ID642152" : {
+        "id" : 642152,
+        "fullName" : "Lou Trivino",
+        "link" : "/api/v1/people/642152",
+        "firstName" : "Lou",
+        "lastName" : "Trivino",
+        "primaryNumber" : "62",
+        "birthDate" : "1991-10-01",
+        "currentAge" : 26,
+        "birthCity" : "Green Lane",
+        "birthStateProvince" : "PA",
+        "birthCountry" : "USA",
+        "height" : "6' 5",
+        "weight" : 225,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Lou",
+        "middleName" : "Albert",
+        "boxscoreName" : "Trivino",
+        "nickName" : "Sweet Lou",
+        "draftYear" : 2013,
+        "mlbDebutDate" : "2018-04-17",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Lou Trivino",
+        "nameSlug" : "lou-trivino-642152",
+        "firstLastName" : "Lou Trivino",
+        "lastFirstName" : "Trivino, Lou",
+        "lastInitName" : "Trivino, L",
+        "initLastName" : "L Trivino",
+        "fullFMLName" : "Lou Albert Trivino",
+        "fullLFMName" : "Trivino, Lou Albert",
+        "strikeZoneTop" : 3.575,
+        "strikeZoneBottom" : 1.681
+      },
+      "ID455139" : {
+        "id" : 455139,
+        "fullName" : "Robinson Chirinos",
+        "link" : "/api/v1/people/455139",
+        "firstName" : "Robinson",
+        "lastName" : "Chirinos",
+        "primaryNumber" : "61",
+        "birthDate" : "1984-06-05",
+        "currentAge" : 34,
+        "birthCity" : "Punto Fijo",
+        "birthCountry" : "Venezuela",
+        "height" : "6' 1",
+        "weight" : 210,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "2",
+          "name" : "Catcher",
+          "type" : "Catcher",
+          "abbreviation" : "C"
+        },
+        "useName" : "Robinson",
+        "middleName" : "David",
+        "boxscoreName" : "Chirinos, R",
+        "nickName" : "Pelo Buche",
+        "pronunciation" : "chee-REE-nohs",
+        "mlbDebutDate" : "2011-07-18",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Robinson Chirinos",
+        "nameSlug" : "robinson-chirinos-455139",
+        "firstLastName" : "Robinson Chirinos",
+        "lastFirstName" : "Chirinos, Robinson",
+        "lastInitName" : "Chirinos, R",
+        "initLastName" : "R Chirinos",
+        "fullFMLName" : "Robinson David Chirinos",
+        "fullLFMName" : "Chirinos, Robinson David",
+        "strikeZoneTop" : 3.11,
+        "strikeZoneBottom" : 1.36
+      },
+      "ID642558" : {
+        "id" : 642558,
+        "fullName" : "Ariel Jurado",
+        "link" : "/api/v1/people/642558",
+        "firstName" : "Ariel",
+        "lastName" : "Jurado",
+        "primaryNumber" : "57",
+        "birthDate" : "1996-01-30",
+        "currentAge" : 22,
+        "birthCity" : "Aguadulce",
+        "birthCountry" : "Panama",
+        "height" : "6' 1",
+        "weight" : 180,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Ariel",
+        "middleName" : "Bolivar",
+        "boxscoreName" : "Jurado",
+        "nickName" : "Bartolito",
+        "mlbDebutDate" : "2018-05-19",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Ariel Jurado",
+        "nameSlug" : "ariel-jurado-642558",
+        "firstLastName" : "Ariel Jurado",
+        "lastFirstName" : "Jurado, Ariel",
+        "lastInitName" : "Jurado, A",
+        "initLastName" : "A Jurado",
+        "fullFMLName" : "Ariel Bolivar Jurado",
+        "fullLFMName" : "Jurado, Ariel Bolivar",
+        "strikeZoneTop" : 3.411,
+        "strikeZoneBottom" : 1.565
+      },
+      "ID592685" : {
+        "id" : 592685,
+        "fullName" : "Drew Robinson",
+        "link" : "/api/v1/people/592685",
+        "firstName" : "Drew",
+        "lastName" : "Robinson",
+        "primaryNumber" : "18",
+        "birthDate" : "1992-04-20",
+        "currentAge" : 26,
+        "birthCity" : "Las Vegas",
+        "birthStateProvince" : "NV",
+        "birthCountry" : "USA",
+        "height" : "6' 1",
+        "weight" : 200,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "8",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "CF"
+        },
+        "useName" : "Drew",
+        "middleName" : "Elliott",
+        "boxscoreName" : "Robinson, D",
+        "nickName" : "Petey",
+        "draftYear" : 2010,
+        "mlbDebutDate" : "2017-04-05",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Drew Robinson",
+        "nameSlug" : "drew-robinson-592685",
+        "firstLastName" : "Drew Robinson",
+        "lastFirstName" : "Robinson, Drew",
+        "lastInitName" : "Robinson, D",
+        "initLastName" : "D Robinson",
+        "fullFMLName" : "Drew Elliott Robinson",
+        "fullLFMName" : "Robinson, Drew Elliott",
+        "strikeZoneTop" : 3.411,
+        "strikeZoneBottom" : 1.565
+      },
+      "ID641941" : {
+        "id" : 641941,
+        "fullName" : "Emilio Pagan",
+        "link" : "/api/v1/people/641941",
+        "firstName" : "Emilio",
+        "lastName" : "Pagan",
+        "primaryNumber" : "15",
+        "birthDate" : "1991-05-07",
+        "currentAge" : 27,
+        "birthCity" : "Simpsonville",
+        "birthStateProvince" : "SC",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 210,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Emilio",
+        "middleName" : "Enrique",
+        "boxscoreName" : "Pagán",
+        "nickName" : "Emiliooooo",
+        "draftYear" : 2013,
+        "mlbDebutDate" : "2017-05-03",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Emilio Pagan",
+        "nameSlug" : "emilio-pagan-641941",
+        "firstLastName" : "Emilio Pagán",
+        "lastFirstName" : "Pagán, Emilio",
+        "lastInitName" : "Pagán, E",
+        "initLastName" : "E Pagán",
+        "fullFMLName" : "Emilio Enrique Pagán",
+        "fullLFMName" : "Pagán, Emilio Enrique",
+        "strikeZoneTop" : 3.49,
+        "strikeZoneBottom" : 1.601
+      },
+      "ID640455" : {
+        "id" : 640455,
+        "fullName" : "Sean Manaea",
+        "link" : "/api/v1/people/640455",
+        "firstName" : "Sean",
+        "lastName" : "Manaea",
+        "primaryNumber" : "55",
+        "birthDate" : "1992-02-01",
+        "currentAge" : 26,
+        "birthCity" : "Valparaiso",
+        "birthStateProvince" : "IN",
+        "birthCountry" : "USA",
+        "height" : "6' 5",
+        "weight" : 245,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Sean",
+        "middleName" : "Anthony",
+        "boxscoreName" : "Manaea",
+        "nickName" : "Manaealator",
+        "draftYear" : 2013,
+        "mlbDebutDate" : "2016-04-29",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Sean Manaea",
+        "nameSlug" : "sean-manaea-640455",
+        "firstLastName" : "Sean Manaea",
+        "lastFirstName" : "Manaea, Sean",
+        "lastInitName" : "Manaea, S",
+        "initLastName" : "S Manaea",
+        "fullFMLName" : "Sean Anthony Manaea",
+        "fullLFMName" : "Manaea, Sean Anthony",
+        "strikeZoneTop" : 3.575,
+        "strikeZoneBottom" : 1.681
+      },
+      "ID572039" : {
+        "id" : 572039,
+        "fullName" : "Stephen Piscotty",
+        "link" : "/api/v1/people/572039",
+        "firstName" : "Stephen",
+        "lastName" : "Piscotty",
+        "primaryNumber" : "25",
+        "birthDate" : "1991-01-14",
+        "currentAge" : 27,
+        "birthCity" : "Pleasanton",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 210,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "9",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "RF"
+        },
+        "useName" : "Stephen",
+        "middleName" : "Edward",
+        "boxscoreName" : "Piscotty",
+        "nickName" : "MoMo",
+        "draftYear" : 2012,
+        "mlbDebutDate" : "2015-07-21",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Stephen Piscotty",
+        "nameSlug" : "stephen-piscotty-572039",
+        "firstLastName" : "Stephen Piscotty",
+        "lastFirstName" : "Piscotty, Stephen",
+        "lastInitName" : "Piscotty, S",
+        "initLastName" : "S Piscotty",
+        "fullFMLName" : "Stephen Edward Piscotty",
+        "fullLFMName" : "Piscotty, Stephen Edward",
+        "strikeZoneTop" : 3.49,
+        "strikeZoneBottom" : 1.601
+      },
+      "ID571666" : {
+        "id" : 571666,
+        "fullName" : "Mike Fiers",
+        "link" : "/api/v1/people/571666",
+        "firstName" : "Michael",
+        "lastName" : "Fiers",
+        "primaryNumber" : "50",
+        "birthDate" : "1985-06-15",
+        "currentAge" : 33,
+        "birthCity" : "Hollywood",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 2",
+        "weight" : 202,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Mike",
+        "middleName" : "Bruce",
+        "boxscoreName" : "Fiers",
+        "nickName" : "Fire",
+        "draftYear" : 2009,
+        "pronunciation" : "FIRES",
+        "mlbDebutDate" : "2011-09-14",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Mike Fiers",
+        "nameSlug" : "mike-fiers-571666",
+        "firstLastName" : "Mike Fiers",
+        "lastFirstName" : "Fiers, Mike",
+        "lastInitName" : "Fiers, M",
+        "initLastName" : "M Fiers",
+        "fullFMLName" : "Michael Bruce Fiers",
+        "fullLFMName" : "Fiers, Michael Bruce",
+        "strikeZoneTop" : 3.51,
+        "strikeZoneBottom" : 1.58
+      },
+      "ID518875" : {
+        "id" : 518875,
+        "fullName" : "Shawn Kelley",
+        "link" : "/api/v1/people/518875",
+        "firstName" : "Shawn",
+        "lastName" : "Kelley",
+        "primaryNumber" : "31",
+        "birthDate" : "1984-04-26",
+        "currentAge" : 34,
+        "birthCity" : "Louisville",
+        "birthStateProvince" : "KY",
+        "birthCountry" : "USA",
+        "height" : "6' 2",
+        "weight" : 237,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Shawn",
+        "middleName" : "Andrew",
+        "boxscoreName" : "Kelley, S",
+        "nickName" : "Kelleytime",
+        "draftYear" : 2007,
+        "mlbDebutDate" : "2009-04-10",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Shawn Kelley",
+        "nameSlug" : "shawn-kelley-518875",
+        "firstLastName" : "Shawn Kelley",
+        "lastFirstName" : "Kelley, Shawn",
+        "lastInitName" : "Kelley, S",
+        "initLastName" : "S Kelley",
+        "fullFMLName" : "Shawn Andrew Kelley",
+        "fullLFMName" : "Kelley, Shawn Andrew",
+        "strikeZoneTop" : 3.467,
+        "strikeZoneBottom" : 1.589
+      },
+      "ID134181" : {
+        "id" : 134181,
+        "fullName" : "Adrian Beltre",
+        "link" : "/api/v1/people/134181",
+        "firstName" : "Adrian",
+        "lastName" : "Beltre",
+        "primaryNumber" : "29",
+        "birthDate" : "1979-04-07",
+        "currentAge" : 39,
+        "birthCity" : "Santo Domingo",
+        "birthCountry" : "Dominican Republic",
+        "height" : "5' 11",
+        "weight" : 220,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "5",
+          "name" : "Third Base",
+          "type" : "Infielder",
+          "abbreviation" : "3B"
+        },
+        "useName" : "Adrian",
+        "boxscoreName" : "Beltré",
+        "nickName" : "El Koja",
+        "pronunciation" : "BEHL-tray",
+        "mlbDebutDate" : "1998-06-24",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Adrian Beltre",
+        "nameSlug" : "adrian-beltre-134181",
+        "firstLastName" : "Adrián Beltré",
+        "lastFirstName" : "Beltré, Adrián",
+        "lastInitName" : "Beltré, A",
+        "initLastName" : "A Beltré",
+        "fullFMLName" : "Adrián Beltré",
+        "fullLFMName" : "Beltré, Adrián",
+        "strikeZoneTop" : 3.319,
+        "strikeZoneBottom" : 1.513
+      },
+      "ID519043" : {
+        "id" : 519043,
+        "fullName" : "Matt Moore",
+        "link" : "/api/v1/people/519043",
+        "firstName" : "Matthew",
+        "lastName" : "Moore",
+        "primaryNumber" : "55",
+        "birthDate" : "1989-06-18",
+        "currentAge" : 29,
+        "birthCity" : "Fort Walton Beach",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 3",
+        "weight" : 210,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Matt",
+        "middleName" : "Cody",
+        "boxscoreName" : "Moore",
+        "nickName" : "Matt Man",
+        "draftYear" : 2007,
+        "mlbDebutDate" : "2011-09-14",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Matt Moore",
+        "nameSlug" : "matt-moore-519043",
+        "firstLastName" : "Matt Moore",
+        "lastFirstName" : "Moore, Matt",
+        "lastInitName" : "Moore, M",
+        "initLastName" : "M Moore",
+        "fullFMLName" : "Matthew Cody Moore",
+        "fullLFMName" : "Moore, Matthew Cody",
+        "strikeZoneTop" : 3.53,
+        "strikeZoneBottom" : 1.63
+      },
+      "ID596059" : {
+        "id" : 596059,
+        "fullName" : "Rougned Odor",
+        "link" : "/api/v1/people/596059",
+        "firstName" : "Rougned",
+        "lastName" : "Odor",
+        "primaryNumber" : "12",
+        "birthDate" : "1994-02-03",
+        "currentAge" : 24,
+        "birthCity" : "Maracaibo",
+        "birthCountry" : "Venezuela",
+        "height" : "5' 11",
+        "weight" : 195,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "4",
+          "name" : "Second Base",
+          "type" : "Infielder",
+          "abbreviation" : "2B"
+        },
+        "useName" : "Rougned",
+        "middleName" : "Roberto",
+        "boxscoreName" : "Odor",
+        "nickName" : "El Tipo",
+        "pronunciation" : "ROOG-nehd oh-DOER",
+        "mlbDebutDate" : "2014-05-08",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Rougned Odor",
+        "nameSlug" : "rougned-odor-596059",
+        "firstLastName" : "Rougned Odor",
+        "lastFirstName" : "Odor, Rougned",
+        "lastInitName" : "Odor, R",
+        "initLastName" : "R Odor",
+        "fullFMLName" : "Rougned Roberto Odor",
+        "fullLFMName" : "Odor, Rougned Roberto",
+        "strikeZoneTop" : 3.319,
+        "strikeZoneBottom" : 1.513
+      },
+      "ID476704" : {
+        "id" : 476704,
+        "fullName" : "Jed Lowrie",
+        "link" : "/api/v1/people/476704",
+        "firstName" : "Jed",
+        "lastName" : "Lowrie",
+        "primaryNumber" : "8",
+        "birthDate" : "1984-04-17",
+        "currentAge" : 34,
+        "birthCity" : "Salem",
+        "birthStateProvince" : "OR",
+        "birthCountry" : "USA",
+        "height" : "6' 0",
+        "weight" : 180,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "4",
+          "name" : "Second Base",
+          "type" : "Infielder",
+          "abbreviation" : "2B"
+        },
+        "useName" : "Jed",
+        "middleName" : "Carlson",
+        "boxscoreName" : "Lowrie",
+        "draftYear" : 2005,
+        "pronunciation" : "LOW as in HOW",
+        "mlbDebutDate" : "2008-04-15",
+        "batSide" : {
+          "code" : "S",
+          "description" : "Switch"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Jed Lowrie",
+        "nameSlug" : "jed-lowrie-476704",
+        "firstLastName" : "Jed Lowrie",
+        "lastFirstName" : "Lowrie, Jed",
+        "lastInitName" : "Lowrie, J",
+        "initLastName" : "J Lowrie",
+        "fullFMLName" : "Jed Carlson Lowrie",
+        "fullLFMName" : "Lowrie, Jed Carlson",
+        "strikeZoneTop" : 3.371,
+        "strikeZoneBottom" : 1.535
+      },
+      "ID543760" : {
+        "id" : 543760,
+        "fullName" : "Marcus Semien",
+        "link" : "/api/v1/people/543760",
+        "firstName" : "Marcus",
+        "lastName" : "Semien",
+        "primaryNumber" : "10",
+        "birthDate" : "1990-09-17",
+        "currentAge" : 27,
+        "birthCity" : "San Francisco",
+        "birthStateProvince" : "CA",
+        "birthCountry" : "USA",
+        "height" : "6' 0",
+        "weight" : 195,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "6",
+          "name" : "Shortstop",
+          "type" : "Infielder",
+          "abbreviation" : "SS"
+        },
+        "useName" : "Marcus",
+        "middleName" : "Andrew",
+        "boxscoreName" : "Semien",
+        "nickName" : "Sauce",
+        "draftYear" : 2011,
+        "pronunciation" : "SIM-ee-ehn",
+        "mlbDebutDate" : "2013-09-04",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Marcus Semien",
+        "nameSlug" : "marcus-semien-543760",
+        "firstLastName" : "Marcus Semien",
+        "lastFirstName" : "Semien, Marcus",
+        "lastInitName" : "Semien, M",
+        "initLastName" : "M Semien",
+        "fullFMLName" : "Marcus Andrew Semien",
+        "fullLFMName" : "Semien, Marcus Andrew",
+        "strikeZoneTop" : 3.371,
+        "strikeZoneBottom" : 1.535
+      },
+      "ID657656" : {
+        "id" : 657656,
+        "fullName" : "Ramon Laureano",
+        "link" : "/api/v1/people/657656",
+        "firstName" : "Ramon",
+        "lastName" : "Laureano",
+        "primaryNumber" : "22",
+        "birthDate" : "1994-07-15",
+        "currentAge" : 24,
+        "birthCity" : "Santo Domingo",
+        "birthCountry" : "Dominican Republic",
+        "height" : "5' 11",
+        "weight" : 185,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "9",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "RF"
+        },
+        "useName" : "Ramon",
+        "boxscoreName" : "Laureano",
+        "draftYear" : 2014,
+        "mlbDebutDate" : "2018-08-03",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Ramon Laureano",
+        "nameSlug" : "ramon-laureano-657656",
+        "firstLastName" : "Ramón Laureano",
+        "lastFirstName" : "Laureano, Ramón",
+        "lastInitName" : "Laureano, R",
+        "initLastName" : "R Laureano",
+        "fullFMLName" : "Ramón Laureano",
+        "fullLFMName" : "Laureano, Ramón",
+        "strikeZoneTop" : 3.319,
+        "strikeZoneBottom" : 1.513
+      },
+      "ID643396" : {
+        "id" : 643396,
+        "fullName" : "Isiah Kiner-Falefa",
+        "link" : "/api/v1/people/643396",
+        "firstName" : "Isiah",
+        "lastName" : "Kiner-Falefa",
+        "primaryNumber" : "9",
+        "birthDate" : "1995-03-23",
+        "currentAge" : 23,
+        "birthCity" : "Honolulu",
+        "birthStateProvince" : "HI",
+        "birthCountry" : "USA",
+        "height" : "5' 10",
+        "weight" : 176,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "5",
+          "name" : "Third Base",
+          "type" : "Infielder",
+          "abbreviation" : "3B"
+        },
+        "useName" : "Isiah",
+        "boxscoreName" : "Kiner-Falefa",
+        "nickName" : "Izzy",
+        "draftYear" : 2013,
+        "mlbDebutDate" : "2018-04-10",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Isiah Kiner-Falefa",
+        "nameSlug" : "isiah-kiner-falefa-643396",
+        "firstLastName" : "Isiah Kiner-Falefa",
+        "lastFirstName" : "Kiner-Falefa, Isiah",
+        "lastInitName" : "Kiner-Falefa, I",
+        "initLastName" : "I Kiner-Falefa",
+        "fullFMLName" : "Isiah Kiner-Falefa",
+        "fullLFMName" : "Kiner-Falefa, Isiah",
+        "strikeZoneTop" : 3.301,
+        "strikeZoneBottom" : 1.504
+      },
+      "ID518960" : {
+        "id" : 518960,
+        "fullName" : "Jonathan Lucroy",
+        "link" : "/api/v1/people/518960",
+        "firstName" : "Jonathan",
+        "lastName" : "Lucroy",
+        "primaryNumber" : "21",
+        "birthDate" : "1986-06-13",
+        "currentAge" : 32,
+        "birthCity" : "Eustis",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "height" : "6' 0",
+        "weight" : 200,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "2",
+          "name" : "Catcher",
+          "type" : "Catcher",
+          "abbreviation" : "C"
+        },
+        "useName" : "Jonathan",
+        "middleName" : "Charles",
+        "boxscoreName" : "Lucroy",
+        "nickName" : "Luc",
+        "draftYear" : 2007,
+        "pronunciation" : "luke-roy",
+        "mlbDebutDate" : "2010-05-21",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Jonathan Lucroy",
+        "nameSlug" : "jonathan-lucroy-518960",
+        "firstLastName" : "Jonathan Lucroy",
+        "lastFirstName" : "Lucroy, Jonathan",
+        "lastInitName" : "Lucroy, J",
+        "initLastName" : "J Lucroy",
+        "fullFMLName" : "Jonathan Charles Lucroy",
+        "fullLFMName" : "Lucroy, Jonathan Charles",
+        "strikeZoneTop" : 3.371,
+        "strikeZoneBottom" : 1.535
+      },
+      "ID488748" : {
+        "id" : 488748,
+        "fullName" : "Ryan Buchter",
+        "link" : "/api/v1/people/488748",
+        "firstName" : "Ryan",
+        "lastName" : "Buchter",
+        "primaryNumber" : "52",
+        "birthDate" : "1987-02-13",
+        "currentAge" : 31,
+        "birthCity" : "Reading",
+        "birthStateProvince" : "PA",
+        "birthCountry" : "USA",
+        "height" : "6' 4",
+        "weight" : 258,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Ryan",
+        "middleName" : "James",
+        "boxscoreName" : "Buchter",
+        "nickName" : "5 Duece",
+        "draftYear" : 2005,
+        "pronunciation" : "BUCK-ter",
+        "mlbDebutDate" : "2014-06-20",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Ryan Buchter",
+        "nameSlug" : "ryan-buchter-488748",
+        "firstLastName" : "Ryan Buchter",
+        "lastFirstName" : "Buchter, Ryan",
+        "lastInitName" : "Buchter, R",
+        "initLastName" : "R Buchter",
+        "fullFMLName" : "Ryan James Buchter",
+        "fullLFMName" : "Buchter, Ryan James",
+        "strikeZoneTop" : 3.549,
+        "strikeZoneBottom" : 1.627
+      },
+      "ID429719" : {
+        "id" : 429719,
+        "fullName" : "Edwin Jackson",
+        "link" : "/api/v1/people/429719",
+        "firstName" : "Edwin",
+        "lastName" : "Jackson",
+        "primaryNumber" : "37",
+        "birthDate" : "1983-09-09",
+        "currentAge" : 34,
+        "birthCity" : "Neu-Ulm",
+        "birthCountry" : "Germany",
+        "height" : "6' 2",
+        "weight" : 215,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Edwin",
+        "boxscoreName" : "Jackson, E",
+        "nickName" : "Scoop",
+        "draftYear" : 2001,
+        "mlbDebutDate" : "2003-09-09",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Edwin Jackson",
+        "nameSlug" : "edwin-jackson-429719",
+        "firstLastName" : "Edwin Jackson",
+        "lastFirstName" : "Jackson, Edwin",
+        "lastInitName" : "Jackson, E",
+        "initLastName" : "E Jackson",
+        "fullFMLName" : "Edwin Jackson",
+        "fullLFMName" : "Jackson, Edwin",
+        "strikeZoneTop" : 3.75,
+        "strikeZoneBottom" : 1.71
+      },
+      "ID572750" : {
+        "id" : 572750,
+        "fullName" : "Eddie Butler",
+        "link" : "/api/v1/people/572750",
+        "firstName" : "Timothy",
+        "lastName" : "Butler",
+        "primaryNumber" : "32",
+        "birthDate" : "1991-03-13",
+        "currentAge" : 27,
+        "birthCity" : "Chesapeake",
+        "birthStateProvince" : "VA",
+        "birthCountry" : "USA",
+        "height" : "6' 2",
+        "weight" : 180,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Eddie",
+        "middleName" : "Edward",
+        "boxscoreName" : "Butler",
+        "nickName" : "Spaghetti",
+        "draftYear" : 2012,
+        "mlbDebutDate" : "2014-06-06",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Eddie Butler",
+        "nameSlug" : "eddie-butler-572750",
+        "firstLastName" : "Eddie Butler",
+        "lastFirstName" : "Butler, Eddie",
+        "lastInitName" : "Butler, E",
+        "initLastName" : "E Butler",
+        "fullFMLName" : "Timothy Edward Butler",
+        "fullLFMName" : "Butler, Timothy Edward",
+        "strikeZoneTop" : 3.467,
+        "strikeZoneBottom" : 1.589
+      },
+      "ID608336" : {
+        "id" : 608336,
+        "fullName" : "Joey Gallo",
+        "link" : "/api/v1/people/608336",
+        "firstName" : "Joseph",
+        "lastName" : "Gallo",
+        "primaryNumber" : "13",
+        "birthDate" : "1993-11-19",
+        "currentAge" : 24,
+        "birthCity" : "Henderson",
+        "birthStateProvince" : "NV",
+        "birthCountry" : "USA",
+        "height" : "6' 5",
+        "weight" : 235,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "7",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "LF"
+        },
+        "useName" : "Joey",
+        "middleName" : "Nicholas",
+        "boxscoreName" : "Gallo",
+        "nickName" : "Pico De Gallo",
+        "draftYear" : 2012,
+        "mlbDebutDate" : "2015-06-02",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Joey Gallo",
+        "nameSlug" : "joey-gallo-608336",
+        "firstLastName" : "Joey Gallo",
+        "lastFirstName" : "Gallo, Joey",
+        "lastInitName" : "Gallo, J",
+        "initLastName" : "J Gallo",
+        "fullFMLName" : "Joseph Nicholas Gallo",
+        "fullLFMName" : "Gallo, Joseph Nicholas",
+        "strikeZoneTop" : 3.575,
+        "strikeZoneBottom" : 1.681
+      },
+      "ID608577" : {
+        "id" : 608577,
+        "fullName" : "Nomar Mazara",
+        "link" : "/api/v1/people/608577",
+        "firstName" : "Nomar",
+        "lastName" : "Mazara",
+        "primaryNumber" : "30",
+        "birthDate" : "1995-04-26",
+        "currentAge" : 23,
+        "birthCity" : "Santo Domingo",
+        "birthCountry" : "Dominican Republic",
+        "height" : "6' 4",
+        "weight" : 215,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "9",
+          "name" : "Outfielder",
+          "type" : "Outfielder",
+          "abbreviation" : "RF"
+        },
+        "useName" : "Nomar",
+        "middleName" : "Shamir",
+        "boxscoreName" : "Mazara",
+        "nickName" : "Big Chill",
+        "mlbDebutDate" : "2016-04-10",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Nomar Mazara",
+        "nameSlug" : "nomar-mazara-608577",
+        "firstLastName" : "Nomar Mazara",
+        "lastFirstName" : "Mazara, Nomar",
+        "lastInitName" : "Mazara, N",
+        "initLastName" : "N Mazara",
+        "fullFMLName" : "Nomar Shamir Mazara",
+        "fullLFMName" : "Mazara, Nomar Shamir",
+        "strikeZoneTop" : 3.38,
+        "strikeZoneBottom" : 1.59
+      },
+      "ID462101" : {
+        "id" : 462101,
+        "fullName" : "Elvis Andrus",
+        "link" : "/api/v1/people/462101",
+        "firstName" : "Elvis",
+        "lastName" : "Andrus",
+        "primaryNumber" : "1",
+        "birthDate" : "1988-08-26",
+        "currentAge" : 29,
+        "birthCity" : "Maracay",
+        "birthCountry" : "Venezuela",
+        "height" : "6' 0",
+        "weight" : 200,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "6",
+          "name" : "Shortstop",
+          "type" : "Infielder",
+          "abbreviation" : "SS"
+        },
+        "useName" : "Elvis",
+        "middleName" : "Augusto",
+        "boxscoreName" : "Andrus",
+        "nickName" : "Merulo Jr",
+        "pronunciation" : "an-DROOS",
+        "mlbDebutDate" : "2009-04-06",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Elvis Andrus",
+        "nameSlug" : "elvis-andrus-462101",
+        "firstLastName" : "Elvis Andrus",
+        "lastFirstName" : "Andrus, Elvis",
+        "lastInitName" : "Andrus, E",
+        "initLastName" : "E Andrus",
+        "fullFMLName" : "Elvis Augusto Andrus",
+        "fullLFMName" : "Andrus, Elvis Augusto",
+        "strikeZoneTop" : 3.371,
+        "strikeZoneBottom" : 1.535
+      },
+      "ID592222" : {
+        "id" : 592222,
+        "fullName" : "Alex Claudio",
+        "link" : "/api/v1/people/592222",
+        "firstName" : "Alexander",
+        "lastName" : "Claudio",
+        "primaryNumber" : "58",
+        "birthDate" : "1992-01-31",
+        "currentAge" : 26,
+        "birthCity" : "San Juan",
+        "birthCountry" : "Puerto Rico",
+        "height" : "6' 3",
+        "weight" : 180,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Alex",
+        "boxscoreName" : "Claudio",
+        "nickName" : "AC",
+        "draftYear" : 2010,
+        "mlbDebutDate" : "2014-08-13",
+        "batSide" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "pitchHand" : {
+          "code" : "L",
+          "description" : "Left"
+        },
+        "nameFirstLast" : "Alex Claudio",
+        "nameSlug" : "alex-claudio-592222",
+        "firstLastName" : "Alex Claudio",
+        "lastFirstName" : "Claudio, Alex",
+        "lastInitName" : "Claudio, A",
+        "initLastName" : "A Claudio",
+        "fullFMLName" : "Alexander Claudio",
+        "fullLFMName" : "Claudio, Alexander",
+        "strikeZoneTop" : 3.49,
+        "strikeZoneBottom" : 1.601
+      },
+      "ID572033" : {
+        "id" : 572033,
+        "fullName" : "Josh Phegley",
+        "link" : "/api/v1/people/572033",
+        "firstName" : "Joshua",
+        "lastName" : "Phegley",
+        "primaryNumber" : "19",
+        "birthDate" : "1988-02-12",
+        "currentAge" : 30,
+        "birthCity" : "Terre Haute",
+        "birthStateProvince" : "IN",
+        "birthCountry" : "USA",
+        "height" : "5' 10",
+        "weight" : 230,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "2",
+          "name" : "Catcher",
+          "type" : "Catcher",
+          "abbreviation" : "C"
+        },
+        "useName" : "Josh",
+        "middleName" : "Aaron",
+        "boxscoreName" : "Phegley",
+        "nickName" : "PTBNL",
+        "draftYear" : 2009,
+        "pronunciation" : "FEHG-lee",
+        "mlbDebutDate" : "2013-07-05",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Josh Phegley",
+        "nameSlug" : "josh-phegley-572033",
+        "firstLastName" : "Josh Phegley",
+        "lastFirstName" : "Phegley, Josh",
+        "lastInitName" : "Phegley, J",
+        "initLastName" : "J Phegley",
+        "fullFMLName" : "Joshua Aaron Phegley",
+        "fullLFMName" : "Phegley, Joshua Aaron",
+        "strikeZoneTop" : 3.301,
+        "strikeZoneBottom" : 1.504
+      },
+      "ID595014" : {
+        "id" : 595014,
+        "fullName" : "Blake Treinen",
+        "link" : "/api/v1/people/595014",
+        "firstName" : "Blake",
+        "lastName" : "Treinen",
+        "primaryNumber" : "39",
+        "birthDate" : "1988-06-30",
+        "currentAge" : 30,
+        "birthCity" : "Wichita",
+        "birthStateProvince" : "KS",
+        "birthCountry" : "USA",
+        "height" : "6' 5",
+        "weight" : 225,
+        "active" : true,
+        "primaryPosition" : {
+          "code" : "1",
+          "name" : "Pitcher",
+          "type" : "Pitcher",
+          "abbreviation" : "P"
+        },
+        "useName" : "Blake",
+        "middleName" : "M.",
+        "boxscoreName" : "Treinen",
+        "nickName" : "Train",
+        "draftYear" : 2011,
+        "pronunciation" : "TRI-nehn",
+        "mlbDebutDate" : "2014-04-12",
+        "batSide" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "pitchHand" : {
+          "code" : "R",
+          "description" : "Right"
+        },
+        "nameFirstLast" : "Blake Treinen",
+        "nameSlug" : "blake-treinen-595014",
+        "firstLastName" : "Blake Treinen",
+        "lastFirstName" : "Treinen, Blake",
+        "lastInitName" : "Treinen, B",
+        "initLastName" : "B Treinen",
+        "fullFMLName" : "Blake M. Treinen",
+        "fullLFMName" : "Treinen, Blake M.",
+        "strikeZoneTop" : 3.575,
+        "strikeZoneBottom" : 1.681
+      }
+    },
+    "venue" : {
+      "id" : 10,
+      "name" : "Oakland Coliseum",
+      "link" : "/api/v1/venues/10",
+      "location" : {
+        "city" : "Oakland",
+        "state" : "California",
+        "stateAbbrev" : "CA",
+        "defaultCoordinates" : {
+          "latitude" : 37.751511,
+          "longitude" : -122.200698
+        }
+      },
+      "timeZone" : {
+        "id" : "America/Los_Angeles",
+        "offset" : -7,
+        "tz" : "PDT"
+      }
+    },
+    "weather" : { },
+    "review" : {
+      "away" : { },
+      "home" : { }
+    },
+    "flags" : { },
+    "alerts" : [ ],
+    "probablePitchers" : {
+      "away" : {
+        "id" : 501985,
+        "fullName" : "Minor, Mike",
+        "link" : "/api/v1/people/501985"
+      },
+      "home" : {
+        "id" : 429719,
+        "fullName" : "Jackson, Edwin",
+        "link" : "/api/v1/people/429719"
+      }
+    }
+  },
+  "liveData" : {
+    "plays" : {
+      "allPlays" : [ ],
+      "scoringPlays" : [ ],
+      "playsByInning" : [ ]
+    },
+    "linescore" : {
+      "innings" : [ ],
+      "teams" : {
+        "home" : {
+          "team" : {
+            "id" : 133,
+            "name" : "Oakland Athletics",
+            "link" : "/api/v1/teams/133"
+          }
+        },
+        "away" : {
+          "team" : {
+            "id" : 140,
+            "name" : "Texas Rangers",
+            "link" : "/api/v1/teams/140"
+          }
+        }
+      },
+      "defense" : { },
+      "offense" : { }
+    },
+    "boxscore" : {
+      "teams" : {
+        "away" : {
+          "team" : {
+            "id" : 140,
+            "name" : "Texas Rangers",
+            "link" : "/api/v1/teams/140",
+            "springLeague" : {
+              "id" : 114,
+              "name" : "Cactus League",
+              "link" : "/api/v1/league/114",
+              "abbreviation" : "CL"
+            }
+          },
+          "teamStats" : {
+            "batting" : {
+              "flyOuts" : 0,
+              "groundOuts" : 0,
+              "runs" : 0,
+              "doubles" : 0,
+              "triples" : 0,
+              "homeRuns" : 0,
+              "strikeOuts" : 0,
+              "baseOnBalls" : 0,
+              "hits" : 0,
+              "hitByPitch" : 0,
+              "avg" : ".000",
+              "totalBases" : 0,
+              "obp" : ".000",
+              "slg" : ".000",
+              "ops" : ".000",
+              "rbi" : 0,
+              "caughtStealing" : 0,
+              "stolenBases" : 0,
+              "atBats" : 0,
+              "leftOnBase" : 0,
+              "sacBunts" : 0,
+              "sacFlies" : 0
+            },
+            "pitching" : {
+              "runs" : 0,
+              "homeRuns" : 0,
+              "strikeOuts" : 0,
+              "baseOnBalls" : 0,
+              "hits" : 0,
+              "era" : "-.--",
+              "inningsPitched" : "0.0",
+              "earnedRuns" : 0,
+              "whip" : "-",
+              "outs" : 0,
+              "hitBatsmen" : 0
+            },
+            "fielding" : {
+              "assists" : 0,
+              "putOuts" : 0,
+              "errors" : 0,
+              "chances" : 0,
+              "fielding" : ".000",
+              "passedBall" : 0
+            }
+          },
+          "players" : {
+            "ID518715" : {
+              "person" : {
+                "id" : 518715,
+                "fullName" : "Cory Gearrin",
+                "link" : "/api/v1/people/518715"
+              },
+              "jerseyNumber" : "44",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID455139" : {
+              "person" : {
+                "id" : 455139,
+                "fullName" : "Robinson Chirinos",
+                "link" : "/api/v1/people/455139"
+              },
+              "jerseyNumber" : "61",
+              "position" : {
+                "code" : "2",
+                "name" : "Catcher",
+                "type" : "Catcher",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID425783" : {
+              "person" : {
+                "id" : 425783,
+                "fullName" : "Shin-Soo Choo",
+                "link" : "/api/v1/people/425783"
+              },
+              "jerseyNumber" : "17",
+              "position" : {
+                "code" : "9",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "RF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID451596" : {
+              "person" : {
+                "id" : 451596,
+                "fullName" : "Yovani Gallardo",
+                "link" : "/api/v1/people/451596"
+              },
+              "jerseyNumber" : "49",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID112526" : {
+              "person" : {
+                "id" : 112526,
+                "fullName" : "Bartolo Colon",
+                "link" : "/api/v1/people/112526"
+              },
+              "jerseyNumber" : "40",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID571800" : {
+              "person" : {
+                "id" : 571800,
+                "fullName" : "Drew Hutchison",
+                "link" : "/api/v1/people/571800"
+              },
+              "jerseyNumber" : "48",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID642558" : {
+              "person" : {
+                "id" : 642558,
+                "fullName" : "Ariel Jurado",
+                "link" : "/api/v1/people/642558"
+              },
+              "jerseyNumber" : "57",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID592685" : {
+              "person" : {
+                "id" : 592685,
+                "fullName" : "Drew Robinson",
+                "link" : "/api/v1/people/592685"
+              },
+              "jerseyNumber" : "18",
+              "position" : {
+                "code" : "8",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "CF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID595777" : {
+              "person" : {
+                "id" : 595777,
+                "fullName" : "Jurickson Profar",
+                "link" : "/api/v1/people/595777"
+              },
+              "jerseyNumber" : "19",
+              "position" : {
+                "code" : "6",
+                "name" : "Shortstop",
+                "type" : "Infielder",
+                "abbreviation" : "SS"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID134181" : {
+              "person" : {
+                "id" : 134181,
+                "fullName" : "Adrian Beltre",
+                "link" : "/api/v1/people/134181"
+              },
+              "jerseyNumber" : "29",
+              "position" : {
+                "code" : "5",
+                "name" : "Third Base",
+                "type" : "Infielder",
+                "abbreviation" : "3B"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID501985" : {
+              "person" : {
+                "id" : 501985,
+                "fullName" : "Mike Minor",
+                "link" : "/api/v1/people/501985"
+              },
+              "jerseyNumber" : "36",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : {
+                  "flyOuts" : 0,
+                  "groundOuts" : 0,
+                  "runs" : 0,
+                  "doubles" : 0,
+                  "triples" : 0,
+                  "homeRuns" : 0,
+                  "strikeOuts" : 0,
+                  "baseOnBalls" : 0,
+                  "hits" : 0,
+                  "hitByPitch" : 0,
+                  "avg" : ".000",
+                  "totalBases" : 0,
+                  "obp" : ".000",
+                  "slg" : ".000",
+                  "ops" : ".000",
+                  "rbi" : 0,
+                  "caughtStealing" : 0,
+                  "stolenBases" : 0,
+                  "atBats" : 0,
+                  "leftOnBase" : 0,
+                  "sacBunts" : 0,
+                  "sacFlies" : 0
+                },
+                "pitching" : {
+                  "runs" : 66,
+                  "homeRuns" : 20,
+                  "strikeOuts" : 100,
+                  "baseOnBalls" : 27,
+                  "hits" : 116,
+                  "era" : "4.61",
+                  "inningsPitched" : "123.0",
+                  "wins" : 9,
+                  "losses" : 6,
+                  "saves" : 0,
+                  "holds" : 0,
+                  "blownSaves" : 0,
+                  "earnedRuns" : 63,
+                  "whip" : "1.16",
+                  "outs" : 369,
+                  "hitBatsmen" : 6
+                },
+                "fielding" : {
+                  "assists" : 15,
+                  "putOuts" : 4,
+                  "errors" : 2,
+                  "chances" : 21,
+                  "fielding" : ".905",
+                  "passedBall" : 0
+                }
+              }
+            },
+            "ID519043" : {
+              "person" : {
+                "id" : 519043,
+                "fullName" : "Matt Moore",
+                "link" : "/api/v1/people/519043"
+              },
+              "jerseyNumber" : "55",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID596059" : {
+              "person" : {
+                "id" : 596059,
+                "fullName" : "Rougned Odor",
+                "link" : "/api/v1/people/596059"
+              },
+              "jerseyNumber" : "12",
+              "position" : {
+                "code" : "4",
+                "name" : "Second Base",
+                "type" : "Infielder",
+                "abbreviation" : "2B"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID624636" : {
+              "person" : {
+                "id" : 624636,
+                "fullName" : "Carlos Tocci",
+                "link" : "/api/v1/people/624636"
+              },
+              "jerseyNumber" : "15",
+              "position" : {
+                "code" : "8",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "CF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID643396" : {
+              "person" : {
+                "id" : 643396,
+                "fullName" : "Isiah Kiner-Falefa",
+                "link" : "/api/v1/people/643396"
+              },
+              "jerseyNumber" : "9",
+              "position" : {
+                "code" : "5",
+                "name" : "Third Base",
+                "type" : "Infielder",
+                "abbreviation" : "3B"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID572750" : {
+              "person" : {
+                "id" : 572750,
+                "fullName" : "Eddie Butler",
+                "link" : "/api/v1/people/572750"
+              },
+              "jerseyNumber" : "32",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID608597" : {
+              "person" : {
+                "id" : 608597,
+                "fullName" : "Ronald Guzman",
+                "link" : "/api/v1/people/608597"
+              },
+              "jerseyNumber" : "67",
+              "position" : {
+                "code" : "3",
+                "name" : "First Base",
+                "type" : "Infielder",
+                "abbreviation" : "1B"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID608336" : {
+              "person" : {
+                "id" : 608336,
+                "fullName" : "Joey Gallo",
+                "link" : "/api/v1/people/608336"
+              },
+              "jerseyNumber" : "13",
+              "position" : {
+                "code" : "7",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "LF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID608577" : {
+              "person" : {
+                "id" : 608577,
+                "fullName" : "Nomar Mazara",
+                "link" : "/api/v1/people/608577"
+              },
+              "jerseyNumber" : "30",
+              "position" : {
+                "code" : "9",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "RF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID462101" : {
+              "person" : {
+                "id" : 462101,
+                "fullName" : "Elvis Andrus",
+                "link" : "/api/v1/people/462101"
+              },
+              "jerseyNumber" : "1",
+              "position" : {
+                "code" : "6",
+                "name" : "Shortstop",
+                "type" : "Infielder",
+                "abbreviation" : "SS"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID605488" : {
+              "person" : {
+                "id" : 605488,
+                "fullName" : "Jeffrey Springs",
+                "link" : "/api/v1/people/605488"
+              },
+              "jerseyNumber" : "54",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID592222" : {
+              "person" : {
+                "id" : 592222,
+                "fullName" : "Alex Claudio",
+                "link" : "/api/v1/people/592222"
+              },
+              "jerseyNumber" : "58",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID600917" : {
+              "person" : {
+                "id" : 600917,
+                "fullName" : "Jose Leclerc",
+                "link" : "/api/v1/people/600917"
+              },
+              "jerseyNumber" : "62",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID455119" : {
+              "person" : {
+                "id" : 455119,
+                "fullName" : "Chris Martin",
+                "link" : "/api/v1/people/455119"
+              },
+              "jerseyNumber" : "31",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID527048" : {
+              "person" : {
+                "id" : 527048,
+                "fullName" : "Martin Perez",
+                "link" : "/api/v1/people/527048"
+              },
+              "jerseyNumber" : "33",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 140,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            }
+          },
+          "batters" : [ ],
+          "pitchers" : [ ],
+          "bench" : [ ],
+          "bullpen" : [ ],
+          "battingOrder" : [ ],
+          "info" : [ ],
+          "note" : [ ]
+        },
+        "home" : {
+          "team" : {
+            "id" : 133,
+            "name" : "Oakland Athletics",
+            "link" : "/api/v1/teams/133",
+            "springLeague" : {
+              "id" : 114,
+              "name" : "Cactus League",
+              "link" : "/api/v1/league/114",
+              "abbreviation" : "CL"
+            }
+          },
+          "teamStats" : {
+            "batting" : {
+              "flyOuts" : 0,
+              "groundOuts" : 0,
+              "runs" : 0,
+              "doubles" : 0,
+              "triples" : 0,
+              "homeRuns" : 0,
+              "strikeOuts" : 0,
+              "baseOnBalls" : 0,
+              "hits" : 0,
+              "hitByPitch" : 0,
+              "avg" : ".000",
+              "totalBases" : 0,
+              "obp" : ".000",
+              "slg" : ".000",
+              "ops" : ".000",
+              "rbi" : 0,
+              "caughtStealing" : 0,
+              "stolenBases" : 0,
+              "atBats" : 0,
+              "leftOnBase" : 0,
+              "sacBunts" : 0,
+              "sacFlies" : 0
+            },
+            "pitching" : {
+              "runs" : 0,
+              "homeRuns" : 0,
+              "strikeOuts" : 0,
+              "baseOnBalls" : 0,
+              "hits" : 0,
+              "era" : "-.--",
+              "inningsPitched" : "0.0",
+              "earnedRuns" : 0,
+              "whip" : "-",
+              "outs" : 0,
+              "hitBatsmen" : 0
+            },
+            "fielding" : {
+              "assists" : 0,
+              "putOuts" : 0,
+              "errors" : 0,
+              "chances" : 0,
+              "fielding" : ".000",
+              "passedBall" : 0
+            }
+          },
+          "players" : {
+            "ID544727" : {
+              "person" : {
+                "id" : 544727,
+                "fullName" : "Jeurys Familia",
+                "link" : "/api/v1/people/544727"
+              },
+              "jerseyNumber" : "32",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID642152" : {
+              "person" : {
+                "id" : 642152,
+                "fullName" : "Lou Trivino",
+                "link" : "/api/v1/people/642152"
+              },
+              "jerseyNumber" : "62",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID641941" : {
+              "person" : {
+                "id" : 641941,
+                "fullName" : "Emilio Pagan",
+                "link" : "/api/v1/people/641941"
+              },
+              "jerseyNumber" : "15",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID640455" : {
+              "person" : {
+                "id" : 640455,
+                "fullName" : "Sean Manaea",
+                "link" : "/api/v1/people/640455"
+              },
+              "jerseyNumber" : "55",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID572039" : {
+              "person" : {
+                "id" : 572039,
+                "fullName" : "Stephen Piscotty",
+                "link" : "/api/v1/people/572039"
+              },
+              "jerseyNumber" : "25",
+              "position" : {
+                "code" : "9",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "RF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID571666" : {
+              "person" : {
+                "id" : 571666,
+                "fullName" : "Mike Fiers",
+                "link" : "/api/v1/people/571666"
+              },
+              "jerseyNumber" : "50",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID518875" : {
+              "person" : {
+                "id" : 518875,
+                "fullName" : "Shawn Kelley",
+                "link" : "/api/v1/people/518875"
+              },
+              "jerseyNumber" : "31",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID502239" : {
+              "person" : {
+                "id" : 502239,
+                "fullName" : "Trevor Cahill",
+                "link" : "/api/v1/people/502239"
+              },
+              "jerseyNumber" : "53",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID476704" : {
+              "person" : {
+                "id" : 476704,
+                "fullName" : "Jed Lowrie",
+                "link" : "/api/v1/people/476704"
+              },
+              "jerseyNumber" : "8",
+              "position" : {
+                "code" : "4",
+                "name" : "Second Base",
+                "type" : "Infielder",
+                "abbreviation" : "2B"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID656305" : {
+              "person" : {
+                "id" : 656305,
+                "fullName" : "Matt Chapman",
+                "link" : "/api/v1/people/656305"
+              },
+              "jerseyNumber" : "26",
+              "position" : {
+                "code" : "5",
+                "name" : "Third Base",
+                "type" : "Infielder",
+                "abbreviation" : "3B"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID543760" : {
+              "person" : {
+                "id" : 543760,
+                "fullName" : "Marcus Semien",
+                "link" : "/api/v1/people/543760"
+              },
+              "jerseyNumber" : "10",
+              "position" : {
+                "code" : "6",
+                "name" : "Shortstop",
+                "type" : "Infielder",
+                "abbreviation" : "SS"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID657656" : {
+              "person" : {
+                "id" : 657656,
+                "fullName" : "Ramon Laureano",
+                "link" : "/api/v1/people/657656"
+              },
+              "jerseyNumber" : "22",
+              "position" : {
+                "code" : "9",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "RF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID592192" : {
+              "person" : {
+                "id" : 592192,
+                "fullName" : "Mark Canha",
+                "link" : "/api/v1/people/592192"
+              },
+              "jerseyNumber" : "20",
+              "position" : {
+                "code" : "8",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "CF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID501981" : {
+              "person" : {
+                "id" : 501981,
+                "fullName" : "Khris Davis",
+                "link" : "/api/v1/people/501981"
+              },
+              "jerseyNumber" : "2",
+              "position" : {
+                "code" : "7",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "LF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID621566" : {
+              "person" : {
+                "id" : 621566,
+                "fullName" : "Matt Olson",
+                "link" : "/api/v1/people/621566"
+              },
+              "jerseyNumber" : "28",
+              "position" : {
+                "code" : "3",
+                "name" : "First Base",
+                "type" : "Infielder",
+                "abbreviation" : "1B"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID474463" : {
+              "person" : {
+                "id" : 474463,
+                "fullName" : "Brett Anderson",
+                "link" : "/api/v1/people/474463"
+              },
+              "jerseyNumber" : "30",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID518960" : {
+              "person" : {
+                "id" : 518960,
+                "fullName" : "Jonathan Lucroy",
+                "link" : "/api/v1/people/518960"
+              },
+              "jerseyNumber" : "21",
+              "position" : {
+                "code" : "2",
+                "name" : "Catcher",
+                "type" : "Catcher",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID488748" : {
+              "person" : {
+                "id" : 488748,
+                "fullName" : "Ryan Buchter",
+                "link" : "/api/v1/people/488748"
+              },
+              "jerseyNumber" : "52",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID429719" : {
+              "person" : {
+                "id" : 429719,
+                "fullName" : "Edwin Jackson",
+                "link" : "/api/v1/people/429719"
+              },
+              "jerseyNumber" : "37",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : {
+                  "flyOuts" : 0,
+                  "groundOuts" : 2,
+                  "runs" : 0,
+                  "doubles" : 0,
+                  "triples" : 0,
+                  "homeRuns" : 0,
+                  "strikeOuts" : 0,
+                  "baseOnBalls" : 0,
+                  "hits" : 0,
+                  "hitByPitch" : 0,
+                  "avg" : ".000",
+                  "totalBases" : 0,
+                  "obp" : ".000",
+                  "slg" : ".000",
+                  "ops" : ".000",
+                  "rbi" : 0,
+                  "caughtStealing" : 0,
+                  "stolenBases" : 0,
+                  "atBats" : 2,
+                  "leftOnBase" : 1,
+                  "sacBunts" : 0,
+                  "sacFlies" : 0
+                },
+                "pitching" : {
+                  "runs" : 19,
+                  "homeRuns" : 7,
+                  "strikeOuts" : 43,
+                  "baseOnBalls" : 19,
+                  "hits" : 44,
+                  "era" : "2.58",
+                  "inningsPitched" : "59.1",
+                  "wins" : 4,
+                  "losses" : 2,
+                  "saves" : 0,
+                  "holds" : 0,
+                  "blownSaves" : 0,
+                  "earnedRuns" : 17,
+                  "whip" : "1.06",
+                  "outs" : 178,
+                  "hitBatsmen" : 1
+                },
+                "fielding" : {
+                  "assists" : 7,
+                  "putOuts" : 3,
+                  "errors" : 2,
+                  "chances" : 12,
+                  "fielding" : ".833",
+                  "passedBall" : 0
+                }
+              }
+            },
+            "ID605361" : {
+              "person" : {
+                "id" : 605361,
+                "fullName" : "Nick Martini",
+                "link" : "/api/v1/people/605361"
+              },
+              "jerseyNumber" : "38",
+              "position" : {
+                "code" : "7",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "LF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID640461" : {
+              "person" : {
+                "id" : 640461,
+                "fullName" : "Chad Pinder",
+                "link" : "/api/v1/people/640461"
+              },
+              "jerseyNumber" : "18",
+              "position" : {
+                "code" : "7",
+                "name" : "Outfielder",
+                "type" : "Outfielder",
+                "abbreviation" : "LF"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID407845" : {
+              "person" : {
+                "id" : 407845,
+                "fullName" : "Fernando Rodney",
+                "link" : "/api/v1/people/407845"
+              },
+              "jerseyNumber" : "56",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID572033" : {
+              "person" : {
+                "id" : 572033,
+                "fullName" : "Josh Phegley",
+                "link" : "/api/v1/people/572033"
+              },
+              "jerseyNumber" : "19",
+              "position" : {
+                "code" : "2",
+                "name" : "Catcher",
+                "type" : "Catcher",
+                "abbreviation" : "C"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID595014" : {
+              "person" : {
+                "id" : 595014,
+                "fullName" : "Blake Treinen",
+                "link" : "/api/v1/people/595014"
+              },
+              "jerseyNumber" : "39",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            },
+            "ID433589" : {
+              "person" : {
+                "id" : 433589,
+                "fullName" : "Yusmeiro Petit",
+                "link" : "/api/v1/people/433589"
+              },
+              "jerseyNumber" : "36",
+              "position" : {
+                "code" : "1",
+                "name" : "Pitcher",
+                "type" : "Pitcher",
+                "abbreviation" : "P"
+              },
+              "stats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              },
+              "status" : {
+                "code" : "A",
+                "description" : "Active"
+              },
+              "parentTeamId" : 133,
+              "seasonStats" : {
+                "batting" : { },
+                "pitching" : { },
+                "fielding" : { }
+              }
+            }
+          },
+          "batters" : [ ],
+          "pitchers" : [ ],
+          "bench" : [ ],
+          "bullpen" : [ ],
+          "battingOrder" : [ ],
+          "info" : [ ],
+          "note" : [ ]
+        }
+      },
+      "officials" : [ ],
+      "info" : [ ],
+      "pitchingNotes" : [ ]
+    },
+    "leaders" : {
+      "hitDistance" : { },
+      "hitSpeed" : { },
+      "pitchSpeed" : { }
+    }
+  }
+}

@@ -5,18 +5,18 @@
     <description>Jose Miguel Arroyave O.</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Aug 2018 00:21:32 -0600</pubDate>
-    <lastBuildDate>Thu, 23 Aug 2018 00:21:32 -0600</lastBuildDate>
+    <pubDate>Mon, 27 Aug 2018 12:55:55 -0600</pubDate>
+    <lastBuildDate>Mon, 27 Aug 2018 12:55:55 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>LABS: MLB 0.3.1</title>
+        <title>LABS: MLB 0.4.1</title>
         <description>Test lab de mlb.com desarrollado con reactjs</description>
         <pubDate>Mon, 13 Aug 2018 09:34:45 -0600</pubDate>
         <link>https://jmarroyave.github.io/labs/2018/08/mlb</link>
         <guid isPermaLink="true">https://jmarroyave.github.io/labs/2018/08/mlb</guid>
         
-        <category>v.0.3.1</category>
+        <category>v.0.4.1</category>
         
         
         <category>HCI</category>
