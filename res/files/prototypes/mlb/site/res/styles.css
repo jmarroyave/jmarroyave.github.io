@@ -202,85 +202,6 @@ a:hover{
     text-decoration: underline;
 }
 
-.mod-latest-news ul {
-    padding: 0px;
-    padding-left: 20px;
-    font-size: 1.3rem;
-    line-height: 2.5rem;
-}
-
-.mod-news {
-    background-color: white;
-}
-
-.mod-news .news {
-    margin: 0px;
-    padding: 7px 0px 14px 0px;
-    border-bottom: 1px solid #efefef;
-}
-
-.mod-news .news:last-child {
-    border-bottom: 0px;   
-}
-
-.mod-news .type1{
-    margin-top: -7px;
-}
-
-.mod-news .type1 .content{
-    padding: 0px 14px;
-}
-
-.mod-news .type1 .img img{
-    width: 100%;
-    margin: 0px;
-    padding-bottom: 7px;
-}
-
-.mod-news .type1 .content .title {
-    font-size: 2.0rem;
-    line-height: 2.4rem;
-    font-weight: 400;
-    color: rgb(51, 51, 51);
-    padding-bottom: 7px;
-}
-
-.mod-news .type1 .content .text {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    text-align: justify;
-    color: rgb(102,102,102);
-}
-
-.mod-news .type2{
-    padding: 0px 14px;    
-}
-
-.mod-news .type2 .content{
-    vertical-align: top;
-    padding: 0px 7px;
-}
-
-.mod-news .type2 .img img{
-    width: 100%;
-    padding: 0px 7px 14px 7px;
-}
-
-.mod-news .type2 .content .title {
-    font-size: 1.7rem;
-    line-height: 2.1rem;
-    font-weight: 400;
-    color: rgb(51, 51, 51);
-    padding-bottom: 14px;
-}
-
-.mod-news .type2 .content .text {
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-    text-align: justify;
-    color: rgb(102,102,102);
-}
-
 .gameday {
     position: relative;
 }
@@ -423,23 +344,6 @@ a:hover{
 
 .mod-games .item .ended .l {
     color: #A0A0A0!important;
-}
-
-
-.mod-standings{
-    font-weight: 50;
-    font-size: 1.3rem;
-    line-height: 1.6rem;
-}
-
-.mod-standings .table .header th{
-    background-color: rgb(0, 45, 114);
-    color: white;
-}
-
-.mod-standings .table .name{
-    border-right: 1px solid #efefef;
-    font-weight: 600;
 }
 
 
@@ -856,46 +760,6 @@ a:hover{
     padding-top: 10px;
     font-size: 0.75rem;
     text-align: justify;
-}
-
-.mod-records{
-
-}
-
-.mod-records .title{
-    font-size: 1rem;    
-    font-weight: 600;
-}
-
-.mod-records .name{
-    font-size: 1.4rem;    
-    font-weight: 600;
-}
-
-.mod-records .cats{
-    font-size: 1rem;    
-    color: #AAA;
-}
-
-.mod-records .metrics{
-    font-size: 1rem;    
-    text-transform: uppercase;
-    float: right;
-}
-
-.mod-records .val{
-    font-size: 2rem;
-    font-weight: 600;
-    float: right;
-}
-
-.mod-records .row{
-    padding: 5px 0px;
-    border-bottom: 1px solid #efefef;
-}
-
-.mod-records .row:last-child{
-    border-bottom:; 0px;
 }
 
 .mod-resume .head{
