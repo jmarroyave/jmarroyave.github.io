@@ -4,7 +4,7 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2018-09-13T08:09:58-06:00</updated>
+ <updated>2018-09-13T08:19:20-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave O.</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>MLB 0.4.1</title>
+   <title>MLB 0.6.1</title>
    <link href="https://jmarroyave.github.io/labs/2018/08/mlb"/>
    <updated>2018-08-13T09:34:45-06:00</updated>
    <id>https://jmarroyave.github.io/labs/2018/08/mlb</id>
@@ -27,6 +27,12 @@
   &lt;li&gt;&lt;a href=&quot;/res/files/prototypes/mlb/local&quot;&gt;Conectado a datos de prueba, si por alguna razón no mostrara datos la versión anterior&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;themes&quot;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/res/files/prototypes/mlb/themes/mlb&quot;&gt;MLB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/res/files/prototypes/mlb/themes/flat&quot;&gt;Flat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Test lab de mlb.com desarrollado con reactjs &lt;del&gt;y material-ui&lt;/del&gt; en la parte front-end y con nodejs como servicio de datos y procesamiento back-end.&lt;/p&gt;
 
 &lt;h1 id=&quot;design-system&quot;&gt;Design System&lt;/h1&gt;
@@ -36,13 +42,15 @@
 
 &lt;h1 id=&quot;updates&quot;&gt;Updates&lt;/h1&gt;
 &lt;ul&gt;
-  &lt;li&gt;v.0.4.1 	- Datos de prueba y Design System&lt;/li&gt;
+  &lt;li&gt;v.0.6.1 - Themes,&lt;/li&gt;
+  &lt;li&gt;v.0.5.1&lt;/li&gt;
+  &lt;li&gt;v.0.4.1 - Datos de prueba y Design System&lt;/li&gt;
   &lt;li&gt;v.0.4.0&lt;/li&gt;
   &lt;li&gt;v.0.3.2&lt;/li&gt;
   &lt;li&gt;v.0.3.1&lt;/li&gt;
   &lt;li&gt;v.0.3.0&lt;/li&gt;
   &lt;li&gt;v.0.2.0&lt;/li&gt;
-  &lt;li&gt;v.0.1.0 	- Inicial&lt;/li&gt;
+  &lt;li&gt;v.0.1.0 - Inicial&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h1&gt;
