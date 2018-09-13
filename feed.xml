@@ -5,18 +5,36 @@
     <description>Jose Miguel Arroyave O.</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Sep 2018 08:19:20 -0600</pubDate>
-    <lastBuildDate>Thu, 13 Sep 2018 08:19:20 -0600</lastBuildDate>
+    <pubDate>Thu, 13 Sep 2018 09:50:10 -0600</pubDate>
+    <lastBuildDate>Thu, 13 Sep 2018 09:50:10 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>LABS: MLB 0.6.1</title>
+        <title>LABS: MLB</title>
         <description>Test lab de mlb.com desarrollado con reactjs</description>
-        <pubDate>Mon, 13 Aug 2018 09:34:45 -0600</pubDate>
-        <link>https://jmarroyave.github.io/labs/2018/08/mlb</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/labs/2018/08/mlb</guid>
+        <pubDate>Thu, 13 Sep 2018 09:34:45 -0600</pubDate>
+        <link>https://jmarroyave.github.io/labs/2018/09/mlb</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/labs/2018/09/mlb</guid>
         
-        <category>v.0.6.1</category>
+        <category>reactjs,</category>
+        
+        <category>ui/ux</category>
+        
+        
+        <category>HCI</category>
+        
+      </item>
+    
+      <item>
+        <title>BLOG: MLB 0.6.1</title>
+        <description>Test lab de mlb.com desarrollado con reactjs</description>
+        <pubDate>Thu, 13 Sep 2018 06:02:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/blog/2018/09/13/mlb-0-6-1</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2018/09/13/mlb-0-6-1</guid>
+        
+        <category>ui/ux,</category>
+        
+        <category>labs-search-ux</category>
         
         
         <category>HCI</category>
@@ -152,22 +170,6 @@
         
         
         <category>HCI</category>
-        
-      </item>
-    
-      <item>
-        <title>BLOG: Revisando el buscador</title>
-        <description>El buscador es hasta hoy la herramienta que más uso en internet pero a veces no me es suficiente</description>
-        <pubDate>Wed, 15 Nov 2017 18:00:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/11/15/revisando-el-buscador</guid>
-        
-        <category>ui/ux,</category>
-        
-        <category>labs-search-ux</category>
-        
-        
-        <category>UX</category>
         
       </item>
     

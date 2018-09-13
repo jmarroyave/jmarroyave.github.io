@@ -4,19 +4,19 @@
  <title>JMArroyave</title>
  <link href="https://jmarroyave.github.io/atom.xml" rel="self"/>
  <link href="https://jmarroyave.github.io/"/>
- <updated>2018-09-13T08:19:20-06:00</updated>
+ <updated>2018-09-13T09:50:10-06:00</updated>
  <id>https://jmarroyave.github.io</id>
  <author>
    <name>Jose Miguel Arroyave O.</name>
-   <email>jmarroyave@gmail.com</email>
+   <email>jmarroyave.compsci@gmail.com</email>
  </author>
 
  
  <entry>
-   <title>MLB 0.6.1</title>
-   <link href="https://jmarroyave.github.io/labs/2018/08/mlb"/>
-   <updated>2018-08-13T09:34:45-06:00</updated>
-   <id>https://jmarroyave.github.io/labs/2018/08/mlb</id>
+   <title>MLB</title>
+   <link href="https://jmarroyave.github.io/labs/2018/09/mlb"/>
+   <updated>2018-09-13T09:34:45-06:00</updated>
+   <id>https://jmarroyave.github.io/labs/2018/09/mlb</id>
    <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
 	Test lab de mlb.com desarrollado con reactjs
 &lt;/div&gt;
@@ -57,13 +57,53 @@
 
 &lt;h2 id=&quot;posts&quot;&gt;Posts&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;ningún post relacionado por el momento&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2018/09/13/mlb-0-6-1?ref=rel&quot;&gt;Post &amp;gt; v.0.6.1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969&quot;&gt;Everything you need to know about Design Systems – UX Collective&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>MLB 0.6.1</title>
+   <link href="https://jmarroyave.github.io/blog/2018/09/13/mlb-0-6-1"/>
+   <updated>2018-09-13T06:02:00-06:00</updated>
+   <id>https://jmarroyave.github.io/blog/2018/09/13/mlb-0-6-1</id>
+   <content type="html">&lt;div class=&quot;excerpt&quot;&gt;
+Test lab de mlb.com desarrollado con reactjs
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
+  Este post forma parte del proyecto &lt;a href=&quot;/labs/2018/08/mlb&quot;&gt;Labs: MLB&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;prototipos&quot;&gt;Prototipos&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/res/files/prototypes/mlb/site&quot;&gt;Conectado a mlb.com (recomendado)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/res/files/prototypes/mlb/local&quot;&gt;Conectado a datos de prueba, si por alguna razón no mostrara datos la versión anterior&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;themes&quot;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/res/files/prototypes/mlb/themes/mlb&quot;&gt;MLB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/res/files/prototypes/mlb/themes/flat&quot;&gt;Flat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Test lab de mlb.com desarrollado con reactjs &lt;del&gt;y material-ui&lt;/del&gt; en la parte front-end y con nodejs como servicio de datos y procesamiento back-end.&lt;/p&gt;
+
+&lt;h1 id=&quot;design-system&quot;&gt;Design System&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/res/files/prototypes/mlb/dev&quot;&gt;Componentes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;relacionados&quot;&gt;Relacionados&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/labs/2018/09/mlb?ref=rel&quot;&gt;Labs &amp;gt; MLB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
  </entry>
  
