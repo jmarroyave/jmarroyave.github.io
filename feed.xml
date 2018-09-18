@@ -5,9 +5,25 @@
     <description>Jose Miguel Arroyave O.</description>
     <link>https://jmarroyave.github.io/</link>
     <atom:link href="https://jmarroyave.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Sep 2018 09:50:10 -0600</pubDate>
-    <lastBuildDate>Thu, 13 Sep 2018 09:50:10 -0600</lastBuildDate>
+    <pubDate>Tue, 18 Sep 2018 00:35:55 -0600</pubDate>
+    <lastBuildDate>Tue, 18 Sep 2018 00:35:55 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>BLOG: MLB 0.7</title>
+        <description>Test lab de mlb.com desarrollado con reactjs</description>
+        <pubDate>Mon, 17 Sep 2018 06:00:00 -0600</pubDate>
+        <link>https://jmarroyave.github.io/blog/2018/09/17/mlb-0-7-1</link>
+        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2018/09/17/mlb-0-7-1</guid>
+        
+        <category>ux/ui,</category>
+        
+        <category>labs-search-ux</category>
+        
+        
+        <category>UX/UI</category>
+        
+      </item>
     
       <item>
         <title>LABS: MLB</title>
@@ -18,10 +34,10 @@
         
         <category>reactjs,</category>
         
-        <category>ui/ux</category>
+        <category>ux/ui</category>
         
         
-        <category>HCI</category>
+        <category>UX/UI</category>
         
       </item>
     
@@ -32,12 +48,12 @@
         <link>https://jmarroyave.github.io/blog/2018/09/13/mlb-0-6-1</link>
         <guid isPermaLink="true">https://jmarroyave.github.io/blog/2018/09/13/mlb-0-6-1</guid>
         
-        <category>ui/ux,</category>
+        <category>ux/ui,</category>
         
         <category>labs-search-ux</category>
         
         
-        <category>HCI</category>
+        <category>UX/UI</category>
         
       </item>
     
@@ -154,22 +170,6 @@
         
         
         <category>learn</category>
-        
-      </item>
-    
-      <item>
-        <title>BLOG: Componentes de los buscadores</title>
-        <description>Cuáles son los elementos de interacción básicos de un buscador?</description>
-        <pubDate>Fri, 24 Nov 2017 06:02:00 -0600</pubDate>
-        <link>https://jmarroyave.github.io/blog/2017/11/24/componentes-buscador</link>
-        <guid isPermaLink="true">https://jmarroyave.github.io/blog/2017/11/24/componentes-buscador</guid>
-        
-        <category>ui/ux,</category>
-        
-        <category>labs-search-ux</category>
-        
-        
-        <category>HCI</category>
         
       </item>
     
