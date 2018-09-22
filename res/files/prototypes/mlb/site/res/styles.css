@@ -166,11 +166,6 @@ a:hover{
 }
 
 .mod-block {
-    padding: 14px;
-    margin: 0px;
-    background-color: white;
-    color: rgb(102,102,102);    
-    border-bottom: 1px solid #efefef;
 }
 
 .mod-block h1 {
@@ -743,8 +738,9 @@ a:hover{
 
 .mod-debug{
     padding: 5px;
-    background-color: #000;
+    background-color: #888;
     color: white;
+    font-size: 0.9rem;
 }
 
 .mod-footer{
@@ -758,32 +754,6 @@ a:hover{
 .mod-footer .copyrights{
     padding-top: 10px;
     font-size: 0.75rem;
-    text-align: justify;
-}
-
-.mod-resume .head{
-    position: relative;
-}
-
-.mod-resume .head .heading{
-    font-size: 2rem;
-    line-height: 2.5rem;
-    position:absolute;
-    bottom:0px;
-    right: 0px;
-    padding: 10px;
-    text-align: right;
-    text-shadow: 2px 2px black;
-    color: white;
-    display: block;
-    width: 50%;
-    font-weight: bold;
-}
-
-.mod-resume .body{
-    font-size: 1.5rem;
-    line-height: 2rem;
-    padding: 5% 10%;
     text-align: justify;
 }
 
