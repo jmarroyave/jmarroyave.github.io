@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      window.__app = {debug:false,online:false};
+    </script>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#038EFB">
+    
+    <title>Loading...</title>
+    <style>
+      html, body {
+        background-color: #FFF;
+        padding: 0px;
+        margin: 0px;
+        font-size: 12px;
+        font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+      }
+      #splash footer{
+        position: fixed;
+        height: 50px;
+        bottom: 0px;
+        width: 100%;
+        background-color: #fff;
+        box-sizing: border-box;
+      }
+      #splash .container{
+        background-color: #000;        
+        height: 100vh;
+        width: 100%;
+      }
+
+      #splash .loading{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        padding: 5px;
+        border-radius: 3px;
+        background-color: white;  
+      }
+      footer{
+        line-height: 1.5em;
+      }
+      footer .row{
+        padding: 10px;
+        text-align: justify;
+        float: right;
+      }
+      footer .row1{
+        font-size: 1em;
+      }
+      footer .row2{
+        font-size: 0.8em; 
+      }
+    </style>   
+    <link rel="stylesheet" type="text/css" href="./res/css/style.css" /> 
+    <link rel="stylesheet" type="text/css" href="./res/css/font-awesome.min.css" /> 
+  </head> 
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">
+      <div id="splash">
+        <div class='container'>
+          <div class='loading'>
+            <img src='./res/img/loading.gif' height="100" width="100" />
+          </div>
+        </div>
+        <footer>
+          <div class='row'>
+            <div class='row1'>Jos&eacute; Miguel Arroyave O.</div>
+            <div class='row2'>Ciencias de la computaci&oacute;n</div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+          }).catch(function(err) {
+            console.log(err)
+          });
+        });
+      } else {
+        console.log('service worker is not supported');
+      }
+    </script>   
+  <script src="./vendor.js"></script>
+  <script src="./app.js"></script>
+  </body>
+</html>
