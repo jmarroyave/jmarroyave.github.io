@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <script>
-      window.__app = {debug:false,online:false};
-    </script>    
+    <base href="/" target="_blank">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#038EFB">
-    
-    <title>Loading...</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+
+    <title> JMArroyave </title>
     <style>
       html, body {
         background-color: #FFF;
@@ -24,6 +24,12 @@
         width: 100%;
         background-color: #fff;
         box-sizing: border-box;
+      }
+      #splash .footer-right{
+        padding: 10px;
+        float: right;
+        font-size: 0.9rem;
+        text-align: justify;
       }
       #splash .container{
         background-color: #000;        
@@ -55,8 +61,8 @@
         font-size: 0.8em; 
       }
     </style>   
-    <link rel="stylesheet" type="text/css" href="./res/css/style.css" /> 
-    <link rel="stylesheet" type="text/css" href="./res/css/font-awesome.min.css" /> 
+    <link rel="stylesheet" href="res/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="res/css/font-awesome.min.css" /> 
   </head> 
   <body>
     <noscript>
@@ -66,7 +72,7 @@
       <div id="splash">
         <div class='container'>
           <div class='loading'>
-            <img src='./res/img/loading.gif' height="100" width="100" />
+            <img src='res/img/loading.gif' height="100" width="100" />
           </div>
         </div>
         <footer>
@@ -78,23 +84,38 @@
       </div>
     </div>
     <script>
+      Notification.requestPermission(function(status) {
+          //console.log('Notification permission status:', status);
+      });
+
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('service-worker.js').then(function(registration) {
-            // Registration was successful
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          }, function(err) {
-            // registration failed :(
-            console.log('ServiceWorker registration failed: ', err);
-          }).catch(function(err) {
-            console.log(err)
+        navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+          //console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          registration.pushManager.subscribe({userVisibleOnly: true}).then(function(subscription) {
+            console.log('Endpoint URL: ', subscription.endpoint);
+            var http = new XMLHttpRequest();
+            var url = 'https://jmarroyave-data-server.herokuapp.com/apps/jmarroyave_cs/app/config';
+            var params = 'url=' + subscription.endpoint;
+            http.open('POST', url, true);
+            http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            http.send(params);
+          }).catch(function(e) {
+            if (Notification.permission === 'denied') {
+              console.warn('Permission for notifications was denied');
+            } else {
+              console.error('Unable to subscribe to push', e);
+            }
           });
+        }, function(err) {
+          //console.log('ServiceWorker registration failed: ', err);
+        }).catch(function(err) {
+          console.log(err)
         });
       } else {
         console.log('service worker is not supported');
       }
     </script>   
-  <script src="./vendor.js"></script>
-  <script src="./app.js"></script>
+  <script src="vendor.js"></script>
+  <script src="app.js"></script>
   </body>
 </html>
