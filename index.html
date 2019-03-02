@@ -11,58 +11,42 @@
     <title> JMArroyave </title>
     <style>
       html, body {
-        background-color: #FFF;
         padding: 0px;
         margin: 0px;
-        font-size: 12px;
-        font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: #333;
       }
-      #splash footer{
-        position: fixed;
-        height: 50px;
-        bottom: 0px;
+      #root{
+        display: table;
         width: 100%;
-        background-color: #fff;
-        box-sizing: border-box;
-      }
-      #splash .footer-right{
-        padding: 10px;
-        float: right;
-        font-size: 0.9rem;
-        text-align: justify;
-      }
-      #splash .container{
-        background-color: #000;        
         height: 100vh;
-        width: 100%;
       }
-
-      #splash .loading{
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        padding: 5px;
-        border-radius: 3px;
-        background-color: white;  
+      #splash{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #333;
       }
-      footer{
-        line-height: 1.5em;
+      #container{
+        display: inline-block;
       }
-      footer .row{
-        padding: 10px;
-        text-align: justify;
-        float: right;
+      #card{
+        text-align: left;
+        background-color: white;
+        width: 200px;
+        display: flex;
+        padding: 20px;
+        border-radius: 5px;
       }
-      footer .row1{
-        font-size: 1em;
-      }
-      footer .row2{
-        font-size: 0.8em; 
-      }
+      #card div{
+        vertical-align: middle;
+        text-align: center;
+        flex: 1;
+      }    
     </style>   
     <link rel="stylesheet" href="res/css/styles.css">
     <link rel="stylesheet" type="text/css" href="res/css/font-awesome.min.css" /> 
+    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
   </head> 
   <body>
     <noscript>
@@ -70,51 +54,16 @@
     </noscript>
     <div id="root">
       <div id="splash">
-        <div class='container'>
-          <div class='loading'>
-            <img src='res/img/loading.gif' height="100" width="100" />
+          <div id="container">
+            <div id="card">
+              <div>
+                  loading
+              </div>
+            </div>
           </div>
-        </div>
-        <footer>
-          <div class='row'>
-            <div class='row1'>Jos&eacute; Miguel Arroyave O.</div>
-            <div class='row2'>Ciencias de la computaci&oacute;n</div>
-          </div>
-        </footer>
       </div>
     </div>
-    <script>
-      Notification.requestPermission(function(status) {
-          //console.log('Notification permission status:', status);
-      });
-
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js').then(function(registration) {
-          //console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          registration.pushManager.subscribe({userVisibleOnly: true}).then(function(subscription) {
-            console.log('Endpoint URL: ', subscription.endpoint);
-            var http = new XMLHttpRequest();
-            var url = 'https://jmarroyave-data-server.herokuapp.com/apps/jmarroyave_cs/app/config';
-            var params = 'url=' + subscription.endpoint;
-            http.open('POST', url, true);
-            http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-            http.send(params);
-          }).catch(function(e) {
-            if (Notification.permission === 'denied') {
-              console.warn('Permission for notifications was denied');
-            } else {
-              console.error('Unable to subscribe to push', e);
-            }
-          });
-        }, function(err) {
-          //console.log('ServiceWorker registration failed: ', err);
-        }).catch(function(err) {
-          console.log(err)
-        });
-      } else {
-        console.log('service worker is not supported');
-      }
-    </script>   
+  <script src="polyfill.js"></script>
   <script src="vendor.js"></script>
   <script src="app.js"></script>
   </body>
