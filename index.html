@@ -31,16 +31,31 @@
       }
       #card{
         text-align: left;
-        background-color: white;
-        width: 200px;
-        display: flex;
         padding: 20px;
-        border-radius: 5px;
       }
       #card div{
         vertical-align: middle;
         text-align: center;
-        flex: 1;
+        color: white;
+      }    
+      #card div.hola{
+        font-size: 0.75em;
+        text-transform: lowercase;
+        padding-bottom: 2em;
+        color: #ccc;  
+        letter-spacing: 0.5em;
+      }    
+      #card div.loading{
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+      }    
+      #card div.jam{
+        font-size: 1em;
+        text-transform: uppercase;
+        float: right;
+        text-align: center;
       }    
     </style>   
     <link rel="stylesheet" href="res/css/styles.css">
@@ -56,8 +71,17 @@
       <div id="splash">
           <div id="container">
             <div id="card">
+              <div class='hola'>
+                  hello - hola - bonjour
+              </div>
               <div>
-                  loading
+                <div class='loading'>
+                    loading
+                </div>
+                <div class='jam'>
+                    just a <br/>
+                    moment
+                </div>
               </div>
             </div>
           </div>
