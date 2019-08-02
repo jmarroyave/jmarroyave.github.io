@@ -10,15 +10,31 @@
 
     <title> JMArroyave </title>
     <style>
-      html, body {
-        padding: 0px;
-        margin: 0px;
-        color: #333;
+      @font-face {font-family: Roboto;src: url('./res/fonts/Roboto-Light.ttf');}
+      html, body {padding: 0px;margin: 0px;color: #333;font-family: Roboto;}
+      @media screen and (min-width: 961px) {html {font-size: 22px;}}
+      @media screen and (min-width: 601px) and (max-width: 960px) {html {font-size: 18px;}}
+      @media screen and (min-width: 401px) and (max-width: 600px) {html {font-size: 16px;}}
+
+      @media screen and (max-width: 400px) {
+        html {
+          font-size: 14px;
+        }
       }
+
       #root{
-        display: table;
         width: 100%;
         height: 100vh;
+        display: none;
+      }
+      #root_splash{
+        display: block;
+      }
+      #splash_parent{
+        width: 100%!important;
+        height: 100vh!important;
+        font-family: Verdana, Arial!important;
+        display: table;
       }
       #splash{
         display: table-cell;
@@ -31,7 +47,7 @@
       }
       #card{
         text-align: left;
-        padding: 20px;
+        padding: 1rem;
       }
       #card div{
         vertical-align: middle;
@@ -39,23 +55,25 @@
         color: white;
       }    
       #card div.hola{
-        font-size: 0.75em;
+        font-size: 0.5rem;
         text-transform: lowercase;
-        padding-bottom: 2em;
+        padding-bottom: 1rem;
         color: #ccc;  
-        letter-spacing: 0.5em;
+        letter-spacing: 0.3rem;
       }    
       #card div.loading{
-        font-size: 2em;
+        font-size: 1.8rem;
         font-weight: bold;
         text-transform: uppercase;
         float: left;
       }    
       #card div.jam{
-        font-size: 1em;
+        font-size: 0.75rem;
+        line-height: 1.1rem;
         text-transform: uppercase;
         float: right;
         text-align: center;
+        padding-left: 0.5rem;
       }    
     </style>   
     <link rel="stylesheet" href="res/css/styles.css">
@@ -67,8 +85,10 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root">
-      <div id="splash">
+    <div id="root"></div>
+    <div id="root_splash">
+      <div id="splash_parent">
+        <div id="splash">
           <div id="container">
             <div id="card">
               <div class='hola'>
@@ -85,6 +105,7 @@
               </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
   <script src="polyfill.js"></script>
