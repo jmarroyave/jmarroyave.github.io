@@ -698,22 +698,6 @@
 
 // M. E.: those two are virtually unused but a user might want to implement them for his/her website for some reason
 
-/* unused harmony export defaultProps */
-
-/* unused harmony export Facebook */
-
-/* unused harmony export Instagram */
-
-/* unused harmony export Code */
-
-/* unused harmony export List */
-
-/* unused harmony export BulletList */
-
-/* harmony import */
-
-/* harmony default export */
-
 /*#__PURE__*/
 
 // javascript handler for  css media query
@@ -1494,6 +1478,8 @@
 
 // Export existing implementation if available.
 
+/* harmony default export */
+
 // Add px to dimension features
 
 // Handling array of media queries
@@ -1618,7 +1604,19 @@
 
 // See https://drafts.csswg.org/css-values-3/#urls
 
-// module.parent = undefined by default
+/* unused harmony export defaultProps */
+
+/* unused harmony export Facebook */
+
+/* unused harmony export Instagram */
+
+/* unused harmony export Code */
+
+/* unused harmony export List */
+
+/* unused harmony export BulletList */
+
+/* harmony import */
 
 // polyfill for ie
 
@@ -1720,6 +1718,22 @@
 
 /* Styles applied to the root element. */
 
+/* Styles applied to the avatar element. */
+
+/* Styles applied to the action element. */
+
+/* Styles applied to the content wrapper element. */
+
+/* Styles applied to the title Typography element. */
+
+/* Styles applied to the subheader Typography element. */
+
+/* Styles applied to the root element if `component="video, audio, picture, iframe, or img"`. */
+
+// ⚠️ object-fit is not supported by IE 11.
+
+/* Styles applied to the root element if `disableSpacing={false}`. */
+
 // Reset browser default style.
 
 /* Styles applied to the root element if `absolute={true}`. */
@@ -1737,19 +1751,3 @@
 /* Styles applied to the img element if either `src` or `srcSet` is defined. */
 
 // Handle non-square image. The property isn't supported by IE 11.
-
-/* Styles applied to the avatar element. */
-
-/* Styles applied to the action element. */
-
-/* Styles applied to the content wrapper element. */
-
-/* Styles applied to the title Typography element. */
-
-/* Styles applied to the subheader Typography element. */
-
-/* Styles applied to the root element if `component="video, audio, picture, iframe, or img"`. */
-
-// ⚠️ object-fit is not supported by IE 11.
-
-/* Styles applied to the root element if `disableSpacing={false}`. */

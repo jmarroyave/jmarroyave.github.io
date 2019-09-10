@@ -138,9 +138,21 @@
 
 /* 25 */
 
-// 7.1.13 ToObject(argument)
+// This works in non-strict mode
+
+// This works if eval is allowed (see CSP)
+
+// This works if the window reference is available
+
+// g can still be undefined, but nothing to do about it...
+
+// We return undefined, instead of nothing here, so it's
+
+// easier to handle this case. if(!global) { ...}
 
 /* 26 */
+
+// 7.1.13 ToObject(argument)
 
 /* 27 */
 
@@ -168,37 +180,35 @@
 
 /* 39 */
 
-/* 40 */
-
 // to indexed object, toObject with fallback for non-array-like ES3 strings
+
+/* 40 */
 
 /* 41 */
 
-/* 42 */
-
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
 
+/* 42 */
+
 /* 43 */
+
+// optional / simple context binding
 
 /* 44 */
 
 /* 45 */
 
-// optional / simple context binding
+// 7.1.4 ToInteger
 
 /* 46 */
 
-/* 47 */
+// eslint-disable-next-line no-useless-call
 
-// 7.1.4 ToInteger
+/* 47 */
 
 /* 48 */
 
-// eslint-disable-next-line no-useless-call
-
 /* 49 */
-
-/* 50 */
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
 
@@ -206,15 +216,15 @@
 
 // and the second argument - flag - preferred type is a string
 
-/* 51 */
+/* 50 */
 
 // 7.2.1 RequireObjectCoercible(argument)
 
-/* 52 */
+/* 51 */
 
 // most Object methods by ES6 should accept primitives
 
-/* 53 */
+/* 52 */
 
 // 0 -> Array#forEach
 
@@ -242,9 +252,13 @@
 
 // every
 
+/* 53 */
+
 /* 54 */
 
 /* 55 */
+
+/* 56 */
 
 // eslint-disable-next-line no-undef
 
@@ -274,29 +288,11 @@
 
 // https://github.com/websockets/ws/pull/645
 
-/* 56 */
-
 /* 57 */
 
 /* 58 */
 
 /* 59 */
-
-// This works in non-strict mode
-
-// This works if eval is allowed (see CSP)
-
-// This works if the window reference is available
-
-// g can still be undefined, but nothing to do about it...
-
-// We return undefined, instead of nothing here, so it's
-
-// easier to handle this case. if(!global) { ...}
-
-/* 60 */
-
-/* 61 */
 
 // object ID
 
@@ -308,9 +304,13 @@
 
 // add missing metadata
 
-/* 62 */
+/* 60 */
 
 // 22.1.3.31 Array.prototype[@@unscopables]
+
+/* 61 */
+
+/* 62 */
 
 /* 63 */
 
@@ -330,13 +330,11 @@
 
 /* 71 */
 
-/* 72 */
-
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
 
-/* 73 */
+/* 72 */
 
-/* 74 */
+/* 73 */
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 
@@ -350,17 +348,19 @@
 
 // add "__proto__" for Object.getPrototypeOf polyfill
 
-/* 75 */
+/* 74 */
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
+
+/* 75 */
 
 /* 76 */
 
 /* 77 */
 
-/* 78 */
-
 // fast case for arrays with default iterator
+
+/* 78 */
 
 /* 79 */
 
@@ -398,27 +398,35 @@
 
 /* 95 */
 
-// fallback for non-array-like ES3 and non-enumerable old V8 strings
-
-// eslint-disable-next-line no-prototype-builtins
-
 /* 96 */
 
 /* 97 */
 
-// 21.2.5.3 get RegExp.prototype.flags
-
 /* 98 */
 
-// 7.3.20 SpeciesConstructor(O, defaultConstructor)
+// fallback for non-array-like ES3 and non-enumerable old V8 strings
+
+// eslint-disable-next-line no-prototype-builtins
 
 /* 99 */
 
 /* 100 */
 
+// 21.2.5.3 get RegExp.prototype.flags
+
 /* 101 */
 
+// 7.3.20 SpeciesConstructor(O, defaultConstructor)
+
 /* 102 */
+
+/* 103 */
+
+/* 104 */
+
+/* 105 */
+
+/* 106 */
 
 // false -> Array#indexOf
 
@@ -430,33 +438,33 @@
 
 // Array#indexOf ignores holes, Array#includes - not
 
-/* 103 */
+/* 107 */
 
-/* 104 */
+/* 108 */
 
 // 7.2.2 IsArray(argument)
 
-/* 105 */
+/* 109 */
 
 // true  -> String#at
 
 // false -> String#codePointAt
 
-/* 106 */
+/* 110 */
 
 // 7.2.8 IsRegExp(argument)
 
-/* 107 */
+/* 111 */
 
 // eslint-disable-next-line no-throw-literal
 
-/* 108 */
+/* 112 */
 
 // `RegExpExec` abstract operation
 
 // https://tc39.github.io/ecma262/#sec-regexpexec
 
-/* 109 */
+/* 113 */
 
 // #replace needs built-in support for named groups.
 
@@ -478,9 +486,9 @@
 
 // 21.2.5.9 RegExp.prototype[@@search](string)
 
-/* 110 */
+/* 114 */
 
-/* 111 */
+/* 115 */
 
 // V8 ~ Chromium 42- fails only with 5+ elements
 
@@ -490,9 +498,9 @@
 
 // create collection constructor
 
-/* 112 */
+/* 116 */
 
-/* 113 */
+/* 117 */
 
 // Forced replacement prototype accessors methods
 
@@ -500,21 +508,13 @@
 
 // eslint-disable-next-line no-undef, no-useless-call
 
-/* 114 */
+/* 118 */
 
 // https://tc39.github.io/proposal-setmap-offrom/
 
-/* 115 */
+/* 119 */
 
 /* , mapFn, thisArg */
-
-/* 116 */
-
-/* 117 */
-
-/* 118 */
-
-/* 119 */
 
 /* 120 */
 
@@ -562,11 +562,15 @@
 
 /* 142 */
 
-// IE 8- don't enum bug keys
-
 /* 143 */
 
 /* 144 */
+
+// IE 8- don't enum bug keys
+
+/* 145 */
+
+/* 146 */
 
 // Works with __proto__ only. Old v8 can't work with null proto objects.
 
@@ -574,21 +578,21 @@
 
 // eslint-disable-line
 
-/* 145 */
-
-/* 146 */
-
 /* 147 */
 
 /* 148 */
 
+/* 149 */
+
+/* 150 */
+
 // 20.2.2.28 Math.sign(x)
 
-/* 149 */
+/* 151 */
 
 // 20.2.2.14 Math.expm1(x)
 
-/* 150 */
+/* 152 */
 
 // Fix native
 
@@ -602,35 +606,35 @@
 
 // Plug for library
 
-/* 151 */
+/* 153 */
 
 // 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
 
-/* 152 */
-
-// helper for String#{startsWith, endsWith, includes}
-
-/* 153 */
-
 /* 154 */
 
-// check on default Array iterator
+// helper for String#{startsWith, endsWith, includes}
 
 /* 155 */
 
 /* 156 */
 
+// check on default Array iterator
+
 /* 157 */
+
+/* 158 */
+
+/* 159 */
 
 // 9.4.2.3 ArraySpeciesCreate(originalArray, length)
 
-/* 158 */
+/* 160 */
 
 // 22.1.3.6 Array.prototype.fill(value, start = 0, end = this.length)
 
 /* , start = 0, end = @length */
 
-/* 159 */
+/* 161 */
 
 // 22.1.3.4 Array.prototype.entries()
 
@@ -646,7 +650,7 @@
 
 // argumentsList[@@iterator] is %ArrayProto_values% (9.4.4.6, 9.4.4.7)
 
-/* 160 */
+/* 162 */
 
 // Fix browsers whose `exec` methods don't consistently return `undefined`
 
@@ -654,13 +658,13 @@
 
 // eslint-disable-next-line no-loop-func
 
-/* 161 */
+/* 163 */
 
 // `AdvanceStringIndex` abstract operation
 
 // https://tc39.github.io/ecma262/#sec-advancestringindex
 
-/* 162 */
+/* 164 */
 
 // Node.js 0.9+ & IE10+ has setImmediate, otherwise:
 
@@ -668,7 +672,7 @@
 
 // Node.js 0.8-
 
-/* 163 */
+/* 165 */
 
 // Node.js
 
@@ -678,21 +682,17 @@
 
 // strange IE + webpack dev server bug - use .call(global)
 
-/* 164 */
+/* 166 */
 
 // 25.4.1.5 NewPromiseCapability(C)
 
-/* 165 */
+/* 167 */
 
 // IEEE754 conversions based on https://github.com/feross/ieee754
 
 // iOS Safari 7.x bug
 
 /* , littleEndian */
-
-/* 166 */
-
-/* 167 */
 
 /* 168 */
 
@@ -734,33 +734,33 @@
 
 /* 187 */
 
-/* 188 */
-
 // Don't enum bug & hidden keys
+
+/* 188 */
 
 /* 189 */
 
-/* 190 */
-
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 
-/* 191 */
+/* 190 */
 
 // 19.1.2.1 Object.assign(target, source, ...)
 
 // should work with symbols and should have deterministic property order (V8 bug)
 
-/* 192 */
+/* 191 */
 
 // 7.2.9 SameValue(x, y)
 
-/* 193 */
+/* 192 */
 
 /* , ...args */
 
-/* 194 */
+/* 193 */
 
 // fast apply, http://jsperf.lnkit.com/fast-apply/5
+
+/* 194 */
 
 /* 195 */
 
@@ -768,27 +768,25 @@
 
 /* 197 */
 
-/* 198 */
-
 // 20.1.2.3 Number.isInteger(number)
 
-/* 199 */
+/* 198 */
 
 // 20.2.2.20 Math.log1p(x)
 
-/* 200 */
+/* 199 */
 
 // 20.2.2.16 Math.fround(x)
 
-/* 201 */
+/* 200 */
 
 // call something on iterator step with safe closing on error
 
 // 7.4.6 IteratorClose(iterator, completion)
 
-/* 202 */
+/* 201 */
 
-/* 203 */
+/* 202 */
 
 // 22.1.3.3 Array.prototype.copyWithin(target, start, end = this.length)
 
@@ -796,19 +794,19 @@
 
 /* = 0, end = @length */
 
+/* 203 */
+
 /* 204 */
 
 /* 205 */
 
-/* 206 */
-
 // 21.2.5.3 get RegExp.prototype.flags()
+
+/* 206 */
 
 /* 207 */
 
 /* 208 */
-
-/* 209 */
 
 // 23.1 Map Objects
 
@@ -816,7 +814,7 @@
 
 // 23.1.3.9 Map.prototype.set(key, value)
 
-/* 210 */
+/* 209 */
 
 // fast case
 
@@ -880,13 +878,13 @@
 
 // add [@@species], 23.1.2.2, 23.2.2.2
 
-/* 211 */
+/* 210 */
 
 // 23.2 Set Objects
 
 // 23.2.3.1 Set.prototype.add(value)
 
-/* 212 */
+/* 211 */
 
 // 23.3.3.3 WeakMap.prototype.get(key)
 
@@ -898,7 +896,7 @@
 
 // store all the rest on native weakmap
 
-/* 213 */
+/* 212 */
 
 // collection id
 
@@ -912,33 +910,35 @@
 
 // 23.4.3.4 WeakSet.prototype.has(value)
 
-/* 214 */
+/* 213 */
 
 // https://tc39.github.io/ecma262/#sec-toindex
 
-/* 215 */
+/* 214 */
 
 // all object keys, includes non-enumerable and symbols
 
-/* 216 */
+/* 215 */
 
 // https://tc39.github.io/proposal-flatMap/#sec-FlattenIntoArray
 
-/* 217 */
+/* 216 */
 
 // https://github.com/tc39/proposal-string-pad-start-end
 
-/* 218 */
+/* 217 */
 
-/* 219 */
+/* 218 */
 
 // https://github.com/DavidBruant/Map-Set.prototype.toJSON
 
+/* 219 */
+
 /* 220 */
 
-/* 221 */
-
 // https://rwaldron.github.io/proposal-math-extensions/
+
+/* 221 */
 
 /* 222 */
 
@@ -1080,11 +1080,21 @@
 
 /* 291 */
 
-/* WEBPACK VAR INJECTION */
-
 /* 292 */
 
 /* 293 */
+
+/* 294 */
+
+/* 295 */
+
+/* 296 */
+
+/* WEBPACK VAR INJECTION */
+
+/* 297 */
+
+/* 298 */
 
 // ECMAScript 6 symbols shim
 
@@ -1126,97 +1136,97 @@
 
 // 24.3.3 JSON[@@toStringTag]
 
-/* 294 */
-
-/* 295 */
-
-// all enumerable object keys, includes symbols
-
-/* 296 */
-
-/* 297 */
-
-// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
-
-/* 298 */
-
-// 19.1.2.3 / 15.2.3.7 Object.defineProperties(O, Properties)
-
 /* 299 */
 
 /* 300 */
 
-// 19.1.2.9 Object.getPrototypeOf(O)
+// all enumerable object keys, includes symbols
 
 /* 301 */
 
-// 19.1.2.14 Object.keys(O)
-
 /* 302 */
+
+// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
 
 /* 303 */
 
-// 19.1.2.5 Object.freeze(O)
+// 19.1.2.3 / 15.2.3.7 Object.defineProperties(O, Properties)
 
 /* 304 */
 
-// 19.1.2.17 Object.seal(O)
-
 /* 305 */
 
-// 19.1.2.15 Object.preventExtensions(O)
+// 19.1.2.9 Object.getPrototypeOf(O)
 
 /* 306 */
 
-// 19.1.2.12 Object.isFrozen(O)
+// 19.1.2.14 Object.keys(O)
 
 /* 307 */
 
-// 19.1.2.13 Object.isSealed(O)
-
 /* 308 */
 
-// 19.1.2.11 Object.isExtensible(O)
+// 19.1.2.5 Object.freeze(O)
 
 /* 309 */
 
-// 19.1.3.1 Object.assign(target, source)
+// 19.1.2.17 Object.seal(O)
 
 /* 310 */
 
-// 19.1.3.10 Object.is(value1, value2)
+// 19.1.2.15 Object.preventExtensions(O)
 
 /* 311 */
 
-// 19.1.3.19 Object.setPrototypeOf(O, proto)
+// 19.1.2.12 Object.isFrozen(O)
 
 /* 312 */
 
-// 19.1.3.6 Object.prototype.toString()
+// 19.1.2.13 Object.isSealed(O)
 
 /* 313 */
 
-// 19.2.3.2 / 15.3.4.5 Function.prototype.bind(thisArg, args...)
+// 19.1.2.11 Object.isExtensible(O)
 
 /* 314 */
 
-// 19.2.4.2 name
+// 19.1.3.1 Object.assign(target, source)
 
 /* 315 */
+
+// 19.1.3.10 Object.is(value1, value2)
+
+/* 316 */
+
+// 19.1.3.19 Object.setPrototypeOf(O, proto)
+
+/* 317 */
+
+// 19.1.3.6 Object.prototype.toString()
+
+/* 318 */
+
+// 19.2.3.2 / 15.3.4.5 Function.prototype.bind(thisArg, args...)
+
+/* 319 */
+
+// 19.2.4.2 name
+
+/* 320 */
 
 // 19.2.3.6 Function.prototype[@@hasInstance](V)
 
 // for environment w/o native `@@hasInstance` logic enough `instanceof`, but add this:
 
-/* 316 */
+/* 321 */
 
 // 18.2.5 parseInt(string, radix)
 
-/* 317 */
+/* 322 */
 
 // 18.2.4 parseFloat(string)
 
-/* 318 */
+/* 323 */
 
 // Number('+0x1') should be NaN, old V8 fix
 
@@ -1230,237 +1240,237 @@
 
 // ES3:
 
-/* 319 */
+/* 324 */
 
 // V8 ~ Android 4.3-
 
-/* 320 */
+/* 325 */
 
 // IE7-
 
-/* 321 */
+/* 326 */
 
 // 20.1.2.1 Number.EPSILON
 
-/* 322 */
+/* 327 */
 
 // 20.1.2.2 Number.isFinite(number)
 
-/* 323 */
-
-/* 324 */
-
-// 20.1.2.4 Number.isNaN(number)
-
-/* 325 */
-
-// 20.1.2.5 Number.isSafeInteger(number)
-
-/* 326 */
-
-// 20.1.2.6 Number.MAX_SAFE_INTEGER
-
-/* 327 */
-
-// 20.1.2.10 Number.MIN_SAFE_INTEGER
-
 /* 328 */
-
-// 20.1.2.12 Number.parseFloat(string)
 
 /* 329 */
 
-// 20.1.2.13 Number.parseInt(string, radix)
+// 20.1.2.4 Number.isNaN(number)
 
 /* 330 */
 
-// 20.2.2.3 Math.acosh(x)
+// 20.1.2.5 Number.isSafeInteger(number)
 
 /* 331 */
+
+// 20.1.2.6 Number.MAX_SAFE_INTEGER
+
+/* 332 */
+
+// 20.1.2.10 Number.MIN_SAFE_INTEGER
+
+/* 333 */
+
+// 20.1.2.12 Number.parseFloat(string)
+
+/* 334 */
+
+// 20.1.2.13 Number.parseInt(string, radix)
+
+/* 335 */
+
+// 20.2.2.3 Math.acosh(x)
+
+/* 336 */
 
 // 20.2.2.5 Math.asinh(x)
 
 // Tor Browser bug: Math.asinh(0) -> -0
 
-/* 332 */
+/* 337 */
 
 // 20.2.2.7 Math.atanh(x)
 
 // Tor Browser bug: Math.atanh(-0) -> 0
 
-/* 333 */
+/* 338 */
 
 // 20.2.2.9 Math.cbrt(x)
 
-/* 334 */
+/* 339 */
 
 // 20.2.2.11 Math.clz32(x)
 
-/* 335 */
-
-// 20.2.2.12 Math.cosh(x)
-
-/* 336 */
-
-/* 337 */
-
-/* 338 */
-
-// 20.2.2.17 Math.hypot([value1[, value2[, … ]]])
-
-/* 339 */
-
-// 20.2.2.18 Math.imul(x, y)
-
-// some WebKit versions fails with big numbers, some has wrong arity
-
 /* 340 */
 
-// 20.2.2.21 Math.log10(x)
+// 20.2.2.12 Math.cosh(x)
 
 /* 341 */
 
 /* 342 */
 
-// 20.2.2.22 Math.log2(x)
-
 /* 343 */
 
+// 20.2.2.17 Math.hypot([value1[, value2[, … ]]])
+
 /* 344 */
+
+// 20.2.2.18 Math.imul(x, y)
+
+// some WebKit versions fails with big numbers, some has wrong arity
+
+/* 345 */
+
+// 20.2.2.21 Math.log10(x)
+
+/* 346 */
+
+/* 347 */
+
+// 20.2.2.22 Math.log2(x)
+
+/* 348 */
+
+/* 349 */
 
 // 20.2.2.30 Math.sinh(x)
 
 // V8 near Chromium 38 has a problem with very small numbers
 
-/* 345 */
+/* 350 */
 
 // 20.2.2.33 Math.tanh(x)
 
-/* 346 */
+/* 351 */
 
 // 20.2.2.34 Math.trunc(x)
 
-/* 347 */
+/* 352 */
 
 // length should be 1, old FF problem
 
 // 21.1.2.2 String.fromCodePoint(...codePoints)
 
-/* 348 */
+/* 353 */
 
 // 21.1.2.4 String.raw(callSite, ...substitutions)
 
-/* 349 */
+/* 354 */
 
 // 21.1.3.25 String.prototype.trim()
 
-/* 350 */
+/* 355 */
 
 // 21.1.3.27 String.prototype[@@iterator]()
 
-/* 351 */
+/* 356 */
 
 // 21.1.3.3 String.prototype.codePointAt(pos)
 
-/* 352 */
+/* 357 */
 
 // 21.1.3.6 String.prototype.endsWith(searchString [, endPosition])
 
 /* , endPosition = @length */
 
-/* 353 */
+/* 358 */
 
 // 21.1.3.7 String.prototype.includes(searchString, position = 0)
 
 /* , position = 0 */
 
-/* 354 */
+/* 359 */
 
 // 21.1.3.13 String.prototype.repeat(count)
 
-/* 355 */
+/* 360 */
 
 // 21.1.3.18 String.prototype.startsWith(searchString [, position ])
 
-/* 356 */
+/* 361 */
 
 // B.2.3.2 String.prototype.anchor(name)
 
-/* 357 */
+/* 362 */
 
 // B.2.3.3 String.prototype.big()
 
-/* 358 */
+/* 363 */
 
 // B.2.3.4 String.prototype.blink()
 
-/* 359 */
+/* 364 */
 
 // B.2.3.5 String.prototype.bold()
 
-/* 360 */
+/* 365 */
 
 // B.2.3.6 String.prototype.fixed()
 
-/* 361 */
+/* 366 */
 
 // B.2.3.7 String.prototype.fontcolor(color)
 
-/* 362 */
+/* 367 */
 
 // B.2.3.8 String.prototype.fontsize(size)
 
-/* 363 */
+/* 368 */
 
 // B.2.3.9 String.prototype.italics()
 
-/* 364 */
+/* 369 */
 
 // B.2.3.10 String.prototype.link(url)
 
-/* 365 */
+/* 370 */
 
 // B.2.3.11 String.prototype.small()
 
-/* 366 */
+/* 371 */
 
 // B.2.3.12 String.prototype.strike()
 
-/* 367 */
+/* 372 */
 
 // B.2.3.13 String.prototype.sub()
 
-/* 368 */
+/* 373 */
 
 // B.2.3.14 String.prototype.sup()
 
-/* 369 */
+/* 374 */
 
 // 20.3.3.1 / 15.9.4.4 Date.now()
 
-/* 370 */
+/* 375 */
 
 // eslint-disable-next-line no-unused-vars
 
-/* 371 */
+/* 376 */
 
 // 20.3.4.36 / 15.9.5.43 Date.prototype.toISOString()
 
 // PhantomJS / old WebKit has a broken implementations
 
-/* 372 */
+/* 377 */
 
-/* 373 */
+/* 378 */
 
-/* 374 */
+/* 379 */
 
-/* 375 */
+/* 380 */
 
-/* 376 */
+/* 381 */
 
 // 22.1.2.2 / 15.4.3.2 Array.isArray(arg)
 
-/* 377 */
+/* 382 */
 
 // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
 
@@ -1468,23 +1478,23 @@
 
 // if object isn't iterable or it's array with default iterator - use simple case
 
-/* 378 */
+/* 383 */
 
 // WebKit Array.of isn't generic
 
 // 22.1.2.3 Array.of( ...items)
 
-/* 379 */
+/* 384 */
 
 // 22.1.3.13 Array.prototype.join(separator)
 
 // fallback for not array-like strings
 
-/* 380 */
+/* 385 */
 
 // fallback for not array-like ES3 strings and DOM objects
 
-/* 381 */
+/* 386 */
 
 // IE8-
 
@@ -1494,45 +1504,45 @@
 
 // 22.1.3.25 Array.prototype.sort(comparefn)
 
-/* 382 */
+/* 387 */
 
 // 22.1.3.10 / 15.4.4.18 Array.prototype.forEach(callbackfn [, thisArg])
 
-/* 383 */
+/* 388 */
 
 // cross-realm fallback
 
-/* 384 */
+/* 389 */
 
 // 22.1.3.15 / 15.4.4.19 Array.prototype.map(callbackfn [, thisArg])
 
-/* 385 */
+/* 390 */
 
 // 22.1.3.7 / 15.4.4.20 Array.prototype.filter(callbackfn [, thisArg])
 
-/* 386 */
+/* 391 */
 
 // 22.1.3.23 / 15.4.4.17 Array.prototype.some(callbackfn [, thisArg])
 
-/* 387 */
+/* 392 */
 
 // 22.1.3.5 / 15.4.4.16 Array.prototype.every(callbackfn [, thisArg])
 
-/* 388 */
+/* 393 */
 
 // 22.1.3.18 / 15.4.4.21 Array.prototype.reduce(callbackfn [, initialValue])
 
-/* 389 */
+/* 394 */
 
 // 22.1.3.19 / 15.4.4.22 Array.prototype.reduceRight(callbackfn [, initialValue])
 
-/* 390 */
+/* 395 */
 
 // 22.1.3.11 / 15.4.4.14 Array.prototype.indexOf(searchElement [, fromIndex])
 
 /* , fromIndex = 0 */
 
-/* 391 */
+/* 396 */
 
 // 22.1.3.14 / 15.4.4.15 Array.prototype.lastIndexOf(searchElement [, fromIndex])
 
@@ -1540,31 +1550,31 @@
 
 // convert -0 to +0
 
-/* 392 */
+/* 397 */
 
-/* 393 */
+/* 398 */
 
-/* 394 */
+/* 399 */
 
 // 22.1.3.8 Array.prototype.find(predicate, thisArg = undefined)
 
 // Shouldn't skip holes
 
-/* 395 */
+/* 400 */
 
 // 22.1.3.9 Array.prototype.findIndex(predicate, thisArg = undefined)
 
-/* 396 */
+/* 401 */
 
-/* 397 */
+/* 402 */
 
 // RegExp constructor can alter flags and IsRegExp works correct with @@match
 
-/* 398 */
+/* 403 */
 
 // 21.2.5.14 RegExp.prototype.toString()
 
-/* 399 */
+/* 404 */
 
 // @@match logic
 
@@ -1576,7 +1586,7 @@
 
 // https://tc39.github.io/ecma262/#sec-regexp.prototype-@@match
 
-/* 400 */
+/* 405 */
 
 // @@replace logic
 
@@ -1602,7 +1612,7 @@
 
 // \d\d?
 
-/* 401 */
+/* 406 */
 
 // @@search logic
 
@@ -1614,7 +1624,7 @@
 
 // https://tc39.github.io/ecma262/#sec-regexp.prototype-@@search
 
-/* 402 */
+/* 407 */
 
 // @@split logic
 
@@ -1638,7 +1648,7 @@
 
 // the 'y' flag.
 
-/* 403 */
+/* 408 */
 
 // correct subclassing with @@species support
 
@@ -1680,29 +1690,19 @@
 
 // 25.4.4.4 Promise.race(iterable)
 
-/* 404 */
+/* 409 */
 
 // 23.4 WeakSet Objects
 
 // 23.4.3.1 WeakSet.prototype.add(value)
 
-/* 405 */
+/* 410 */
 
 // 24.1.3.1 ArrayBuffer.isView(arg)
 
 // 24.1.4.3 ArrayBuffer.prototype.slice(start, end)
 
 // FF fix
-
-/* 406 */
-
-/* 407 */
-
-/* 408 */
-
-/* 409 */
-
-/* 410 */
 
 /* 411 */
 
@@ -1716,11 +1716,21 @@
 
 /* 416 */
 
+/* 417 */
+
+/* 418 */
+
+/* 419 */
+
+/* 420 */
+
+/* 421 */
+
 // 26.1.1 Reflect.apply(target, thisArgument, argumentsList)
 
 // MS Edge argumentsList argument is optional
 
-/* 417 */
+/* 422 */
 
 // 26.1.2 Reflect.construct(target, argumentsList [, newTarget])
 
@@ -1732,179 +1742,167 @@
 
 // with altered newTarget, not support built-in constructors
 
-/* 418 */
+/* 423 */
 
 // 26.1.3 Reflect.defineProperty(target, propertyKey, attributes)
 
 // MS Edge has broken Reflect.defineProperty - throwing instead of returning false
 
-/* 419 */
+/* 424 */
 
 // 26.1.4 Reflect.deleteProperty(target, propertyKey)
 
-/* 420 */
+/* 425 */
 
 // 26.1.5 Reflect.enumerate(target)
 
 // keys
 
-/* 421 */
+/* 426 */
 
 // 26.1.6 Reflect.get(target, propertyKey [, receiver])
 
 /* , receiver */
 
-/* 422 */
+/* 427 */
 
 // 26.1.7 Reflect.getOwnPropertyDescriptor(target, propertyKey)
 
-/* 423 */
+/* 428 */
 
 // 26.1.8 Reflect.getPrototypeOf(target)
 
-/* 424 */
+/* 429 */
 
 // 26.1.9 Reflect.has(target, propertyKey)
 
-/* 425 */
+/* 430 */
 
 // 26.1.10 Reflect.isExtensible(target)
 
-/* 426 */
+/* 431 */
 
 // 26.1.11 Reflect.ownKeys(target)
 
-/* 427 */
+/* 432 */
 
 // 26.1.12 Reflect.preventExtensions(target)
 
-/* 428 */
+/* 433 */
 
 // 26.1.13 Reflect.set(target, propertyKey, V [, receiver])
 
-/* 429 */
+/* 434 */
 
 // 26.1.14 Reflect.setPrototypeOf(target, proto)
 
-/* 430 */
+/* 435 */
 
 // https://github.com/tc39/Array.prototype.includes
 
-/* 431 */
+/* 436 */
 
 // https://tc39.github.io/proposal-flatMap/#sec-Array.prototype.flatMap
 
-/* 432 */
+/* 437 */
 
 // https://tc39.github.io/proposal-flatMap/#sec-Array.prototype.flatten
 
-/* 433 */
+/* 438 */
 
 // https://github.com/mathiasbynens/String.prototype.at
 
-/* 434 */
+/* 439 */
 
 /* , fillString = ' ' */
-
-/* 435 */
-
-/* 436 */
-
-// https://github.com/sebmarkbage/ecmascript-string-left-right-trim
-
-/* 437 */
-
-/* 438 */
-
-// https://tc39.github.io/String.prototype.matchAll/
-
-/* 439 */
 
 /* 440 */
 
 /* 441 */
 
-// https://github.com/tc39/proposal-object-getownpropertydescriptors
+// https://github.com/sebmarkbage/ecmascript-string-left-right-trim
 
 /* 442 */
 
-// https://github.com/tc39/proposal-object-values-entries
-
 /* 443 */
+
+// https://tc39.github.io/String.prototype.matchAll/
 
 /* 444 */
 
-// B.2.2.2 Object.prototype.__defineGetter__(P, getter)
-
 /* 445 */
-
-// B.2.2.3 Object.prototype.__defineSetter__(P, setter)
 
 /* 446 */
 
-// B.2.2.4 Object.prototype.__lookupGetter__(P)
+// https://github.com/tc39/proposal-object-getownpropertydescriptors
 
 /* 447 */
 
-// B.2.2.5 Object.prototype.__lookupSetter__(P)
+// https://github.com/tc39/proposal-object-values-entries
 
 /* 448 */
 
 /* 449 */
 
+// B.2.2.2 Object.prototype.__defineGetter__(P, getter)
+
 /* 450 */
 
-// https://tc39.github.io/proposal-setmap-offrom/#sec-map.of
+// B.2.2.3 Object.prototype.__defineSetter__(P, setter)
 
 /* 451 */
 
-// https://tc39.github.io/proposal-setmap-offrom/#sec-set.of
+// B.2.2.4 Object.prototype.__lookupGetter__(P)
 
 /* 452 */
 
-// https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.of
+// B.2.2.5 Object.prototype.__lookupSetter__(P)
 
 /* 453 */
 
-// https://tc39.github.io/proposal-setmap-offrom/#sec-weakset.of
-
 /* 454 */
-
-// https://tc39.github.io/proposal-setmap-offrom/#sec-map.from
 
 /* 455 */
 
-// https://tc39.github.io/proposal-setmap-offrom/#sec-set.from
+// https://tc39.github.io/proposal-setmap-offrom/#sec-map.of
 
 /* 456 */
 
-// https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.from
+// https://tc39.github.io/proposal-setmap-offrom/#sec-set.of
 
 /* 457 */
 
-// https://tc39.github.io/proposal-setmap-offrom/#sec-weakset.from
+// https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.of
 
 /* 458 */
 
-// https://github.com/tc39/proposal-global
+// https://tc39.github.io/proposal-setmap-offrom/#sec-weakset.of
 
 /* 459 */
 
+// https://tc39.github.io/proposal-setmap-offrom/#sec-map.from
+
 /* 460 */
 
-// https://github.com/ljharb/proposal-is-error
+// https://tc39.github.io/proposal-setmap-offrom/#sec-set.from
 
 /* 461 */
 
+// https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.from
+
 /* 462 */
 
+// https://tc39.github.io/proposal-setmap-offrom/#sec-weakset.from
+
 /* 463 */
+
+// https://github.com/tc39/proposal-global
 
 /* 464 */
 
 /* 465 */
 
-// https://gist.github.com/BrendanEich/4294d5c212a6d2254703
+// https://github.com/ljharb/proposal-is-error
 
 /* 466 */
 
@@ -1916,35 +1914,37 @@
 
 /* 470 */
 
+// https://gist.github.com/BrendanEich/4294d5c212a6d2254703
+
 /* 471 */
 
 /* 472 */
 
-// http://jfbastien.github.io/papers/Math.signbit.html
-
 /* 473 */
 
-// https://github.com/tc39/proposal-promise-finally
-
 /* 474 */
-
-// https://github.com/tc39/proposal-promise-try
 
 /* 475 */
 
 /* 476 */
 
-/* , targetKey */
-
 /* 477 */
+
+// http://jfbastien.github.io/papers/Math.signbit.html
 
 /* 478 */
 
+// https://github.com/tc39/proposal-promise-finally
+
 /* 479 */
+
+// https://github.com/tc39/proposal-promise-try
 
 /* 480 */
 
 /* 481 */
+
+/* , targetKey */
 
 /* 482 */
 
@@ -1952,23 +1952,33 @@
 
 /* 484 */
 
-// https://github.com/rwaldron/tc39-notes/blob/master/es6/2014-09/sept-25.md#510-globalasap-for-enqueuing-a-microtask
-
 /* 485 */
 
-// https://github.com/zenparsing/es-observable
-
 /* 486 */
-
-// ie9- setTimeout & setInterval additional parameters fix
 
 /* 487 */
 
 /* 488 */
 
+/* 489 */
+
+// https://github.com/rwaldron/tc39-notes/blob/master/es6/2014-09/sept-25.md#510-globalasap-for-enqueuing-a-microtask
+
+/* 490 */
+
+// https://github.com/zenparsing/es-observable
+
+/* 491 */
+
+// ie9- setTimeout & setInterval additional parameters fix
+
+/* 492 */
+
+/* 493 */
+
 // TODO: Not spec compliant, should be false.
 
-/* 489 */
+/* 494 */
 
 /**
  * Copyright (c) 2014, Facebook, Inc.
@@ -2240,10 +2250,10 @@
 
 // use indirect eval (which violates Content Security Policy).
 
-/* 490 */
+/* 495 */
 
-/* 491 */
+/* 496 */
 
 // https://github.com/benjamingr/RexExp.escape
 
-/* 492 */
+/* 497 */
